@@ -132,6 +132,17 @@ def concatenatedBinary(self, n):
 
         result = ((result << length) + i) % MOD
 
-    return result                                       
+    return result
+
+#Move all Zeros to end
+def pushZerosToEnd(self, arr):
+    count = 0
+
+    for i in range(len(arr)):
+        if arr[i] != 0:
+            arr[count], arr[i] = arr[i], arr[count]
+            count += 1
+
+    return arr                                                   
 
          
