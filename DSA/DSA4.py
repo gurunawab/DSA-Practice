@@ -45,3 +45,57 @@ def findDifferentBinaryString(self, nums):
 
         return "".join(ans)            
         
+
+#Largest number in one swap
+def largestSwap(self, s):
+        num = list(s)
+        
+        last_index = {int(digit): i for i, digit in enumerate(s)}
+        
+        for i in range(len(num)):
+            current_digit = int(num[i])
+            
+            for digit in range(9, current_digit, -1):
+                if last_index.get(digit, -1) > i:
+                    target_idx = last_index[digit]
+                    num[i], num[target_idx] = num[target_idx], num[i]
+                    
+                    return "".join(num)
+                    
+        return s                
+
+
+#Find All Possible Stable Binary Arrays 
+def numberOfStableArrays(self, zero, one, limit):
+        """
+        :type zero: int
+        :type one: int
+        :type limit: int
+        :rtype: int
+        """
+        MOD = 10**9 + 7
+
+        dp = [[[0, 0] for _ in range(one + 1)] for _ in range(zero + 1)]
+
+        for i in range(1, min(zero, limit) + 1):
+            dp[i][0][0] = 1
+        for j in range(1, min(one, limit) + 1):
+            dp[0][j][1] = 1
+
+        for i in range(1, zero + 1):
+            for j in range(1, one + 1):
+                res0 = dp[i-1][j][0] + dp[i-1][j][1]
+
+                if i > limit:
+                    res0 -= dp[i-limit-1][j][1]
+
+                dp[i][j][0] = res0 % MOD
+
+                res1 = dp[i][j-1][0] + dp[i][j-1][1]
+
+                if j > limit:
+                    res1 -= dp[i][j-limit-1][0]
+
+                dp[i][j][1] = res1 % MOD
+
+        return (dp[zero][one][0] + dp[zero][one][1]) % MOD                
