@@ -64,3 +64,60 @@ class Solution(object):
                 low = mid + 1
                 
         return ans
+
+
+#top view of binary tree
+from collections import deque
+
+
+def topView(self, root):
+        if not root:
+            return []
+            
+        hd_map = {}
+        queue = deque([(root, 0)])
+        
+        while queue:
+            curr_node, hd = queue.popleft()
+            
+            if hd not in hd_map:
+                hd_map[hd] = curr_node.data
+                
+            if curr_node.left:
+                queue.append((curr_node.left, hd - 1))
+                
+            if curr_node.right:
+                queue.append((curr_node.right, hd + 1))
+                
+        result = [hd_map[hd] for hd in sorted(hd_map.keys())]
+        
+        return result 
+
+
+#The k-th Lexicographical String of All Happy Strings of Length n
+def getHappyString(self, n, k):
+        """
+        :type n: int
+        :type k: int
+        :rtype: str
+        """
+        result = []
+
+        def backtrack(current_string):
+            if len(current_string) == n:
+                result.append(current_string)
+                return
+
+            for char in ['a', 'b', 'c']:
+                if len(current_string) == 0 or current_string[-1] != char:
+                    backtrack(current_string + char)
+
+                    if len(result) == k:
+                        return 
+
+        backtrack("")
+
+        if len(result) < k:
+            return ""
+        else:
+            return result[k-1] 
