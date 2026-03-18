@@ -121,3 +121,55 @@ def getHappyString(self, n, k):
             return ""
         else:
             return result[k-1] 
+
+
+#Distribute Candies
+def distCandy(self, root):
+        self.moves = 0
+        
+        def dfs(node):
+            if not node:
+                return 0
+                
+            left_balance = dfs(node.left)
+            right_balance = dfs(node.right)
+            
+            self.moves += abs(left_balance) + abs(right_balance)
+            
+            return (node.data + left_balance + right_balance) - 1
+            
+        dfs(root)
+        return self.moves
+
+
+#Count Submatrices with Top-Left Element and Sum Less Than k
+def countSubmatrices(self, grid, k):
+        """
+        :type grid: List[List[int]]
+        :type k: int
+        :rtype: int
+        """
+        m = len(grid)
+        n = len(grid[0])
+        count = 0
+
+        pref = [[0] * n for _ in range(m)]
+
+        for r in range(m):
+            for c in range(n):
+                current_val = grid[r][c]
+
+                above = pref[r-1][c] if r > 0 else 0
+
+                left = pref[r][c-1] if c > 0 else 0
+
+                diagonal = pref[r-1][c-1] if (r > 0 and c > 0) else 0
+
+                pref[r][c] = current_val + above + left - diagonal
+
+                if pref[r][c] <= k:
+                    count += 1
+                else:
+                    break
+
+        return count  
