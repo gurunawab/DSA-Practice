@@ -130,5 +130,40 @@ def maxStability(self, n, edges, k):
             else:
                 high = mid - 1
         return ans
+
+
+#Minimum Absolute Difference in Sliding Submatrix
+def minAbsDiff(self, grid, k):
+        m = len(grid)
+        n = len(grid[0])
+        
+        res_rows = m - k + 1
+        res_cols = n - k + 1
+        ans = [[0] * res_cols for _ in range(res_rows)]
+        
+        for i in range(res_rows):
+            for j in range(res_cols):
+                
+                unique_elements = set()
+                for r in range(i, i + k):
+                    for c in range(j, j + k):
+                        unique_elements.add(grid[r][c])
+                
+                
+                sorted_vals = sorted(list(unique_elements))
+                
+                
+                if len(sorted_vals) <= 1:
+                    ans[i][j] = 0
+                else:
+                    
+                    min_diff = float('inf')
+                    for idx in range(len(sorted_vals) - 1):
+                        diff = sorted_vals[idx+1] - sorted_vals[idx]
+                        if diff < min_diff:
+                            min_diff = diff
+                    ans[i][j] = min_diff
+                    
+        return ans
                    
         

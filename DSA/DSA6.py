@@ -173,3 +173,37 @@ def countSubmatrices(self, grid, k):
                     break
 
         return count  
+
+
+#Predecessor and Successo
+def findPreSuc(self, root, key):
+        pre = None
+        suc = None
+        curr = root
+        
+        while curr:
+            
+            if curr.data == key:
+                
+                if curr.left:
+                    temp = curr.left
+                    while temp.right:
+                        temp = temp.right
+                    pre = temp
+                    
+                if curr.right:
+                    temp = curr.right
+                    while temp.left:
+                        temp = temp.left
+                    suc = temp
+                break
+            
+            elif curr.data > key:
+                suc = curr
+                curr = curr.left
+                
+            else:
+                pre = curr
+                curr = curr.right
+                
+        return pre, suc  
