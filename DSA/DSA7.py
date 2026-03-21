@@ -181,3 +181,34 @@ def largestSubmatrix(self, matrix):
 
         return ans                
         
+
+#Number of BST From Array
+def countBSTs(self, arr):
+        n = len(arr)
+        if n == 0:
+            return []
+            
+        def get_catalan(limit):
+            catalan = [0] * (limit + 1)
+            catalan[0] = 1
+            for i in range(1, limit + 1):
+                catalan[i] = (catalan[i-1] * (4*i - 2)) // (i + 1)
+            return catalan
+            
+        catalan_table = get_catalan(n)
+        
+        sorted_arr = sorted(arr)
+        
+        val_to_idx = {val: i for i, val in enumerate(sorted_arr)}
+        
+        ans = []
+        
+        for x in arr:
+            idx = val_to_idx[x]
+            left_nodes = idx
+            right_nodes = n - 1 - idx
+            
+            count = catalan_table[left_nodes] * catalan_table[right_nodes]
+            ans.append(count)
+            
+        return ans            
