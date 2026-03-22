@@ -165,5 +165,67 @@ def minAbsDiff(self, grid, k):
                     ans[i][j] = min_diff
                     
         return ans
+
+
+
+#Rotten Oranges
+# from collections import deque
+
+# def orangesRot(self, mat):
+# 		if not mat:
+# 		    return 0
+		    
+# 		rows = len(mat)
+# 		cols = len(mat[0])
+# 		queue = deque()
+# 		fresh_count = 0
+		
+# 		for r in range(rows):
+# 		    for c in range(cols):
+# 		        if mat[r][c] == 2:
+# 		            queue.append((r, c))
+# 		        elif mat[r][c] == 1:
+# 		            fresh_count += 1
+		            
+# 	    if fresh_count == 0:
+# 	        return 0
+	        
+# 	    minutes = 0
+# 	    directions = [(0, 1), (0, -1), (1, 0), (-1, 0)]
+	    
+# 	    while queue and fresh_count > 0:
+# 	        minutes += 1
+# 	        for _ in range(len(queue)):
+# 	            r, c = queue.popleft()
+# 	            for dr, dc in directions:
+# 	                nr, nc = r + dr, c + dc
+# 	                if 0 <= nr < rows and 0 <= nc < cols and mat[nr][nc] == 1:
+# 	                    mat[nr][nc] = 2
+# 	                    fresh_count -= 1
+# 	                    queue.append((nr, nc))
+	                    
+#         return minutes if fresh_count == 0 else -1	 
+
+
+#Determine Whether Matrix Can Be Obtained By Rotation
+def findRotation(self, mat, target):
+        """
+        :type mat: List[List[int]]
+        :type target: List[List[int]]
+        :rtype: bool
+        """
+        for _ in range(4):
+            if mat == target:
+                return True
+
+            n = len(mat)
+            for i in range(n):
+                for j in range(i, n):
+                    mat[i][j], mat[j][i] = mat[j][i], mat[i][j]
+
+            for row in mat:
+                row.reverse()
+
+        return False 
                    
         
