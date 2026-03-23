@@ -207,3 +207,70 @@ def findPreSuc(self, root, key):
                 curr = curr.right
                 
         return pre, suc  
+
+
+
+#Length of Longest Cycle in a Graph
+def longestCycle(self, V, edges):
+        adj = [-1] * V
+        for u, v in edges:
+            adj[u] = v
+            
+        visited = [False] * V
+        max_cycle = -1
+        
+        for i in range(V):
+            if visited[i]:
+                continue
+            
+            curr_path_dist = {}
+            curr = i
+            distance = 0
+            
+            while curr != -1 and not visited[curr]:
+                visited[curr] = True
+                curr_path_dist[curr] = distance
+                distance += 1
+                curr = adj[curr]
+                
+            if curr != -1 and curr in curr_path_dist:
+                cycle_len = distance - curr_path_dist[curr]
+                max_cycle = max(max_cycle, cycle_len)
+                
+        return max_cycle        
+        
+
+#Maximum Non Negative Product in a Matrix
+def maxProductPath(self, grid):
+        """
+        :type grid: List[List[int]]
+        :rtype: int
+        """
+        m, n = len(grid), len(grid[0])
+        MOD = 10**9 + 7
+
+        max_dp = [[0] * n for _ in range(m)]
+        min_dp = [[0] * n for _ in range(m)]
+
+        max_dp[0][0] = min_dp[0][0] = grid[0][0]
+
+        for j in range(1, n):
+            max_dp[0][j] = min_dp[0][j] = max_dp[0][j-1] * grid[0][j]
+
+        for i in range(1, m):
+            max_dp[i][0] = min_dp[i][0] = max_dp[i-1][0] * grid[i][0]
+
+        for i in range(1, m):
+            for j in range(1, n):
+                vals = (
+                    max_dp[i-1][j] * grid[i][j],
+                    min_dp[i-1][j] * grid[i][j],
+                    max_dp[i][j-1] * grid[i][j],
+                    min_dp[i][j-1] * grid[i][j]
+                )
+                max_dp[i][j] = max(vals)
+                min_dp[i][j] = min(vals)
+
+        res = max_dp[-1][-1]
+
+        return res % MOD if res >= 0 else -1  
