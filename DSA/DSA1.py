@@ -105,3 +105,78 @@ def canFinish(self, n, prerequisites):
                     queue.append(neighbor)
                     
         return count == n 
+
+
+#Equal Sum Grid Partition I
+def canPartitionGrid(self, grid):
+        """
+        :type grid: List[List[int]]
+        :rtype: bool
+        """
+        rows = len(grid)
+        cols = len(grid[0])
+
+        total_sum = 0
+        for r in range(rows):
+            for c in range(cols):
+                total_sum += grid[r][c]
+        
+        if total_sum % 2 != 0:
+            target = -1
+        else:
+            target = total_sum // 2
+
+        current_row_sum = 0
+
+        for r in range(rows - 1):
+            for c in range(cols):
+                current_row_sum += grid[r][c]
+
+            if current_row_sum == target:
+                return True
+
+        current_col_sum = 0
+        for c in range(cols - 1):
+            for r in range(rows):
+                current_col_sum += grid[r][c]                    
+            if current_col_sum == target:
+                return True
+
+        return False 
+
+
+#Minimum height roots
+from collections import deque
+ 
+def minHeightRoot(self, V, edges):
+        if V <= 1:
+            return [0]
+            
+        adj =[[] for _ in range(V)]
+        degree = [0] * V
+        for u, v in edges:
+            adj[u].append(v)
+            adj[v].append(u)
+            degree[u] += 1
+            degree[v] += 1
+            
+        leaves = deque()
+        for i in range(V):
+            if degree[i] == 1:
+                leaves.append(i)
+                
+        remaining_nodes = V
+        while remaining_nodes > 2:
+            leaves_count = len(leaves)
+            remaining_nodes -= leaves_count
+            
+            for _ in range(leaves_count):
+                leaf = leaves.popleft()
+                
+                for neighbor in adj[leaf]:
+                    degree[neighbor] -= 1
+                    
+                    if degree[neighbor] == 1:
+                        leaves.append(neighbor)
+                        
+        return sorted(list(leaves)) 
