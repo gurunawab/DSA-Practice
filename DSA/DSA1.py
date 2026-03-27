@@ -180,3 +180,41 @@ def minHeightRoot(self, V, edges):
                         leaves.append(neighbor)
                         
         return sorted(list(leaves)) 
+
+
+#Chocolates Pickup
+
+
+#Number of Ways to Arrive at Destination
+def countPaths(self, V, edges):
+        adj = [[] for _ in range(V)]
+        for u, v, w in edges:
+            adj[u].append((v, w))
+            adj[v].append((u, w))
+            
+        dist = [float('inf')] * V
+        ways = [0] * V
+        mod = 10**9 + 7
+        
+        dist[0] = 0
+        ways[0] = 1
+        
+        pq = [(0, 0)]
+        
+        while pq:
+            d, u = heapq.heappop(pq)
+            
+            if d > dist[u]:
+                continue
+            
+            for v, weight in adj[u]:
+                
+                if d + weight < dist[v]:
+                    dist[v] = d + weight
+                    ways[v] = ways[u]
+                    heapq.heappush(pq, (dist[v], v))
+                    
+                elif d + weight == dist[v]:
+                    ways[v] = (ways[v] + ways[u]) % mod
+                    
+        return ways[V-1]
