@@ -98,4 +98,97 @@ def numberOfStableArrays(self, zero, one, limit):
 
                 dp[i][j][1] = res1 % MOD
 
-        return (dp[zero][one][0] + dp[zero][one][1]) % MOD                
+        return (dp[zero][one][0] + dp[zero][one][1]) % MOD       
+
+
+#Articulation Point - II
+import sys
+
+# DFS recursion limit badhane ke liye
+sys.setrecursionlimit(10**6)
+
+class Solution:
+    def articulationPoints(self, V, edges):
+        adj = [[] for _ in range(V)]
+        for u, v in edges:
+            adj[u].append(v)
+            adj[v].append(u)
+            
+        disc = [-1] * V
+        low = [-1] * V
+        is_ap = [False] * V
+        self.timer = 0
+        
+        def dfs(u, p=-1):
+            disc[u] = low[u] = self.timer
+            self.timer += 1
+            children = 0
+            
+            for v in adj[u]:
+                if v == p: continue
+                if disc[v] != -1:
+                    # Back-edge update
+                    low[u] = min(low[u], disc[v])
+                else:
+                    children += 1
+                    dfs(v, u)
+                    low[u] = min(low[u], low[v])
+                    # Articulation point condition
+                    if p != -1 and low[v] >= disc[u]:
+                        is_ap[u] = True
+            
+            # Special case for root
+            if p == -1 and children > 1:
+                is_ap[u] = True
+        
+        # Graph disconnected ho sakta hai isliye loop
+        for i in range(V):
+            if disc[i] == -1:
+                dfs(i)
+        
+        result = [i for i, val in enumerate(is_ap) if val]
+        return sorted(result) if result else [-1]
+
+
+#Find the String with LCP
+def findTheString(self, lcp):
+        n = len(lcp)
+        ans = [""] * n
+        char_code = ord('a')
+        
+   
+        for i in range(n):
+            if ans[i] == "":
+              
+                if char_code > ord('z'):
+                    return ""
+                
+                curr_char = chr(char_code)
+               
+                for j in range(i, n):
+                    if lcp[i][j] > 0:
+                        ans[j] = curr_char
+                char_code += 1
+        
+        
+        for s in ans:
+            if s == "": return ""
+            
+        res = "".join(ans)
+        
+        
+        for i in range(n - 1, -1, -1):
+            for j in range(n - 1, -1, -1):
+                actual_lcp = 0
+                if res[i] == res[j]:
+                    if i + 1 < n and j + 1 < n:
+                        actual_lcp = 1 + lcp[i+1][j+1]
+                    else:
+                        actual_lcp = 1
+                
+               
+                if actual_lcp != lcp[i][j]:
+                    return ""
+                    
+        return res                                          
+                             
