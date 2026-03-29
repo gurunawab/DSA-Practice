@@ -191,4 +191,23 @@ def findTheString(self, lcp):
                     return ""
                     
         return res                                          
-                             
+
+
+#Partitions with Given Difference
+def countPartitions(self, arr, diff):
+        total_sum = sum(arr)
+        
+        if (total_sum + diff) % 2 != 0 or total_sum < diff:
+            return 0
+            
+        target = (total_sum + diff) // 2
+        mod = 10**9 + 7
+        
+        dp = [0] * (target + 1)
+        dp[0] = 1
+        
+        for num in arr:
+            for j in range(target, num - 1, -1):
+                dp[j] = (dp[j] + dp[j - num]) % mod
+                
+        return dp[target]                              
