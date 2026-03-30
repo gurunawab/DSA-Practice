@@ -123,5 +123,42 @@ def minFlips(self, s):
             if (r - l + 1) == n:
                 res = min(res, diff1, diff2)
 
-        return res                                
+        return res         
+
+
+#Minimum cost to connect all houses in a city
+import heapq
+
+
+def minCost(self, houses):
+        n = len(houses)
+        if n == 0:
+            return 0
+        
+        # min_heap stores (cost, current_house_index)
+        min_heap = [(0, 0)]
+        visited = [False] * n
+        total_cost = 0
+        edges_count = 0
+        
+        while edges_count < n:
+            cost, u = heapq.heappop(min_heap)
+            
+           
+            if visited[u]:
+                continue
+            
+          
+            visited[u] = True
+            total_cost += cost
+            edges_count += 1
+            
+         
+            for v in range(n):
+                if not visited[v]:
+                    # Manhattan Distance calculation
+                    dist = abs(houses[u][0] - houses[v][0]) + abs(houses[u][1] - houses[v][1])
+                    heapq.heappush(min_heap, (dist, v))
+                    
+        return total_cost                                       
         
