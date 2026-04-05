@@ -191,5 +191,30 @@ class Solution:
             ans = max(ans, dfs(i - 1, 1) + r - l)
             return ans
 
-        return dfs(n - 1, 1)                                
+        return dfs(n - 1, 1)
+
+
+#Decode the Slanted Ciphertext
+def decodeCiphertext(self, encodedText, rows):
+        
+        if rows == 1:
+            return encodedText
+
+        n = len(encodedText)
+        cols = n // rows
+        res = []
+
+        for start_col in range(cols):
+            curr_row = 0
+            curr_col = start_col
+
+            while curr_row < rows and curr_col < cols:
+                index = curr_row * cols + curr_col
+                res.append(encodedText[index])
+
+                curr_row += 1
+                curr_col += 1 
+
+        return "".join(res).rstrip()           
+                                            
         
