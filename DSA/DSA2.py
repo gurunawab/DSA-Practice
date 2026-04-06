@@ -143,6 +143,89 @@ def pushZerosToEnd(self, arr):
             arr[count], arr[i] = arr[i], arr[count]
             count += 1
 
-    return arr                                                   
+    return arr            
+
+#Walking Robot Simulation
+def robotSim(self, commands, obstacles):
+       
+        directions = [(0, 1), (1, 0), (0, -1), (-1, 0)]
+        
+  
+        obstacle_set = set(map(tuple, obstacles))
+        
+        x, y = 0, 0      
+        di = 0           
+        max_dist = 0     
+        
+        for cmd in commands:
+            if cmd == -2: 
+                di = (di - 1) % 4
+            elif cmd == -1:
+                di = (di + 1) % 4
+            else: 
+                dx, dy = directions[di]
+                for _ in range(cmd):
+                   
+                    if (x + dx, y + dy) not in obstacle_set:
+                        x += dx
+                        y += dy
+                       
+                        max_dist = max(max_dist, x*x + y*y)
+                    else:
+                       
+                        break
+        
+        return max_dist  
+
+#Huffman Encoding
+import heapq
+
+class Node:
+    def __init__(self, val=None, sum_=0, idx=-1):
+        self.val = val
+        self.sum = sum_
+        self.idx = idx
+        self.left = None
+        self.right = None
+
+    # needed for heap comparison
+    def __lt__(self, other):
+        if self.sum != other.sum:
+            return self.sum < other.sum
+        return self.idx < other.idx
+
+def preorder(root, path, mp):
+    if not root:
+        return
+    
+    if root.val is not None:
+        mp[root.val] = path if path != "" else "0"
+    
+    preorder(root.left, path + '0', mp)
+    preorder(root.right, path + '1', mp)
+
+
+class Solution:
+    def huffmanCodes(self, s, f):
+        # code here
+        pq = []
+        
+        for i in range(len(s)):
+            heapq.heappush(pq, Node(s[i], f[i], i))
+        
+        while len(pq) > 1:
+            t1 = heapq.heappop(pq)
+            t2 = heapq.heappop(pq)
+            
+            temp = Node(None, t1.sum + t2.sum, min(t1.idx, t2.idx))
+            temp.left = t1
+            temp.right = t2
+            
+            heapq.heappush(pq, temp)
+        
+        mp = {}
+        preorder(pq[0], "", mp)
+        
+        return sorted([mp[ch] for ch in s])                                           
 
          
