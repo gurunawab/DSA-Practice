@@ -84,3 +84,41 @@ def graycode(self,n):
         res.extend(["1" + s for s in reversed_gray])
         
         return res
+
+
+#Segregate 0s and 1s
+def segregate0and1(self, arr):
+        left = 0
+        right = len(arr) - 1
+        
+        while left < right:
+            while left < right and arr[left] == 0:
+                left += 1
+                
+            while left < right and arr[right] == 1:
+                right -= 1
+                
+            if left < right:
+                arr[left] = 0
+                arr[right] = 1
+                left += 1
+                right -= 1
+
+#XOR After Range Multiplication Queries I
+def xorAfterQueries(self, nums, queries):
+        
+        MOD = 10**9 + 7
+
+        for l, r, k, v in queries:
+            idx = l
+
+            while idx <= r:
+                nums[idx] = (nums[idx] * v) % MOD
+                idx += k
+
+        result = 0
+        for num in nums:
+            result ^= num
+
+        return result            
+                                

@@ -211,4 +211,42 @@ def countBSTs(self, arr):
             count = catalan_table[left_nodes] * catalan_table[right_nodes]
             ans.append(count)
             
-        return ans            
+        return ans    
+
+
+#Stable Marriage Problem
+def stableMarriage(self, men, women):
+        n = len(men)
+        
+        women_ranks = [[0] * n for _ in range(n)]
+        for i in range(n):
+            for rank, man_idx in enumerate(women[i]):
+                women_ranks[i][man_idx] = rank
+                
+        women_partner = [-1] * n
+        man_partner = [-1] * n
+        
+        free_men = list(range(n))
+        
+        next_proposal_index = [0] * n
+        
+        while free_men:
+            m = free_men.pop(0)
+            
+            w = men[m][next_proposal_index[m]]
+            next_proposal_index[m] += 1
+            
+            if women_partner[w] == -1:
+                women_partner[w] = m
+                man_partner[m] = w
+            else:
+                current_m = women_partner[w]
+                
+                if women_ranks[w][m] < women_ranks[w][current_m]:
+                    free_men.append(current_m)
+                    women_partner[w] = m
+                    man_partner[m] = w
+                else:
+                    free_men.append(m)
+                    
+        return man_partner 
