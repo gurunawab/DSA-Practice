@@ -275,5 +275,60 @@ class Robot:
         else:
             return "South"
 
+#XOR After Range Multiplication Queries II
+def xorAfterQueries(self, nums, queries):
+        n = len(nums)
+        MOD = 10**9 + 7
+      
+        limit = int(n**0.5)
+        
+       
+        res_multipliers = [1] * (n + 1)
+        
+   
+        small_k_updates = {} 
+
+        for l, r, k, v in queries:
+            if v == 1: continue
+            
+            if k > limit:
+               
+                for i in range(l, r + 1, k):
+                    res_multipliers[i] = (res_multipliers[i] * v) % MOD
+            else:
+                
+                key = (k, l % k)
+                if key not in small_k_updates:
+                    small_k_updates[key] = []
+                small_k_updates[key].append((l, r, v))
+
+        
+        for (k, rem), updates in small_k_updates.items():
+           
+            seq_len = (n - 1 - rem) // k + 1
+            diff = [1] * (seq_len + 1)
+            
+            for l, r, v in updates:
+                l_idx = (l - rem) // k
+                r_idx = (r - rem) // k
+                diff[l_idx] = (diff[l_idx] * v) % MOD
+               
+                inv_v = pow(v, MOD - 2, MOD)
+                diff[r_idx + 1] = (diff[r_idx + 1] * inv_v) % MOD
+            
+           
+            curr_mult = 1
+            for i in range(seq_len):
+                curr_mult = (curr_mult * diff[i]) % MOD
+                actual_idx = rem + i * k
+                res_multipliers[actual_idx] = (res_multipliers[actual_idx] * curr_mult) % MOD
+
+       
+        xor_sum = 0
+        for i in range(n):
+            final_val = (nums[i] * res_multipliers[i]) % MOD
+            xor_sum ^= final_val
+            
+        return xor_sum  
                    
         
