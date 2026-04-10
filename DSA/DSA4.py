@@ -29,10 +29,7 @@ def pythagoreanTriplet(self, arr):
 
 #Find Unique Binary String
 def findDifferentBinaryString(self, nums):
-        """
-        :type nums: List[str]
-        :rtype: str
-        """
+       
         ans = []
 
         for i in range(len(nums)):
@@ -67,12 +64,7 @@ def largestSwap(self, s):
 
 #Find All Possible Stable Binary Arrays 
 def numberOfStableArrays(self, zero, one, limit):
-        """
-        :type zero: int
-        :type one: int
-        :type limit: int
-        :rtype: int
-        """
+       
         MOD = 10**9 + 7
 
         dp = [[[0, 0] for _ in range(one + 1)] for _ in range(zero + 1)]
@@ -215,10 +207,7 @@ def countPartitions(self, arr, diff):
 
 #Maximum Amount of Money Robot Can Earn
 def maximumAmount(self, coins):
-        """
-        :type coins: List[List[int]]
-        :rtype: int
-        """
+       
         m = len(coins)
         n = len(coins[0])
 

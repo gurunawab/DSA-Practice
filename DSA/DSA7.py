@@ -1,9 +1,6 @@
 #Get Biggest Three Rhombus Sums in a Grid
 def getBiggestThree(self, grid):
-        """
-        :type grid: List[List[int]]
-        :rtype: List[int]
-        """
+       
         rows = len(grid)
         cols = len(grid[0])
         sums = set()
@@ -159,10 +156,7 @@ def minTime(self, root, target):
 
 #Largest Submatrix With Rearrangements
 def largestSubmatrix(self, matrix):
-        """
-        :type matrix: List[List[int]]
-        :rtype: int
-        """
+       
         m = len(matrix)
         n = len(matrix[0])
         ans = 0

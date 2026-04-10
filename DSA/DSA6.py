@@ -96,11 +96,7 @@ def topView(self, root):
 
 #The k-th Lexicographical String of All Happy Strings of Length n
 def getHappyString(self, n, k):
-        """
-        :type n: int
-        :type k: int
-        :rtype: str
-        """
+        
         result = []
 
         def backtrack(current_string):
@@ -144,11 +140,7 @@ def distCandy(self, root):
 
 #Count Submatrices with Top-Left Element and Sum Less Than k
 def countSubmatrices(self, grid, k):
-        """
-        :type grid: List[List[int]]
-        :type k: int
-        :rtype: int
-        """
+        
         m = len(grid)
         n = len(grid[0])
         count = 0
@@ -242,10 +234,7 @@ def longestCycle(self, V, edges):
 
 #Maximum Non Negative Product in a Matrix
 def maxProductPath(self, grid):
-        """
-        :type grid: List[List[int]]
-        :rtype: int
-        """
+        
         m, n = len(grid), len(grid[0])
         MOD = 10**9 + 7
 
@@ -274,3 +263,37 @@ def maxProductPath(self, grid):
         res = max_dp[-1][-1]
 
         return res % MOD if res >= 0 else -1  
+
+#Sorted subsequence of size 3
+def find3Numbers(self, arr):
+        n = len(arr)
+        if n < 3:
+            return []
+
+         
+        smaller = [-1] * n
+        min_idx = 0
+        for i in range(1, n):
+            if arr[i] <= arr[min_idx]:
+                min_idx = i
+                smaller[i] = -1
+            else:
+                smaller[i] = min_idx
+
+       
+        greater = [-1] * n
+        max_idx = n - 1
+        for i in range(n - 2, -1, -1):
+            if arr[i] >= arr[max_idx]:
+                max_idx = i
+                greater[i] = -1
+            else:
+                greater[i] = max_idx
+
+       
+        for i in range(n):
+            if smaller[i] != -1 and greater[i] != -1:
+                return [arr[smaller[i]], arr[i], arr[greater[i]]]
+
+        
+        return []

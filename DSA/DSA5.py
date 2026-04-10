@@ -74,12 +74,7 @@ def kBitFlips(self, arr, k):
 
 #Maximize Spanning Tree Stability with Upgrades
 def maxStability(self, n, edges, k):
-        """
-        :type n: int
-        :type edges: List[List[int]]
-        :type k: int
-        :rtype: int
-        """
+       
         def can_achieve(mid):
             parent = list(range(n))
             def find(i):
@@ -209,11 +204,7 @@ def minAbsDiff(self, grid, k):
 
 #Determine Whether Matrix Can Be Obtained By Rotation
 def findRotation(self, mat, target):
-        """
-        :type mat: List[List[int]]
-        :type target: List[List[int]]
-        :rtype: bool
-        """
+       
         for _ in range(4):
             if mat == target:
                 return True

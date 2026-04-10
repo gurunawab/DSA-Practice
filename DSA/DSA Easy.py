@@ -143,5 +143,33 @@ def intersection(self, a, b):
                 i += 1
                 j += 1
                 
-        return result          
+        return result   
+
+
+#Minimum Distance Between Three Equal Elements I
+import collections
+
+class Solution(object):
+    def minimumDistance(self, nums):
+       
+        index_map = collections.defaultdict(list)
+        for idx, val in enumerate(nums):
+            index_map[val].append(idx)
+
+        min_dist = float('inf')
+        found = False
+
+        for val in index_map:
+            indices = index_map[val]
+
+            if len(indices) >= 3:
+
+                for i in range(len(indices) - 2):
+                    current_dist = 2 * (indices[i+2] - indices[i])
+
+                    min_dist = min(min_dist, current_dist)
+
+                    found = True
+
+        return min_dist if found else -1                  
                                 

@@ -85,10 +85,7 @@ class Solution:
 
 #Minimum Number of flips to Make the Binary String Alternating
 def minFlips(self, s):
-        """
-        :type s: str
-        :rtype: int
-        """
+      
         n = len(s)
         s = s + s
 
