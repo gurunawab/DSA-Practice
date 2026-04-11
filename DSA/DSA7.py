@@ -244,3 +244,28 @@ def stableMarriage(self, men, women):
                     free_men.append(m)
                     
         return man_partner 
+
+#Minimum Distance Between Three Equal Elements II
+def minimumDistance(self, nums):
+        index_map = {}
+        min_dist = float('inf')
+        found = False
+
+        for curr_idx, num in enumerate(nums):
+            if num not in index_map:
+                index_map[num] = []
+
+            index_map[num].append(curr_idx)
+
+            if len(index_map[num]) >= 3:
+                found = True
+
+                k = index_map[num][-1]
+                i = index_map[num][-3]
+
+                current_dist = 2 * (k-i)
+                min_dist = min(min_dist, current_dist)
+
+        return min_dist if found else -1 
+
+        

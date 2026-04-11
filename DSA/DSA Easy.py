@@ -171,5 +171,23 @@ class Solution(object):
 
                     found = True
 
-        return min_dist if found else -1                  
+        return min_dist if found else -1  
+
+#Count increasing Subarrays
+def countIncreasing(self, arr):
+        n = len(arr)
+        if n < 2:
+            return 0
+            
+        total_count = 0
+        current_len = 1
+        
+        for i in range(1, n):
+            if arr[i] > arr[i-1]:
+                total_count += current_len
+                current_len += 1
+            else:
+                current_len = 1
+                
+        return total_count                      
                                 
