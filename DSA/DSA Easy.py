@@ -189,5 +189,17 @@ def countIncreasing(self, arr):
             else:
                 current_len = 1
                 
-        return total_count                      
+        return total_count  
+
+#Toeplitz matrix
+def isToeplitz(self, mat):
+        rows = len(mat)
+        cols = len(mat[0])
+        
+        for i in range(rows - 1):
+            for j in range(cols - 1):
+                if mat[i][j] != mat[i + 1][j + 1]:
+                    return False
+                    
+        return True                             
                                 

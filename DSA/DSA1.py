@@ -218,3 +218,35 @@ def countPaths(self, V, edges):
                     ways[v] = (ways[v] + ways[u]) % mod
                     
         return ways[V-1]
+
+#Minimum Distance to Type a Word Using Two Fingers
+def minimumDistance(self, word):
+       
+        def get_dist(char1, char2):
+            if char1 is None: return 0
+            c1, c2 = ord(char1) - ord('A'), ord(char2) - ord('A')
+            r1, col1 = divmod(c1, 6)
+            r2, col2 = divmod(c2, 6)
+            return abs(r1 - r2) + abs(col1 - col2)
+
+        memo = {}
+
+        def solve(idx, f2):
+            if idx == len(word):
+                return 0
+
+            state = (idx, f2)
+            if state in memo:
+                return memo[state]
+
+            f1 = word[idx - 1]
+            curr_char = word[idx]
+
+            dist1 = get_dist(f1, curr_char) + solve(idx + 1, f2)
+            dist2 = get_dist(f2, curr_char) + solve(idx + 1, f1)
+
+            res = min(dist1, dist2)
+            memo[state] = res
+            return res
+
+        return solve(1, None) 
