@@ -234,3 +234,36 @@ def maximumAmount(self, coins):
                                 dp[ni][nj][k-1] = max(dp[ni][nj][k-1], dp[i][j][k])
 
         return max(dp[m-1][n-1]) 
+
+#Next Smallest Palindrome
+def nextPalindrome(self, num):
+        n = len(num)
+        
+      
+        if all(x == 9 for x in num):
+            return [1] + [0]*(n-1) + [1]
+
+     
+        mid = n // 2
+        ans = list(num)
+        
+     
+        for i in range(mid):
+            ans[n-1-i] = ans[i]
+            
+        
+        if ans > num:
+            return ans
+            
+       
+        i = (n - 1) // 2 
+        while i >= 0:
+            if ans[i] < 9:
+                ans[i] += 1
+                ans[n-1-i] = ans[i] 
+                return ans
+            else:
+                ans[i] = 0
+                ans[n-1-i] = 0
+                i -= 1
+        return ans

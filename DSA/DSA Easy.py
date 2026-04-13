@@ -201,5 +201,16 @@ def isToeplitz(self, mat):
                 if mat[i][j] != mat[i + 1][j + 1]:
                     return False
                     
-        return True                             
-                                
+        return True 
+
+#Minimum Distance to the Target Element
+def getMinDistance(self, nums, target, start):
+        min_dist = float('inf')
+        
+       
+        for i, num in enumerate(nums):
+            if num == target:
+               
+                min_dist = min(min_dist, abs(i - start))
+                
+        return min_dist      
