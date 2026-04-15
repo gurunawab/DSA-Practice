@@ -214,3 +214,26 @@ def getMinDistance(self, nums, target, start):
                 min_dist = min(min_dist, abs(i - start))
                 
         return min_dist      
+
+#URLify a given string
+def URLify(self, s): 
+        return s.replace(' ', '%20')
+
+#Shortest Distance to Target String in a Circular Array
+def closestTarget(self, words, target, startIndex):
+        
+        n = len(words)
+        min_dist = n
+        found = False
+
+        for i in range(n):
+            if words[i] == target:
+                found = True
+
+                abs_diff = abs(i - startIndex)
+
+                current_dist = min(abs_diff, n - abs_diff)
+
+                min_dist = min(min_dist, current_dist)
+
+        return min_dist if found else -1 
