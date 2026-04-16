@@ -237,3 +237,19 @@ def closestTarget(self, words, target, startIndex):
                 min_dist = min(min_dist, current_dist)
 
         return min_dist if found else -1 
+
+#Implement Atoi
+def myAtoi(self, s:str) -> int:
+        s = s.lstrip()
+        if not s:return 0
+        
+        sign = -1 if s[0] == '-' else 1
+        if s[0] in ['-', '+']: s = s[1:]
+        
+        res = 0
+        for char in s:
+            if not char.isdigit(): break
+            res = res * 10 + int(char)
+            
+        res = max(-2**31, min(sign * res, 2**31 - 1))
+        return res

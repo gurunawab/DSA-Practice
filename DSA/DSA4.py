@@ -267,3 +267,33 @@ def nextPalindrome(self, num):
                 ans[n-1-i] = 0
                 i -= 1
         return ans
+
+#Closest Equal Element Queries
+import bisect
+
+def solveQueries(self, nums, queries):
+        
+        n = len(nums)
+        pos = {}
+        for i, v in enumerate(nums):
+            if v not in pos: pos[v] = []
+            pos[v].append(i)
+
+        res = []
+        for q in queries:
+            idx_list = pos[nums[q]]
+            if len(idx_list) == 1:
+                res.append(-1)
+                continue
+
+            i = bisect.bisect_left(idx_list, q)
+
+            p1 = idx_list[i - 1]
+            p2 = idx_list[(i + 1) % len(idx_list)]
+
+            d1 = min(abs(q - p1), n - abs(q - p1))
+            d2 = min(abs(q - p2), n - abs(q - p2))
+
+            res.append(min(d1, d2))
+
+        return res
