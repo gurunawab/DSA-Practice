@@ -253,3 +253,33 @@ def myAtoi(self, s:str) -> int:
             
         res = max(-2**31, min(sign * res, 2**31 - 1))
         return res
+
+#Anagram Palindrome
+def canFormPalindrome(self,s):
+        odd_chars = set()
+        
+        for char in s:
+            if char in odd_chars:
+                odd_chars.remove(char)
+            else:
+                odd_chars.add(char)
+                
+        return len(odd_chars) <= 1 
+
+#Minimum Absolute Distance Between Mirror Pairs
+def minMirrorPairDistance(self, nums):
+        
+        last_seen = {}
+        min_dist = float('inf')
+        
+        for i, x in enumerate(nums):
+            
+            if x in last_seen:
+                min_dist = min(min_dist, i - last_seen[x])
+            
+            rev_x = int(str(x)[::-1])
+            
+           
+            last_seen[rev_x] = i
+            
+        return min_dist if min_dist != float('inf') else -1         
