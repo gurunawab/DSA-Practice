@@ -282,4 +282,23 @@ def minMirrorPairDistance(self, nums):
            
             last_seen[rev_x] = i
             
-        return min_dist if min_dist != float('inf') else -1         
+        return min_dist if min_dist != float('inf') else -1    
+
+#Flip to Maximize 1s
+def maxOnes(self, arr):
+        total_ones = sum(arr)
+        max_gain = 0
+        current_gain = 0
+        
+        for x in arr:
+            val = 1 if x == 0 else -1
+            
+            current_gain = max(val, current_gain + val)
+            
+            max_gain = max(max_gain, current_gain)
+            
+        return total_ones + max_gain  
+
+#Mirror Distance of an Integer
+def mirrorDistance(self, n):
+        return abs(n - int(str(n)[::-1]))             
