@@ -301,4 +301,26 @@ def maxOnes(self, arr):
 
 #Mirror Distance of an Integer
 def mirrorDistance(self, n):
-        return abs(n - int(str(n)[::-1]))             
+        return abs(n - int(str(n)[::-1]))
+
+#Check for Power
+def isPower(self, x, y):
+        if x == 1: return y == 1
+    
+        pow_val = 1
+        while pow_val < y:
+            pow_val *= x
+            
+        return pow_val == y  
+
+#Maximum Distance Between a Pair of Values
+def maxDistance(self, nums1, nums2):
+        i = j = res = 0
+        while i < len(nums1) and j < len(nums2):
+            if nums1[i] > nums2[j]:
+                i += 1
+            else:
+                res = max(res, j - i)
+                j += 1
+
+        return res                      
