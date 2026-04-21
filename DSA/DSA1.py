@@ -250,3 +250,65 @@ def minimumDistance(self, word):
             return res
 
         return solve(1, None) 
+
+#Minimize Hamming Distance After Swap Operations
+from collections import defaultdict, Counter
+
+def minimumHammingDistance(self, source, target, allowedSwaps):
+        n = len(source)
+        parent = list(range(n))
+
+        def find(i):
+            if parent[i] != i:
+                parent[i] = find(parent[i])
+            return parent[i]
+
+        for a, b in allowedSwaps:
+            root_a, root_b = find(a), find(b)
+            if root_a != root_b:
+                parent[root_a] = root_b
+
+        groups = defaultdict(list)
+        for i in range(n):
+            groups[find(i)].append(i)
+
+        res = 0
+        for indices in groups.values():
+            count = Counter(source[i] for i in indices)
+
+            for i in indices:
+                if count[target[i]] > 0:
+                    count[target[i]] -= 1
+                else:
+                    res += 1
+        return res    
+
+#TwoWater jug Problems
+def minSteps(self, m, n, d):
+        if d > max(m, n) or d % math.gcd(m, n) != 0:
+            return -1
+            
+        def solve(from_cap, to_cap, target):
+            from_jug, to_jug = from_cap, 0
+            steps = 1
+            
+            while from_jug != target and to_jug != target:
+                temp = min(from_jug, to_cap - to_jug)
+                
+                to_jug += temp
+                from_jug -= temp
+                steps += 1
+                
+                if from_jug == target or to_jug == target:
+                    break
+                
+                if from_jug == 0:
+                    from_jug = from_cap
+                    steps += 1
+                elif to_jug == to_cap:
+                    to_jug = 0
+                    steps += 1
+                    
+            return steps
+            
+        return min(solve(m, n, d), solve(n, m, d))   
