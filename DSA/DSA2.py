@@ -228,4 +228,43 @@ class Solution:
         
         return sorted([mp[ch] for ch in s])                                           
 
+#Sum of Distances
+from collections import defaultdict
+
+def distance(self, nums):
+        res = [0] * len(nums)
+        pos_map = defaultdict(list)
+
+        for i, x in enumerate(nums):
+            pos_map[x].append(i)
+
+        for val in pos_map:
+            idxs = pos_map[val]
+            n = len(idxs)
+            total_sum = sum(idxs)
+            prefix_sum = 0
+
+            for i, idx  in enumerate(idxs):
+                res[idx] = idx * (2 * i - n + 1) - 2 * prefix_sum + total_sum - idx
+
+                prefix_sum += idx
+
+        return res 
+
+#Two Equal Sum Subarrays
+def canSplit(self, arr):
+        total_sum = sum(arr)
+        
+        if total_sum % 2 != 0:
+            return False
+            
+        target = total_sum // 2
+        current_sum = 0
+        
+        for num in arr:
+            current_sum += num
+            if current_sum == target:
+                return True
+                
+        return False        
          
