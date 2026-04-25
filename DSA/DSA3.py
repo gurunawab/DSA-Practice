@@ -212,6 +212,60 @@ def decodeCiphertext(self, encodedText, rows):
                 curr_row += 1
                 curr_col += 1 
 
-        return "".join(res).rstrip()           
+        return "".join(res).rstrip()   
+
+#Maximize the Distance Between Points on a Square
+def maxDistance(self, side, points, k):
+       
+        arr = []
+        for x, y in points:
+            if y == 0: arr.append(x)
+            elif x == side: arr.append(side + y)
+            elif y == side: arr.append(2 * side + (side - x))
+            else: arr.append(3 * side + (side - y))
+        
+        arr.sort()
+        n = len(arr)
+        perimeter = 4 * side
+        
+        
+        def check(mid):
+           
+            for i in range(n):
+               
+                if arr[i] - arr[0] > mid:
+                    break
+                
+                count = 1
+                last = arr[i]
+                target = last + mid
+                
+               
+                import bisect
+                curr_idx = i
+                for _ in range(k - 1):
+                    
+                    curr_idx = bisect.bisect_left(arr, target, lo=curr_idx + 1)
+                    if curr_idx == n:
+                        break
+                    last = arr[curr_idx]
+                    target = last + mid
+                else:
+                    
+                    if perimeter - (last - arr[i]) >= mid:
+                        return True
+            return False
+
+        
+        low, high = 1, 2 * side
+        ans = 0
+        while low <= high:
+            mid = (low + high) // 2
+            if check(mid):
+                ans = mid
+                low = mid + 1
+            else:
+                high = mid - 1
+        return ans        
                                             
         

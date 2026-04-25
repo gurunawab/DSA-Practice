@@ -268,4 +268,28 @@ def minimumDistance(self, nums):
 
         return min_dist if found else -1 
 
-        
+#Opposite Sign Pair Reduction
+def reducePairs(self, arr):
+        stack = []
+        for x in arr:
+            alive = True
+           
+            while stack and ((stack[-1] > 0 and x < 0) or (stack[-1] < 0 and x > 0)):
+                if abs(stack[-1]) < abs(x):
+                    
+                    stack.pop()
+                    continue
+                elif abs(stack[-1]) == abs(x):
+                    
+                    stack.pop()
+                    alive = False
+                    break
+                else:
+                    
+                    alive = False
+                    break
+            
+            if alive:
+                stack.append(x)
+                
+        return stack        
