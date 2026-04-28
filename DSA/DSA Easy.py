@@ -323,4 +323,20 @@ def maxDistance(self, nums1, nums2):
                 res = max(res, j - i)
                 j += 1
 
-        return res                      
+        return res 
+
+#Longest Repeating Character Replacement
+def longestSubstr(self, s: str, k:int)-> int:
+        count = {}
+        max_freq = left = 0
+        
+        for right in range(len(s)):
+            count[s[right]] = count.get(s[right], 0) + 1
+            
+            max_freq = max(max_freq, count[s[right]])
+            
+            if (right - left + 1) - max_freq > k:
+                count[s[left]] -= 1
+                left += 1
+                
+        return len(s) - left                               
