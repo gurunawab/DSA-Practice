@@ -26,4 +26,33 @@ def minOperations(self, grid, x):
 
         median = nums[len(nums) // 2]
 
-        return sum(abs(n - median) // x for n in nums)          
+        return sum(abs(n - median) // x for n in nums)  
+
+#Min Swaps to Group 1s
+def minSwaps(self, arr):
+        n = len(arr)
+        k = sum(arr)
+        
+        if k == 0: return -1
+        
+        curr_ones = sum(arr[:k])
+        max_ones = curr_ones
+        
+        for i in range(k, n):
+            curr_ones += arr[i] - arr[i-k]
+            max_ones = max(max_ones, curr_ones)
+            
+        return k - max_ones
+
+#Check if an Array is Max Heap
+def isMaxHeap(self, arr):
+        n = len(arr)
+        
+        for i in range(n // 2):
+            if (2 * i + 1 < n) and (arr[i] < arr[2 * i + 1]):
+                return False
+                
+            if (2 * i + 2 < n) and (arr[i] < arr[2 * i + 2]):
+                return False
+                
+        return True                        

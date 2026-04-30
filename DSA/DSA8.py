@@ -49,3 +49,33 @@ def hasValidPath(self, grid: List[List[int]]) -> bool:
                         q.append((nr, nc))
 
         return False
+
+#Maximum Path Score in a Grid
+def maxPathScore(self, grid, k):
+        m, n = len(grid), len(grid[0])
+        memo = {}
+
+        def solve(r, c, rem_k):
+            if r == m or c == n or rem_k < 0:
+                return float('-inf')
+
+            val = grid[r][c]
+            score = val if val != 0 else 0
+            cost = 1 if val > 0 else 0
+
+            new_rem_k = rem_k - cost
+            if new_rem_k < 0: return float('-inf')
+
+            if r == m - 1 and c == n - 1:
+                return score
+
+            state = (r, c, rem_k)
+            if state in memo: return memo[state]
+
+            res = score + max(solve(r + 1, c, new_rem_k), solve(r, c + 1, new_rem_k))
+
+            memo[state] = res
+            return res
+
+        result = solve(0, 0, k)
+        return result if result > float('-inf') else -1 
