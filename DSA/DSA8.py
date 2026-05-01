@@ -79,3 +79,28 @@ def maxPathScore(self, grid, k):
 
         result = solve(0, 0, k)
         return result if result > float('-inf') else -1 
+
+#Kth Largest in a Stream
+import heapq
+def kthLargest(self, arr, k):
+    
+        min_heap = []
+        result = []
+        
+        for num in arr:
+
+            heapq.heappush(min_heap, num)
+            
+          
+            if len(min_heap) > k:
+                heapq.heappop(min_heap)
+            
+ 
+            if len(min_heap) < k:
+
+                result.append(-1)
+            else:
+              
+                result.append(min_heap[0])
+                
+        return result
