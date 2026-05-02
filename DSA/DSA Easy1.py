@@ -71,4 +71,31 @@ def maxRotateFunction(self, nums):
             if f > max_f:
                 max_f = f
 
-        return max_f                         
+        return max_f 
+
+#Position of the Set Bit
+def findPosition(self, n):
+        if n <= 0 or (n & (n - 1)) != 0:
+            return -1
+            
+        position = 0
+        while n > 0:
+            n = n >> 1
+            position += 1
+            
+        return position    
+
+#Rotated Digits
+def rotatedDigits(self, n):
+        count = 0
+
+        for i in range(1, n + 1):
+            s = str(i)
+
+            if '3' in s or '4' in s or '7' in s:
+                continue
+
+            if '2' in s or '5' in s or '6' in s or '9' in s:
+                count += 1
+
+        return count                         
