@@ -104,3 +104,100 @@ def kthLargest(self, arr, k):
                 result.append(min_heap[0])
                 
         return result
+
+#Minimum Jumps to Reach End via Prime Teleportation
+from collections import deque
+
+class Solution:
+    def minJumps(self, nums: list[int]) -> int:
+        n = len(nums)
+        if n == 1: return 0
+
+        
+        val_to_indices = {}
+        for i, v in enumerate(nums):
+            val_to_indices.setdefault(v, []).append(i)
+
+       
+        max_n = max(nums)
+        is_p = [True] * (max_n + 1)
+        for p in range(2, int(max_n**0.5) + 1):
+            if is_p[p]:
+                for i in range(p*p, max_n + 1, p): is_p[i] = False
+
+       
+        q = deque([(0, 0)])
+        v_idx, v_prime = {0}, set()
+        
+        while q:
+            curr, d = q.popleft()
+            if curr == n - 1: return d
+            
+            
+            for nxt in [curr-1, curr+1]:
+                if 0 <= nxt < n and nxt not in v_idx:
+                    v_idx.add(nxt); q.append((nxt, d + 1))
+            
+          
+            p = nums[curr]
+            if p > 1 and is_p[p] and p not in v_prime:
+                v_prime.add(p)
+                
+                for mult in range(p, max_n + 1, p):
+                    if mult in val_to_indices:
+                        for nxt in val_to_indices[mult]:
+                            if nxt not in v_idx:
+                                v_idx.add(nxt); q.append((nxt, d + 1))
+                        del val_to_indices[mult] 
+        return -1      
+
+#Remove Invalid Parentheses
+from collections import deque
+
+class Solution:
+    def validParenthesis(self, s: str) -> list[str]:
+        def is_valid(string):
+            count = 0
+            for char in string:
+                if char == '(':
+                    count += 1
+                elif char == ')':
+                    count -= 1
+                    if count < 0:
+                        return False
+            return count == 0
+            
+        if not s:
+            return [""]
+            
+        queue = deque([s])
+        visited = {s}
+        result = []
+        found = False
+        
+        while queue:
+            level_size = len(queue)
+            current_level_valid = []
+            
+            for _ in range(level_size):
+                curr = queue.popleft()
+                
+                if is_valid(curr):
+                    current_level_valid.append(curr)
+                    found = True
+                    
+                if not found:
+                    for i in range(len(curr)):
+                        if curr[i] not in "()":
+                            continue
+                        
+                        next_str = curr[:i] + curr[i+1:]
+                        if next_str not in visited:
+                            visited.add(next_str)
+                            queue.append(next_str)
+                            
+            if found:
+                result = sorted(list(set(current_level_valid)))
+                break
+            
+        return result if result else [""]            
