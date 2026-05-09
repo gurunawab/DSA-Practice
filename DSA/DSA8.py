@@ -200,4 +200,87 @@ class Solution:
                 result = sorted(list(set(current_level_valid)))
                 break
             
-        return result if result else [""]            
+        return result if result else [""]       
+
+#Count Spanning Trees in a Graph
+def countSpanTree(self, n, edges):
+        if n <= 1:
+            return 1
+            
+        laplacian = [[0] * n for _ in range(n)]
+        
+        for u, v in edges:
+            laplacian[u][u] += 1
+            laplacian[v][v] += 1
+            laplacian[u][v] -= 1
+            laplacian[v][u] -= 1
+            
+        size = n - 1
+        adj = [row[:size] for row in laplacian[:size]]
+        
+        det = 1.0
+        for i in range(size):
+            pivot = i
+            while pivot < size and abs(adj[pivot][i]) < 1e-9:
+                pivot += 1
+                
+            if pivot == size:
+                return 0
+                
+            if pivot != i:
+                adj[i], adj[pivot] = adj[pivot], adj[i]
+                det *= -1
+                
+            det *= adj[i][i]
+            
+            for j in range(i + 1, size):
+                factor = adj[j][i] / adj[i][i]
+                for k in range(i + 1, size):
+                    adj[j][k] -= factor * adj[i][k]
+                    
+        return int(round(abs(det)))  
+
+#Cyclically Rotating a Grid
+def rotateGrid(self, grid, k):
+        m, n = len(grid), len(grid[0])
+        num_layers = min(m, n) // 2
+
+        for layer in range(num_layers):
+            top, left = layer, layer
+            bottom, right = m - 1 - layer, n - 1 - layer
+
+            elements = []
+
+            for j in range(left, right):
+                elements.append(grid[top][j])
+
+            for i in range(top, bottom):
+                elements.append(grid[i][right])
+
+            for j in range(right, left, -1):
+                elements.append(grid[bottom][j])
+
+            for i in range(bottom, top, -1):
+                elements.append(grid[i][left])
+
+            L = len(elements)
+            net_k = k % L
+
+            rotated = elements[net_k:] + elements[:net_k]
+
+            idx = 0
+            for j in range(left, right):
+                grid[top][j] = rotated[idx]
+                idx += 1
+            for i in range(top, bottom):
+                grid[i][right] = rotated[idx]
+                idx += 1
+            for j in range(right, left, -1):
+                grid[bottom][j] = rotated[idx]
+                idx += 1
+            for i in range(bottom, top, -1):
+                grid[i][left] = rotated[idx]
+                idx += 1
+
+
+        return grid    
