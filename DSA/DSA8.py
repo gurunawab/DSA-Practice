@@ -283,4 +283,37 @@ def rotateGrid(self, grid, k):
                 idx += 1
 
 
-        return grid    
+        return grid
+
+ #Max Profit from Two Machines
+def maxProfit(self, x, y, a, b):
+        n = len(a)
+        
+        tasks = []
+        for i in range(n):
+            tasks.append((abs(a[i] - b[i]), a[i], b[i]))
+            
+        tasks.sort(key=lambda x: x[0], reverse=True)
+        
+        total_profit = 0
+        count_a = 0
+        count_b = 0
+        
+        for diff, profit_a, profit_b in tasks:
+            if profit_a >= profit_b:
+                if count_a < x:
+                    total_profit += profit_a
+                    count_a += 1
+                else:
+                    total_profit += profit_b
+                    count_b += 1
+                    
+            else:
+                if count_b < y:
+                    total_profit += profit_b
+                    count_b += 1
+                else:
+                    total_profit += profit_a
+                    count_a += 1
+                    
+        return total_profit            

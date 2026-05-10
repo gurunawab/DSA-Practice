@@ -98,4 +98,20 @@ def rotatedDigits(self, n):
             if '2' in s or '5' in s or '6' in s or '9' in s:
                 count += 1
 
-        return count                         
+        return count 
+
+#Maximum Number of Jumps to Reach the Last Index
+def maximumJumps(self, nums, target):
+        n = len(nums)
+        
+        dp = [-1] * n
+       
+        dp[0] = 0
+        
+        for j in range(1, n):
+            for i in range(j):
+                
+                if dp[i] != -1 and abs(nums[j] - nums[i]) <= target:
+                    dp[j] = max(dp[j], dp[i] + 1)
+        
+        return dp[n-1]                        
