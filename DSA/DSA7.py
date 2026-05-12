@@ -292,4 +292,66 @@ def reducePairs(self, arr):
             if alive:
                 stack.append(x)
                 
-        return stack        
+        return stack 
+
+#Range LCM Queries
+import math
+
+class Solution:
+    def RangeLCMQuery(self, arr, queries):
+        n = len(arr)
+        
+        tree = [0] * (4 * n)
+        
+        def get_lcm(a, b):
+            if a == 0 or b == 0:
+                return a + b
+            return (a * b) // math.gcd(a, b)
+            
+        def build(node, start, end):
+            if start == end:
+                tree[node] = arr[start]
+                return
+            mid = (start + end) // 2
+            build(2 * node, start, mid)
+            build(2 * node + 1, mid + 1, end)
+            tree[node] = get_lcm(tree[2 * node], tree[2 * node + 1])
+            
+        def update(node, start, end, idx, val):
+            if start == end:
+                arr[idx] = val
+                tree[node] = val
+                return
+            mid = (start + end) // 2
+            if idx <= mid:
+                update(2 * node, start, mid, idx, val)
+            else:
+                update(2 * node + 1, mid + 1, end, idx, val)
+            tree[node] = get_lcm(tree[2 * node], tree[2 * node + 1])
+            
+        def query(node, start, end, l, r):
+            if r < start or end < l:
+                return 1 
+            if l <= start and end <= r:
+                return tree[node]
+            
+            mid = (start + end) // 2
+            p1 = query(2 * node, start, mid, l, r)
+            p2 = query(2 * node + 1, mid + 1, end, l, r)
+            
+            
+            return get_lcm(p1, p2)
+
+       
+        build(1, 0, n - 1)
+        
+        results = []
+        for q in queries:
+            if q[0] == 1:
+               
+                update(1, 0, n - 1, q[1], q[2])
+            elif q[0] == 2:
+               
+                results.append(query(1, 0, n - 1, q[1], q[2]))
+                
+        return results               
