@@ -114,4 +114,21 @@ def maximumJumps(self, nums, target):
                 if dp[i] != -1 and abs(nums[j] - nums[i]) <= target:
                     dp[j] = max(dp[j], dp[i] + 1)
         
-        return dp[n-1]                        
+        return dp[n-1]     
+
+#Check if Array is Good
+def isGood(self, nums):
+        n = len(nums) - 1
+
+        if n < 1:
+            return False
+
+        nums.sort()
+
+        for i in range(n):
+            if i < n - 1:
+                if nums[i] != i + 1:
+                    return False
+
+            else:
+                return nums[n-1] == n and nums[n] == n                     

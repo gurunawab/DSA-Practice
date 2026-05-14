@@ -266,6 +266,60 @@ def maxDistance(self, side, points, k):
                 low = mid + 1
             else:
                 high = mid - 1
-        return ans        
+        return ans  
+
+#Minimum Moves to Make Array Complementary
+def minMoves(self, nums, limit):
+        
+        diff = [0] * (2 * limit + 2)
+        n = len(nums)
+
+        for i in range(n // 2):
+            a, b = nums[i], nums[n - 1 - i]
+            if a > b:
+                a, b = b, a
+
+            diff[2] += 2
+            diff[2 * limit + 1] -= 2
+
+            diff[a + 1] -= 1
+            diff[limit + b + 1] += 1
+
+            diff[a + b] -= 1
+            diff[a + b + 1] += 1
+
+        current_moves = 0
+        min_moves = n
+
+        for s in range(2, 2 * limit + 1):
+            current_moves += diff[s]
+            min_moves = min(min_moves, current_moves)
+
+        return min_moves
+
+#Mother Vertex
+def findMotherVertex(self, V, edges):
+        adj = [[] for _ in range(V)]
+        for u, v in edges:
+            adj[u].append(v)
+            
+        visited = [False] * V
+        last_v = 0
+        
+        def dfs(node, vis):
+            vis[node] = True
+            for nbr in adj[node]:
+                if not vis[nbr]:
+                    dfs(nbr, vis)
+                    
+        for i in range(V):
+            if not visited[i]:
+                dfs(i, visited)
+                last_v = i
+                
+        visited = [False] * V
+        dfs(last_v, visited)
+        
+        return last_v if all(visited) else -1      
                                             
         
