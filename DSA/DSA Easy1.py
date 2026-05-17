@@ -131,4 +131,89 @@ def isGood(self, nums):
                     return False
 
             else:
-                return nums[n-1] == n and nums[n] == n                     
+                return nums[n-1] == n and nums[n] == n   
+
+#Find Minimum in Rotated Sorted Array
+def findMin(self, nums):
+        low = 0
+        high = len(nums) - 1
+        
+        while low < high:
+            mid = low + (high - low) // 2
+            
+           
+            if nums[mid] > nums[high]:
+                low = mid + 1
+            
+            else:
+                high = mid
+                
+        return nums[low]
+
+#Not a subset sum
+def findSmallest(self, arr):
+        arr.sort()
+        
+        smallest_unobtainable = 1
+        
+        for x in arr:
+            if x > smallest_unobtainable:
+                break
+            
+            smallest_unobtainable += x
+            
+        return smallest_unobtainable  
+
+#Find Minimum in Rotated Sorted Array II
+def findMin(self, nums):
+        low = 0
+        high = len(nums) - 1
+
+        while low < high:
+            mid = low + (high - low) // 2
+
+            if nums[mid] > nums[high]:
+                low = mid + 1
+
+            elif nums[mid] < nums[high]:
+                high = mid
+
+            else:
+                high -= 1
+
+        return nums[low] 
+
+#Make the array beautiful
+def makeBeautiful(self, arr: list[int]) -> list[int]:
+        stack = []
+        
+        for num in arr:
+            if stack:
+                if (stack[-1] < 0 and num >= 0) or (stack[-1] >= 0 and num < 0):
+                    stack.pop()
+                else:
+                    stack.append(num)
+            
+            else:
+                stack.append(num)
+                
+        return stack  
+
+# Jump Game III
+def canReach(self, arr: list[int], start: int) -> bool:
+       
+        if start < 0 or start >= len(arr) or arr[start] < 0:
+            return False
+            
+        
+        if arr[start] == 0:
+            return True
+            
+       
+        arr[start] = -arr[start]
+        
+       
+        jump = abs(arr[start])
+        return self.canReach(arr, start + jump) or self.canReach(arr, start - jump)  
+
+
