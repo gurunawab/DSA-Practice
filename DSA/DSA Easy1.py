@@ -216,4 +216,23 @@ def canReach(self, arr: list[int], start: int) -> bool:
         jump = abs(arr[start])
         return self.canReach(arr, start + jump) or self.canReach(arr, start - jump)  
 
+#Maximum Sum Problem
+def maxSum(self, n: int) -> int:
+        memo = {}
+        
+        def solve(num):
+            if num == 0 or num == 1:
+                return num
+                
+            if num in memo:
+                return memo[num]
+                
+            break_sum = solve(num // 2) + solve(num // 3) + solve(num // 4)
+            
+            memo[num] = max(num, break_sum)
+            return memo[num]
+            
+        return solve(n)    
+                
+
 
