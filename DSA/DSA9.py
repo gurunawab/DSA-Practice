@@ -60,4 +60,50 @@ class Solution:
                         
                     queue.append(next_node)
                     
-        return -1                
+        return -1    
+
+#Product Pair
+def isProduct(self, arr, target):
+        seen = set()
+        
+        for x in arr:
+            if target == 0 and x == 0:
+                if len(seen) > 0:
+                    return True
+                    
+            elif target == 0:
+                if 0 in seen:
+                    return True
+                    
+            else:
+                if x != 0 and target % x == 0:
+                    complement = target // x
+                    if complement in seen:
+                        return True
+                        
+            seen.add(x)
+            
+        return False  
+
+#Find the Prefix Common Array of Two Arrays
+def findThePrefixCommonArray(self, A: List[int], B: List[int]) -> List[int]:
+        n = len(A)
+
+        C = []
+
+        freq = [0] * (n + 1)
+
+        common_count = 0
+
+        for i in range(n):
+            freq[A[i]] += 1
+            if freq[A[i]] == 2:
+                common_count += 1
+
+            freq[B[i]] += 1
+            if freq[B[i]] == 2:
+                common_count += 1
+
+            C.append(common_count)
+
+        return C                     
