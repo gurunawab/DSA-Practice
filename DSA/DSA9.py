@@ -106,4 +106,68 @@ def findThePrefixCommonArray(self, A: List[int], B: List[int]) -> List[int]:
 
             C.append(common_count)
 
-        return C                     
+        return C 
+
+#1s Surrounded by 0s
+def cntOnes(self, grid):
+        if not grid or not grid[0]:
+            return 0
+            
+        n = len(grid)
+        m = len(grid[0])
+        
+        def dfs(r, c):
+            if r < 0 or r >= n or c < 0 or c >= m or grid[r][c] != 1:
+                return 
+            
+            grid[r][c] = 2
+            
+            dfs(r + 1, c)
+            dfs(r - 1, c)
+            dfs(r, c + 1)
+            dfs(r, c - 1)
+            
+        for c in range(m):
+            if grid[0][c] == 1:
+                dfs(0, c)
+            if grid[n-1][c] == 1:
+                dfs(n - 1, c)
+                
+        for r in range(n):
+            if grid[r][0] == 1:
+                dfs(r, 0)
+            if grid[r][m-1] == 1:
+                dfs(r, m - 1)
+                
+        trapped_ones = 0
+        for r in range(n):
+            for c in range(m):
+                if grid[r][c] == 1:
+                    trapped_ones += 1
+                    
+        return trapped_ones   
+
+#Search in Rotated Sorted Array
+def search(self, nums: List[int], target: int) -> int:
+        low = 0
+        high = len(nums) - 1
+
+        while low <= high:
+            mid = (low + high) // 2
+
+            if nums[mid] == target:
+                return mid
+
+            if nums[low] <= nums[mid]:
+                if nums[low] <= target < nums[mid]:
+                    high = mid - 1
+                else:
+                    low = mid + 1
+
+            else:
+                if nums[mid] < target <= nums[high]:
+                    low = mid + 1
+                else:
+                    high = mid - 1
+
+        return -1                               
