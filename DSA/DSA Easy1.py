@@ -249,6 +249,37 @@ def getCommon(self, nums1: List[int], nums2: List[int]) -> int:
             else:
                 j += 1
 
-        return -1                 
+        return -1      
+
+#Check if Array Is Sorted and Rotated
+def check(self, nums: List[int]) -> bool:
+        count_drops = 0
+        n = len(nums)
+
+        for i in range(n):
+            if nums[i] > nums[(i + 1) % n]:
+                count_drops += 1
+
+            if count_drops > 1:
+                return False
+
+        return True  
+
+#Transform to Sum Tree
+def toSumTree(self, root):
+        def solve(node):
+            if not node:
+                return 0
+                
+            left_sum = solve(node.left)
+            right_sum = solve(node.right)
+            
+            old_val = node.data
+            
+            node.data = left_sum + right_sum
+            
+            return old_val + left_sum + right_sum
+            
+        solve(root)                    
 
 
