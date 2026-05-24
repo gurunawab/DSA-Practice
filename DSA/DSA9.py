@@ -170,4 +170,43 @@ def search(self, nums: List[int], target: int) -> int:
                 else:
                     high = mid - 1
 
-        return -1                               
+        return -1      
+
+#Jump Game V
+def maxJumps(self, arr, d):
+        n = len(arr)
+        
+        memo = [-1] * n
+        
+        def dfs(i):
+           
+            if memo[i] != -1:
+                return memo[i]
+            
+            max_visited = 1 
+            
+          
+            for j in range(i + 1, min(i + d + 1, n)):
+                if arr[i] > arr[j]:
+                    max_visited = max(max_visited, 1 + dfs(j))
+                else:
+                    
+                    break
+                    
+          
+            for j in range(i - 1, max(-1, i - d - 1), -1):
+                if arr[i] > arr[j]:
+                    max_visited = max(max_visited, 1 + dfs(j))
+                else:
+                  
+                    break
+            
+            memo[i] = max_visited
+            return memo[i]
+        
+        
+        ans = 0
+        for i in range(n):
+            ans = max(ans, dfs(i))
+            
+        return ans                          
