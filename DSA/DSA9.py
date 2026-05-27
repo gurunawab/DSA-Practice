@@ -209,4 +209,32 @@ def maxJumps(self, arr, d):
         for i in range(n):
             ans = max(ans, dfs(i))
             
-        return ans                          
+        return ans  
+
+#Count the Number of Special Characters II
+def numberOfSpecialChars(self, word):
+        
+        last_lower = {}
+        first_upper = {}
+        
+        
+        for i, char in enumerate(word):
+            if char.islower():
+                last_lower[char] = i  
+            else:
+                if char not in first_upper:
+                    first_upper[char] = i  
+                    
+        special_count = 0
+        
+       
+        for ascii_val in range(ord('a'), ord('z') + 1):
+            lower_ch = chr(ascii_val)
+            upper_ch = lower_ch.upper()
+            
+            
+            if lower_ch in last_lower and upper_ch in first_upper:
+                if last_lower[lower_ch] < first_upper[upper_ch]:
+                    special_count += 1
+                    
+        return special_count                        
