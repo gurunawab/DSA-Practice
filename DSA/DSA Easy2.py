@@ -33,4 +33,21 @@ def wifiRange(self, s: str, x: int) -> bool:
             if len(segments[i]) > 2 * x:
                 return False
                 
-        return True        
+        return True  
+
+#Vertical Sum
+def verticalSum(self, root):
+        hd_sums = {}
+        
+        def traverse(node, hd):
+            if not node:
+                return
+            
+            hd_sums[hd] = hd_sums.get(hd, 0) + node.data
+            
+            traverse(node.left, hd - 1)
+            traverse(node.right, hd + 1)
+            
+        traverse(root, 0)
+        
+        return [hd_sums[hd] for hd in sorted(hd_sums.keys())]      

@@ -237,4 +237,66 @@ def numberOfSpecialChars(self, word):
                 if last_lower[lower_ch] < first_upper[upper_ch]:
                     special_count += 1
                     
-        return special_count                        
+        return special_count      
+
+#Longest Common Suffix Queries
+class TrieNode:
+    def __init__(self):
+        self.children = {}
+        
+        self.best_index = -1 
+
+class Solution(object):
+    def stringIndices(self, wordsContainer, wordsQuery):
+        root = TrieNode()
+        
+        
+        def get_better_index(old_idx, new_idx):
+            if old_idx == -1:
+                return new_idx
+            len_old = len(wordsContainer[old_idx])
+            len_new = len(wordsContainer[new_idx])
+            
+           
+            if len_new < len_old:
+                return new_idx
+            elif len_new == len_old:
+                return min(old_idx, new_idx)
+            return old_idx
+
+        
+        global_best_idx = 0
+        for i in range(1, len(wordsContainer)):
+            global_best_idx = get_better_index(global_best_idx, i)
+            
+        root.best_index = global_best_idx
+
+     
+        for idx, word in enumerate(wordsContainer):
+            curr = root
+            
+            for char in reversed(word):
+                if char not in curr.children:
+                    curr.children[char] = TrieNode()
+                curr = curr.children[char]
+                
+                curr.best_index = get_better_index(curr.best_index, idx)
+                
+        
+        ans = []
+        for query in wordsQuery:
+            curr = root
+            res_idx = root.best_index 
+            
+           
+            for char in reversed(query):
+                if char in curr.children:
+                    curr = curr.children[char]
+                    res_idx = curr.best_index
+                else:
+                    
+                    break
+            ans.append(res_idx)
+            
+        return ans
+               
