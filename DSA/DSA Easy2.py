@@ -51,3 +51,21 @@ def verticalSum(self, root):
         traverse(root, 0)
         
         return [hd_sums[hd] for hd in sorted(hd_sums.keys())]      
+
+#Minimum Element After Replacement With Digit Sum
+def minElement(self, nums):
+       
+        min_sum = float('inf') 
+        
+        for num in nums:
+            current_sum = 0
+          
+            while num > 0:
+                current_sum += num % 10
+                num //= 10
+            
+           
+            if current_sum < min_sum:
+                min_sum = current_sum
+                
+        return min_sum
