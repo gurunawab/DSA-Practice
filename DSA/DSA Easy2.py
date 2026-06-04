@@ -69,3 +69,24 @@ def minElement(self, nums):
                 min_sum = current_sum
                 
         return min_sum
+
+#Substring with Max Zero-One Diff
+def maxSubstring(self, s: str) -> int:
+        max_so_far = float('-inf')
+        current_max = 0
+        
+        for char in s:
+          
+            val = 1 if char == '0' else -1
+            
+            current_max += val
+            
+           
+            if current_max > max_so_far:
+                max_so_far = max_so_far = current_max
+            
+          
+            if current_max < 0:
+                current_max = 0
+                
+        return max_so_far        
