@@ -224,4 +224,84 @@ class Solution:
             count = right_bound - left_bound
             result.append(count)
             
-        return result     
+        return result 
+
+#Total Waviness of Numbers in Range II
+def totalWaviness(self, num1, num2):
+        
+        
+        def solve(limit_str):
+            if not limit_str or int(limit_str) < 0:
+                return 0
+                
+            memo = {}
+            
+            def dp(idx, prev2, prev, is_less, is_started):
+                
+                if idx == len(limit_str):
+                    return 0
+                    
+                state = (idx, prev2, prev, is_less, is_started)
+                if state in memo:
+                    return memo[state]
+                    
+                limit = 9 if is_less else int(limit_str[idx])
+                ans = 0
+                
+                for d in range(limit + 1):
+                    next_is_less = is_less or (d < limit)
+                    
+                    if not is_started:
+                        if d == 0:
+                            
+                            ans += dp(idx + 1, -1, -1, next_is_less, False)
+                        else:
+                            
+                            ans += dp(idx + 1, -1, d, next_is_less, True)
+                    else:
+                        
+                        current_score = 0
+                        if prev2 != -1 and prev != -1:
+                            if (prev > prev2 and prev > d) or (prev < prev2 and prev < d):
+                                current_score = 1
+                        
+                        
+                        
+                return ans
+
+            
+            memo_safe = {}
+            
+            def dp_safe(idx, prev2, prev, current_waviness, is_less, is_started):
+                if idx == len(limit_str):
+                    return current_waviness if is_started else 0
+                    
+                state = (idx, prev2, prev, current_waviness, is_less, is_started)
+                if state in memo_safe:
+                    return memo_safe[state]
+                    
+                limit = 9 if is_less else int(limit_str[idx])
+                ans = 0
+                
+                for d in range(limit + 1):
+                    next_is_less = is_less or (d < limit)
+                    
+                    if not is_started:
+                        if d == 0:
+                            ans += dp_safe(idx + 1, -1, -1, 0, next_is_less, False)
+                        else:
+                            ans += dp_safe(idx + 1, -1, d, 0, next_is_less, True)
+                    else:
+                        new_waviness = current_waviness
+                        if prev2 != -1 and prev != -1:
+                            if (prev > prev2 and prev > d) or (prev < prev2 and prev < d):
+                                new_waviness += 1
+                                
+                        ans += dp_safe(idx + 1, prev, d, new_waviness, next_is_less, True)
+                        
+                memo_safe[state] = ans
+                return ans
+                
+            return dp_safe(0, -1, -1, 0, False, False)
+
+        return solve(str(num2)) - solve(str(num1 - 1))            
