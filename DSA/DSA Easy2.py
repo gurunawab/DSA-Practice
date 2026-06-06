@@ -89,4 +89,23 @@ def maxSubstring(self, s: str) -> int:
             if current_max < 0:
                 current_max = 0
                 
-        return max_so_far        
+        return max_so_far  
+
+#Left and Right Sum Differences
+def leftRightDifference(self, nums):
+        
+        left_sum = 0
+        right_sum = sum(nums)
+        answer = []
+        
+        for num in nums:
+            
+            right_sum -= num
+            
+            
+            answer.append(abs(left_sum - right_sum))
+            
+            
+            left_sum += num
+            
+        return answer      
