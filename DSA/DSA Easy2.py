@@ -109,3 +109,14 @@ def leftRightDifference(self, nums):
             left_sum += num
             
         return answer      
+
+#Finding Profession
+def profession(self, level, pos):
+        
+        set_bits_count = bin(pos - 1).count('1')
+        
+        
+        if set_bits_count % 2 != 0:
+            return 'Doctor'
+        else:
+            return 'Engineer'
