@@ -162,4 +162,26 @@ def binarySearchable(self, arr):
                 else:
                     l = mid + 1
 
-        return c          
+        return c
+
+#Equal Point in Brackets
+def findIndex(self, s: str) -> int:
+        n = len(s)
+        
+        count_close = s.count(')')
+        count_open = 0
+        
+        for i in range(n):
+            
+            if count_open == count_close:
+                return i
+            
+            if s[i] == '(':
+                count_open += 1
+            elif s[i] == ')':
+                count_close -= 1
+                
+        if count_open == count_close:
+            return n 
+            
+        return -1           

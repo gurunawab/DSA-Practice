@@ -126,4 +126,43 @@ class SparseTable:
     def query(self, left: int, right: int) -> int:
         k = (right - left).bit_length() - 1
         return max(self.Max[k][left], self.Max[k][right - (1 << k)]) - \
-               min(self.Min[k][left], self.Min[k][right - (1 << k)])                  
+               min(self.Min[k][left], self.Min[k][right - (1 << k)])  
+
+#Number of Ways to Assign Edge Weights I
+from collections import defaultdict, deque
+
+class Solution(object):
+    def assignEdgeWeights(self, edges):
+        
+        if not edges:
+            return 0
+        
+        
+        graph = defaultdict(list)
+        for u, v in edges:
+            graph[u].append(v)
+            graph[v].append(u)
+            
+        
+        max_depth = 0
+   
+        queue = deque([(1, 0)])
+        visited = {1}
+        
+        while queue:
+            node, depth = queue.popleft()
+            max_depth = max(max_depth, depth)
+            
+            for neighbor in graph[node]:
+                if neighbor not in visited:
+                    visited.add(neighbor)
+                    queue.append((neighbor, depth + 1))
+                    
+       
+        MOD = 10**9 + 7
+        
+        
+        if max_depth == 0:
+            return 0
+            
+        return pow(2, max_depth - 1, MOD)                      
