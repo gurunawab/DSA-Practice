@@ -184,4 +184,28 @@ def findIndex(self, s: str) -> int:
         if count_open == count_close:
             return n 
             
-        return -1           
+        return -1   
+
+#Check Repeated Substring with K Replacements
+from collections import Counter
+
+class Solution:
+    def kSubstr(self, s: str, k: int) -> bool:
+        n = len(s)
+        
+        if n % k != 0:
+            return False
+            
+        chunks = [s[i:i+k] for i in range(0, n, k)]
+        
+        chunk_counts = Counter(chunks)
+        
+        if len(chunk_counts) == 1:
+            return True
+            
+        if len(chunk_counts) == 2:
+            
+            if 1 in chunk_counts.values():
+                return True
+                
+        return False           

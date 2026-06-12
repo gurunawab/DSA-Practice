@@ -165,4 +165,115 @@ class Solution(object):
         if max_depth == 0:
             return 0
             
-        return pow(2, max_depth - 1, MOD)                      
+        return pow(2, max_depth - 1, MOD)  
+
+
+#Number of Ways to Assign Edge Weights II
+import sys
+
+
+sys.setrecursionlimit(200000)
+
+class Solution(object):
+    def assignEdgeWeights(self, edges, queries):
+        """
+        :type edges: List[List[int]]
+        :type queries: List[List[int]]
+        :rtype: List[int]
+        """
+        n = len(edges) + 1
+        MOD = 10**9 + 7
+        
+       
+        adj = [[] for _ in range(n + 1)]
+        for u, v in edges:
+            adj[u].append(v)
+            adj[v].append(u)
+            
+        
+        LOG = 18 
+        up = [[0] * LOG for _ in range(n + 1)]
+        depth = [0] * (n + 1)
+        
+        
+        def dfs(node, parent, d):
+            depth[node] = d
+            up[node][0] = parent
+            for neighbor in adj[node]:
+                if neighbor != parent:
+                    dfs(neighbor, node, d + 1)
+                    
+        
+        dfs(1, 1, 0)
+        
+        
+        for j in range(1, LOG):
+            for i in range(1, n + 1):
+                up[i][j] = up[up[i][j-1]][j-1]
+                
+        
+        def get_lca(u, v):
+            if depth[u] < depth[v]:
+                u, v = v, u
+                
+            
+            diff = depth[u] - depth[v]
+            for j in range(LOG):
+                if (diff >> j) & 1:
+                    u = up[u][j]
+                    
+            if u == v:
+                return u
+                
+            
+            for j in range(LOG - 1, -1, -1):
+                if up[u][j] != up[v][j]:
+                    u = up[u][j]
+                    v = up[v][j]
+                    
+            return up[u][0]
+            
+        
+        pow2 = [1] * (n + 1)
+        for i in range(1, n + 1):
+            pow2[i] = (pow2[i-1] * 2) % MOD
+            
+        
+        answer = []
+        for u, v in queries:
+            if u == v:
+                answer.append(0)
+                continue
+                
+            lca = get_lca(u, v)
+            path_length = depth[u] + depth[v] - 2 * depth[lca]
+            
+            
+            ans = pow2[path_length - 1]
+            answer.append(ans)
+            
+        return answer 
+
+#Check Repeated Substring with K Replacements
+from collections import Counter
+
+class Solution:
+    def kSubstr(self, s: str, k: int) -> bool:
+        n = len(s)
+        
+        if n % k != 0:
+            return False
+            
+        chunks = [s[i:i+k] for i in range(0, n, k)]
+        
+        chunk_counts = Counter(chunks)
+        
+        if len(chunk_counts) == 1:
+            return True
+            
+        if len(chunk_counts) == 2:
+            
+            if 1 in chunk_counts.values():
+                return True
+                
+        return False     
