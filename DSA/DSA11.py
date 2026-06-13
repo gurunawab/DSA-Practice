@@ -276,4 +276,25 @@ class Solution:
             if 1 in chunk_counts.values():
                 return True
                 
-        return False     
+        return False 
+
+
+#Binary Strings with Equal Sum of Two Halves
+def computeValue(self, n: int) -> int:
+        MOD = 10**9 + 7
+        
+        limit = 2 * n
+        
+        fact = [1] * (limit + 1)
+        for i in range(1, limit + 1):
+            fact[i] = (fact[i - 1] * i) % MOD
+            
+            
+        numerator = fact[2 * n]
+        
+        denominator = (fact[n] * fact[n]) % MOD
+        
+        denominator_inv = pow(denominator, MOD - 2, MOD)
+        
+        return (numerator * denominator_inv) % MOD
+
