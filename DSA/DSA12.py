@@ -67,3 +67,49 @@ def exitPoint(self, mat: list[list[int]]) -> list[int]:
             j += directions[dir_idx][1]
             
         return [last_i, last_j]
+
+#Process String with Special Operations II
+def processStr(self, s: str, k: int) -> str:
+        n = len(s)
+        lengths = [0] * n
+        curr_len = 0
+
+        for i in range(n):
+            ch = s[i]
+            if ch.islower():
+                curr_len += 1
+            elif ch == '*':
+                curr_len = max(0, curr_len - 1)
+            elif ch == '#':
+                curr_len *= 2
+            elif ch == '%':
+                pass
+
+            lengths[i] = curr_len
+
+        if k >= curr_len or curr_len == 0:
+            return "."
+
+        for i in range(n - 1, -1, -1):
+            ch = s[i]
+            prev_len = lengths[i-1] if i > 0 else 0
+
+            if ch.islower():
+
+                if k == lengths[i] - 1:
+                    return ch
+
+            elif ch == '#':
+
+                if k >= prev_len:
+                    k -= prev_len
+
+            elif ch == '%':
+
+                k = lengths[i] - 1 - k
+
+            elif ch == '*':
+
+                pass
+
+        return "."         
