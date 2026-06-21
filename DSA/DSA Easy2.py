@@ -210,4 +210,28 @@ class Solution:
                 
         return False           
 
-    
+#Choose and Swap
+def chooseSwap(self, s: str) -> str:
+        
+        s_list = list(s)
+        
+      
+        unseen = sorted(list(set(s_list)))
+        
+        for char in s_list:
+            
+            for smaller_char in unseen:
+                if smaller_char < char:
+                    
+                    for i in range(len(s_list)):
+                        if s_list[i] == char:
+                            s_list[i] = smaller_char
+                        elif s_list[i] == smaller_char:
+                            s_list[i] = char
+                    return "".join(s_list)
+            
+            
+            if char in unseen:
+                unseen.remove(char)
+                
+        return s     
