@@ -97,4 +97,43 @@ def countWays(self, s1, s2):
         
         return dp[m]
 
-                        
+#k Times Appearing Adjacent Two 1's
+def countStrings(self, n, k):
+        MOD = 10**9 + 7
+        
+        
+        dp = [[[0, 0] for _ in range(k + 1)] for _ in range(n + 1)]
+        
+        
+        dp[1][0][0] = 1 
+        dp[1][0][1] = 1 
+        
+        for i in range(2, n + 1):
+            for j in range(k + 1):
+               
+                dp[i][j][0] = (dp[i-1][j][0] + dp[i-1][j][1]) % MOD
+                
+               
+                dp[i][j][1] = dp[i-1][j][0]
+              
+                if j > 0:
+                    dp[i][j][1] = (dp[i][j][1] + dp[i-1][j-1][1]) % MOD
+                    
+        return (dp[n][k][0] + dp[n][k][1]) % MOD
+
+#Maximum Element After Decreasing and Rearranging
+def maximumElementAfterDecrementingAndRearranging(self, arr: List[int]) -> int:
+    
+        arr.sort()
+        
+     
+        arr[0] = 1
+        
+       
+        for i in range(1, len(arr)):
+           
+            if arr[i] - arr[i-1] > 1:
+                arr[i] = arr[i-1] + 1
+        
+        
+        return arr[-1]                        
