@@ -145,4 +145,55 @@ def maxDotProduct(self, arr, brr):
         for i, a in enumerate(arr):
             for j in reversed(range(min(i + 1, m))):
                 dp[j + 1] = max(dp[j + 1], dp[j] + a * brr[j])
-        return dp[m]                              
+        return dp[m]
+
+#Minimum Insert and Delete to Convert
+from bisect import bisect_left
+
+class Solution:
+    def minInsAndDel(self, a, b):
+       
+        b_set = set(b)
+        
+        
+        filtered_a = [x for x in a if x in b_set]
+        
+        
+        lis = []
+        for x in filtered_a:
+            idx = bisect_left(lis, x)
+            if idx < len(lis):
+                lis[idx] = x
+            else:
+                lis.append(x)
+        
+        lcs_length = len(lis)
+        
+      
+        return (len(a) - lcs_length) + (len(b) - lcs_length)   
+
+#Max Subarray Sum by Removing At Most One
+def maxSumSubarray(self, arr):
+        n = len(arr)
+        if n == 0: return 0
+        if n == 1: return arr[0]
+        
+        
+        forward = [0] * n
+        forward[0] = arr[0]
+        max_so_far = arr[0]
+        for i in range(1, n):
+            forward[i] = max(arr[i], forward[i-1] + arr[i])
+            max_so_far = max(max_so_far, forward[i])
+            
+       
+        backward = [0] * n
+        backward[n-1] = arr[n-1]
+        for i in range(n-2, -1, -1):
+            backward[i] = max(arr[i], backward[i+1] + arr[i])
+            
+        
+        for i in range(1, n - 1):
+            max_so_far = max(max_so_far, forward[i-1] + backward[i+1])
+            
+        return max_so_far                               
