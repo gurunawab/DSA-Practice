@@ -8,6 +8,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1288-remove-covered-intervals](https://github.com/gurunawab/DSA-Practice/tree/master/1288-remove-covered-intervals) |
 | [1301-number-of-paths-with-max-score](https://github.com/gurunawab/DSA-Practice/tree/master/1301-number-of-paths-with-max-score) |
 | [1331-rank-transform-of-an-array](https://github.com/gurunawab/DSA-Practice/tree/master/1331-rank-transform-of-an-array) |
+| [1929-concatenation-of-array](https://github.com/gurunawab/DSA-Practice/tree/master/1929-concatenation-of-array) |
 | [1979-find-greatest-common-divisor-of-array](https://github.com/gurunawab/DSA-Practice/tree/master/1979-find-greatest-common-divisor-of-array) |
 | [3312-sorted-gcd-pair-queries](https://github.com/gurunawab/DSA-Practice/tree/master/3312-sorted-gcd-pair-queries) |
 | [3336-find-the-number-of-subsequences-with-equal-gcd](https://github.com/gurunawab/DSA-Practice/tree/master/3336-find-the-number-of-subsequences-with-equal-gcd) |
@@ -138,6 +139,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [1260-shift-2d-grid](https://github.com/gurunawab/DSA-Practice/tree/master/1260-shift-2d-grid) |
+| [1929-concatenation-of-array](https://github.com/gurunawab/DSA-Practice/tree/master/1929-concatenation-of-array) |
 | [3867-sum-of-gcd-of-formed-pairs](https://github.com/gurunawab/DSA-Practice/tree/master/3867-sum-of-gcd-of-formed-pairs) |
 ## Combinatorics
 |  |
