@@ -21,6 +21,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1354-construct-target-array-with-multiple-sums](https://github.com/gurunawab/DSA-Practice/tree/master/1354-construct-target-array-with-multiple-sums) |
 | [1365-how-many-numbers-are-smaller-than-the-current-number](https://github.com/gurunawab/DSA-Practice/tree/master/1365-how-many-numbers-are-smaller-than-the-current-number) |
 | [1441-build-an-array-with-stack-operations](https://github.com/gurunawab/DSA-Practice/tree/master/1441-build-an-array-with-stack-operations) |
+| [1464-maximum-product-of-two-elements-in-an-array](https://github.com/gurunawab/DSA-Practice/tree/master/1464-maximum-product-of-two-elements-in-an-array) |
 | [1470-shuffle-the-array](https://github.com/gurunawab/DSA-Practice/tree/master/1470-shuffle-the-array) |
 | [1475-final-prices-with-a-special-discount-in-a-shop](https://github.com/gurunawab/DSA-Practice/tree/master/1475-final-prices-with-a-special-discount-in-a-shop) |
 | [1700-number-of-students-unable-to-eat-lunch](https://github.com/gurunawab/DSA-Practice/tree/master/1700-number-of-students-unable-to-eat-lunch) |
@@ -69,6 +70,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0373-find-k-pairs-with-smallest-sums](https://github.com/gurunawab/DSA-Practice/tree/master/0373-find-k-pairs-with-smallest-sums) |
 | [1046-last-stone-weight](https://github.com/gurunawab/DSA-Practice/tree/master/1046-last-stone-weight) |
 | [1354-construct-target-array-with-multiple-sums](https://github.com/gurunawab/DSA-Practice/tree/master/1354-construct-target-array-with-multiple-sums) |
+| [1464-maximum-product-of-two-elements-in-an-array](https://github.com/gurunawab/DSA-Practice/tree/master/1464-maximum-product-of-two-elements-in-an-array) |
 | [3620-network-recovery-pathways](https://github.com/gurunawab/DSA-Practice/tree/master/3620-network-recovery-pathways) |
 ## Shortest Path
 |  |
@@ -103,6 +105,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1288-remove-covered-intervals](https://github.com/gurunawab/DSA-Practice/tree/master/1288-remove-covered-intervals) |
 | [1331-rank-transform-of-an-array](https://github.com/gurunawab/DSA-Practice/tree/master/1331-rank-transform-of-an-array) |
 | [1365-how-many-numbers-are-smaller-than-the-current-number](https://github.com/gurunawab/DSA-Practice/tree/master/1365-how-many-numbers-are-smaller-than-the-current-number) |
+| [1464-maximum-product-of-two-elements-in-an-array](https://github.com/gurunawab/DSA-Practice/tree/master/1464-maximum-product-of-two-elements-in-an-array) |
 | [3534-path-existence-queries-in-a-graph-ii](https://github.com/gurunawab/DSA-Practice/tree/master/3534-path-existence-queries-in-a-graph-ii) |
 | [3536-maximum-product-of-two-digits](https://github.com/gurunawab/DSA-Practice/tree/master/3536-maximum-product-of-two-digits) |
 | [3867-sum-of-gcd-of-formed-pairs](https://github.com/gurunawab/DSA-Practice/tree/master/3867-sum-of-gcd-of-formed-pairs) |
