@@ -134,6 +134,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0459-repeated-substring-pattern](https://github.com/gurunawab/DSA-Practice/tree/master/0459-repeated-substring-pattern) |
 | [0482-license-key-formatting](https://github.com/gurunawab/DSA-Practice/tree/master/0482-license-key-formatting) |
 | [0520-detect-capital](https://github.com/gurunawab/DSA-Practice/tree/master/0520-detect-capital) |
+| [0686-repeated-string-match](https://github.com/gurunawab/DSA-Practice/tree/master/0686-repeated-string-match) |
 | [0796-rotate-string](https://github.com/gurunawab/DSA-Practice/tree/master/0796-rotate-string) |
 | [0831-masking-personal-information](https://github.com/gurunawab/DSA-Practice/tree/master/0831-masking-personal-information) |
 | [1081-smallest-subsequence-of-distinct-characters](https://github.com/gurunawab/DSA-Practice/tree/master/1081-smallest-subsequence-of-distinct-characters) |
@@ -255,5 +256,6 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0459-repeated-substring-pattern](https://github.com/gurunawab/DSA-Practice/tree/master/0459-repeated-substring-pattern) |
+| [0686-repeated-string-match](https://github.com/gurunawab/DSA-Practice/tree/master/0686-repeated-string-match) |
 | [0796-rotate-string](https://github.com/gurunawab/DSA-Practice/tree/master/0796-rotate-string) |
 <!---LeetCode Topics End-->
