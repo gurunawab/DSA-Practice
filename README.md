@@ -6,6 +6,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0001-two-sum](https://github.com/gurunawab/DSA-Practice/tree/master/0001-two-sum) |
 | [0041-first-missing-positive](https://github.com/gurunawab/DSA-Practice/tree/master/0041-first-missing-positive) |
+| [0056-merge-intervals](https://github.com/gurunawab/DSA-Practice/tree/master/0056-merge-intervals) |
 | [0084-largest-rectangle-in-histogram](https://github.com/gurunawab/DSA-Practice/tree/master/0084-largest-rectangle-in-histogram) |
 | [0150-evaluate-reverse-polish-notation](https://github.com/gurunawab/DSA-Practice/tree/master/0150-evaluate-reverse-polish-notation) |
 | [0373-find-k-pairs-with-smallest-sums](https://github.com/gurunawab/DSA-Practice/tree/master/0373-find-k-pairs-with-smallest-sums) |
@@ -117,6 +118,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Sorting
 |  |
 | ------- |
+| [0056-merge-intervals](https://github.com/gurunawab/DSA-Practice/tree/master/0056-merge-intervals) |
 | [0628-maximum-product-of-three-numbers](https://github.com/gurunawab/DSA-Practice/tree/master/0628-maximum-product-of-three-numbers) |
 | [0645-set-mismatch](https://github.com/gurunawab/DSA-Practice/tree/master/0645-set-mismatch) |
 | [1200-minimum-absolute-difference](https://github.com/gurunawab/DSA-Practice/tree/master/1200-minimum-absolute-difference) |
@@ -316,4 +318,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0083-remove-duplicates-from-sorted-list](https://github.com/gurunawab/DSA-Practice/tree/master/0083-remove-duplicates-from-sorted-list) |
 | [0138-copy-list-with-random-pointer](https://github.com/gurunawab/DSA-Practice/tree/master/0138-copy-list-with-random-pointer) |
 | [0206-reverse-linked-list](https://github.com/gurunawab/DSA-Practice/tree/master/0206-reverse-linked-list) |
+## Quicksort
+|  |
+| ------- |
+| [0056-merge-intervals](https://github.com/gurunawab/DSA-Practice/tree/master/0056-merge-intervals) |
 <!---LeetCode Topics End-->
