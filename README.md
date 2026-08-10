@@ -191,6 +191,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0796-rotate-string](https://github.com/gurunawab/DSA-Practice/tree/master/0796-rotate-string) |
 | [0831-masking-personal-information](https://github.com/gurunawab/DSA-Practice/tree/master/0831-masking-personal-information) |
 | [1081-smallest-subsequence-of-distinct-characters](https://github.com/gurunawab/DSA-Practice/tree/master/1081-smallest-subsequence-of-distinct-characters) |
+| [1768-merge-strings-alternately](https://github.com/gurunawab/DSA-Practice/tree/master/1768-merge-strings-alternately) |
 | [3014-minimum-number-of-pushes-to-type-word-i](https://github.com/gurunawab/DSA-Practice/tree/master/3014-minimum-number-of-pushes-to-type-word-i) |
 | [3016-minimum-number-of-pushes-to-type-word-ii](https://github.com/gurunawab/DSA-Practice/tree/master/3016-minimum-number-of-pushes-to-type-word-ii) |
 | [3302-find-the-lexicographically-smallest-valid-sequence](https://github.com/gurunawab/DSA-Practice/tree/master/3302-find-the-lexicographically-smallest-valid-sequence) |
@@ -230,6 +231,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0633-sum-of-square-numbers](https://github.com/gurunawab/DSA-Practice/tree/master/0633-sum-of-square-numbers) |
+| [1768-merge-strings-alternately](https://github.com/gurunawab/DSA-Practice/tree/master/1768-merge-strings-alternately) |
 | [3302-find-the-lexicographically-smallest-valid-sequence](https://github.com/gurunawab/DSA-Practice/tree/master/3302-find-the-lexicographically-smallest-valid-sequence) |
 | [3534-path-existence-queries-in-a-graph-ii](https://github.com/gurunawab/DSA-Practice/tree/master/3534-path-existence-queries-in-a-graph-ii) |
 | [3867-sum-of-gcd-of-formed-pairs](https://github.com/gurunawab/DSA-Practice/tree/master/3867-sum-of-gcd-of-formed-pairs) |
