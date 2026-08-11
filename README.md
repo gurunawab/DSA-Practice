@@ -206,6 +206,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0151-reverse-words-in-a-string](https://github.com/gurunawab/DSA-Practice/tree/master/0151-reverse-words-in-a-string) |
 | [0345-reverse-vowels-of-a-string](https://github.com/gurunawab/DSA-Practice/tree/master/0345-reverse-vowels-of-a-string) |
 | [0392-is-subsequence](https://github.com/gurunawab/DSA-Practice/tree/master/0392-is-subsequence) |
+| [0394-decode-string](https://github.com/gurunawab/DSA-Practice/tree/master/0394-decode-string) |
 | [0443-string-compression](https://github.com/gurunawab/DSA-Practice/tree/master/0443-string-compression) |
 | [0459-repeated-substring-pattern](https://github.com/gurunawab/DSA-Practice/tree/master/0459-repeated-substring-pattern) |
 | [0482-license-key-formatting](https://github.com/gurunawab/DSA-Practice/tree/master/0482-license-key-formatting) |
@@ -337,6 +338,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0084-largest-rectangle-in-histogram](https://github.com/gurunawab/DSA-Practice/tree/master/0084-largest-rectangle-in-histogram) |
 | [0150-evaluate-reverse-polish-notation](https://github.com/gurunawab/DSA-Practice/tree/master/0150-evaluate-reverse-polish-notation) |
 | [0232-implement-queue-using-stacks](https://github.com/gurunawab/DSA-Practice/tree/master/0232-implement-queue-using-stacks) |
+| [0394-decode-string](https://github.com/gurunawab/DSA-Practice/tree/master/0394-decode-string) |
 | [0636-exclusive-time-of-functions](https://github.com/gurunawab/DSA-Practice/tree/master/0636-exclusive-time-of-functions) |
 | [0735-asteroid-collision](https://github.com/gurunawab/DSA-Practice/tree/master/0735-asteroid-collision) |
 | [0739-daily-temperatures](https://github.com/gurunawab/DSA-Practice/tree/master/0739-daily-temperatures) |
@@ -383,6 +385,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0206-reverse-linked-list](https://github.com/gurunawab/DSA-Practice/tree/master/0206-reverse-linked-list) |
+| [0394-decode-string](https://github.com/gurunawab/DSA-Practice/tree/master/0394-decode-string) |
 | [0486-predict-the-winner](https://github.com/gurunawab/DSA-Practice/tree/master/0486-predict-the-winner) |
 ## Game Theory
 |  |
