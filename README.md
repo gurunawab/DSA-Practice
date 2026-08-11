@@ -24,6 +24,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0636-exclusive-time-of-functions](https://github.com/gurunawab/DSA-Practice/tree/master/0636-exclusive-time-of-functions) |
 | [0645-set-mismatch](https://github.com/gurunawab/DSA-Practice/tree/master/0645-set-mismatch) |
 | [0704-binary-search](https://github.com/gurunawab/DSA-Practice/tree/master/0704-binary-search) |
+| [0724-find-pivot-index](https://github.com/gurunawab/DSA-Practice/tree/master/0724-find-pivot-index) |
 | [0739-daily-temperatures](https://github.com/gurunawab/DSA-Practice/tree/master/0739-daily-temperatures) |
 | [0852-peak-index-in-a-mountain-array](https://github.com/gurunawab/DSA-Practice/tree/master/0852-peak-index-in-a-mountain-array) |
 | [0877-stone-game](https://github.com/gurunawab/DSA-Practice/tree/master/0877-stone-game) |
@@ -222,6 +223,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0238-product-of-array-except-self](https://github.com/gurunawab/DSA-Practice/tree/master/0238-product-of-array-except-self) |
+| [0724-find-pivot-index](https://github.com/gurunawab/DSA-Practice/tree/master/0724-find-pivot-index) |
 | [1004-max-consecutive-ones-iii](https://github.com/gurunawab/DSA-Practice/tree/master/1004-max-consecutive-ones-iii) |
 | [1140-stone-game-ii](https://github.com/gurunawab/DSA-Practice/tree/master/1140-stone-game-ii) |
 | [1590-make-sum-divisible-by-p](https://github.com/gurunawab/DSA-Practice/tree/master/1590-make-sum-divisible-by-p) |
