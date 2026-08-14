@@ -10,6 +10,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0056-merge-intervals](https://github.com/gurunawab/DSA-Practice/tree/master/0056-merge-intervals) |
 | [0084-largest-rectangle-in-histogram](https://github.com/gurunawab/DSA-Practice/tree/master/0084-largest-rectangle-in-histogram) |
 | [0106-construct-binary-tree-from-inorder-and-postorder-traversal](https://github.com/gurunawab/DSA-Practice/tree/master/0106-construct-binary-tree-from-inorder-and-postorder-traversal) |
+| [0136-single-number](https://github.com/gurunawab/DSA-Practice/tree/master/0136-single-number) |
 | [0150-evaluate-reverse-polish-notation](https://github.com/gurunawab/DSA-Practice/tree/master/0150-evaluate-reverse-polish-notation) |
 | [0162-find-peak-element](https://github.com/gurunawab/DSA-Practice/tree/master/0162-find-peak-element) |
 | [0198-house-robber](https://github.com/gurunawab/DSA-Practice/tree/master/0198-house-robber) |
@@ -372,6 +373,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Bit Manipulation
 |  |
 | ------- |
+| [0136-single-number](https://github.com/gurunawab/DSA-Practice/tree/master/0136-single-number) |
 | [0338-counting-bits](https://github.com/gurunawab/DSA-Practice/tree/master/0338-counting-bits) |
 | [0645-set-mismatch](https://github.com/gurunawab/DSA-Practice/tree/master/0645-set-mismatch) |
 | [3513-number-of-unique-xor-triplets-i](https://github.com/gurunawab/DSA-Practice/tree/master/3513-number-of-unique-xor-triplets-i) |
