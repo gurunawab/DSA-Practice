@@ -273,6 +273,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0017-letter-combinations-of-a-phone-number](https://github.com/gurunawab/DSA-Practice/tree/master/0017-letter-combinations-of-a-phone-number) |
 | [0072-edit-distance](https://github.com/gurunawab/DSA-Practice/tree/master/0072-edit-distance) |
 | [0151-reverse-words-in-a-string](https://github.com/gurunawab/DSA-Practice/tree/master/0151-reverse-words-in-a-string) |
+| [0208-implement-trie-prefix-tree](https://github.com/gurunawab/DSA-Practice/tree/master/0208-implement-trie-prefix-tree) |
 | [0345-reverse-vowels-of-a-string](https://github.com/gurunawab/DSA-Practice/tree/master/0345-reverse-vowels-of-a-string) |
 | [0392-is-subsequence](https://github.com/gurunawab/DSA-Practice/tree/master/0392-is-subsequence) |
 | [0394-decode-string](https://github.com/gurunawab/DSA-Practice/tree/master/0394-decode-string) |
@@ -322,6 +323,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0041-first-missing-positive](https://github.com/gurunawab/DSA-Practice/tree/master/0041-first-missing-positive) |
 | [0106-construct-binary-tree-from-inorder-and-postorder-traversal](https://github.com/gurunawab/DSA-Practice/tree/master/0106-construct-binary-tree-from-inorder-and-postorder-traversal) |
 | [0138-copy-list-with-random-pointer](https://github.com/gurunawab/DSA-Practice/tree/master/0138-copy-list-with-random-pointer) |
+| [0208-implement-trie-prefix-tree](https://github.com/gurunawab/DSA-Practice/tree/master/0208-implement-trie-prefix-tree) |
 | [0448-find-all-numbers-disappeared-in-an-array](https://github.com/gurunawab/DSA-Practice/tree/master/0448-find-all-numbers-disappeared-in-an-array) |
 | [0645-set-mismatch](https://github.com/gurunawab/DSA-Practice/tree/master/0645-set-mismatch) |
 | [1207-unique-number-of-occurrences](https://github.com/gurunawab/DSA-Practice/tree/master/1207-unique-number-of-occurrences) |
@@ -468,6 +470,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Design
 |  |
 | ------- |
+| [0208-implement-trie-prefix-tree](https://github.com/gurunawab/DSA-Practice/tree/master/0208-implement-trie-prefix-tree) |
 | [0232-implement-queue-using-stacks](https://github.com/gurunawab/DSA-Practice/tree/master/0232-implement-queue-using-stacks) |
 | [0933-number-of-recent-calls](https://github.com/gurunawab/DSA-Practice/tree/master/0933-number-of-recent-calls) |
 | [2336-smallest-number-in-infinite-set](https://github.com/gurunawab/DSA-Practice/tree/master/2336-smallest-number-in-infinite-set) |
@@ -660,4 +663,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [1143-longest-common-subsequence](https://github.com/gurunawab/DSA-Practice/tree/master/1143-longest-common-subsequence) |
+## Trie
+|  |
+| ------- |
+| [0208-implement-trie-prefix-tree](https://github.com/gurunawab/DSA-Practice/tree/master/0208-implement-trie-prefix-tree) |
 <!---LeetCode Topics End-->
