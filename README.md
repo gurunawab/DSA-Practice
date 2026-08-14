@@ -105,6 +105,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0392-is-subsequence](https://github.com/gurunawab/DSA-Practice/tree/master/0392-is-subsequence) |
 | [0486-predict-the-winner](https://github.com/gurunawab/DSA-Practice/tree/master/0486-predict-the-winner) |
 | [0877-stone-game](https://github.com/gurunawab/DSA-Practice/tree/master/0877-stone-game) |
+| [1137-n-th-tribonacci-number](https://github.com/gurunawab/DSA-Practice/tree/master/1137-n-th-tribonacci-number) |
 | [1140-stone-game-ii](https://github.com/gurunawab/DSA-Practice/tree/master/1140-stone-game-ii) |
 | [1301-number-of-paths-with-max-score](https://github.com/gurunawab/DSA-Practice/tree/master/1301-number-of-paths-with-max-score) |
 | [1372-longest-zigzag-path-in-a-binary-tree](https://github.com/gurunawab/DSA-Practice/tree/master/1372-longest-zigzag-path-in-a-binary-tree) |
@@ -235,6 +236,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0877-stone-game](https://github.com/gurunawab/DSA-Practice/tree/master/0877-stone-game) |
 | [0932-beautiful-array](https://github.com/gurunawab/DSA-Practice/tree/master/0932-beautiful-array) |
 | [1071-greatest-common-divisor-of-strings](https://github.com/gurunawab/DSA-Practice/tree/master/1071-greatest-common-divisor-of-strings) |
+| [1137-n-th-tribonacci-number](https://github.com/gurunawab/DSA-Practice/tree/master/1137-n-th-tribonacci-number) |
 | [1140-stone-game-ii](https://github.com/gurunawab/DSA-Practice/tree/master/1140-stone-game-ii) |
 | [1406-stone-game-iii](https://github.com/gurunawab/DSA-Practice/tree/master/1406-stone-game-iii) |
 | [1510-stone-game-iv](https://github.com/gurunawab/DSA-Practice/tree/master/1510-stone-game-iv) |
@@ -630,4 +632,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0374-guess-number-higher-or-lower](https://github.com/gurunawab/DSA-Practice/tree/master/0374-guess-number-higher-or-lower) |
+## Memoization
+|  |
+| ------- |
+| [1137-n-th-tribonacci-number](https://github.com/gurunawab/DSA-Practice/tree/master/1137-n-th-tribonacci-number) |
 <!---LeetCode Topics End-->
