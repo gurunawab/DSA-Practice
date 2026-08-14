@@ -30,6 +30,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0724-find-pivot-index](https://github.com/gurunawab/DSA-Practice/tree/master/0724-find-pivot-index) |
 | [0735-asteroid-collision](https://github.com/gurunawab/DSA-Practice/tree/master/0735-asteroid-collision) |
 | [0739-daily-temperatures](https://github.com/gurunawab/DSA-Practice/tree/master/0739-daily-temperatures) |
+| [0746-min-cost-climbing-stairs](https://github.com/gurunawab/DSA-Practice/tree/master/0746-min-cost-climbing-stairs) |
 | [0852-peak-index-in-a-mountain-array](https://github.com/gurunawab/DSA-Practice/tree/master/0852-peak-index-in-a-mountain-array) |
 | [0875-koko-eating-bananas](https://github.com/gurunawab/DSA-Practice/tree/master/0875-koko-eating-bananas) |
 | [0877-stone-game](https://github.com/gurunawab/DSA-Practice/tree/master/0877-stone-game) |
@@ -104,6 +105,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0392-is-subsequence](https://github.com/gurunawab/DSA-Practice/tree/master/0392-is-subsequence) |
 | [0486-predict-the-winner](https://github.com/gurunawab/DSA-Practice/tree/master/0486-predict-the-winner) |
+| [0746-min-cost-climbing-stairs](https://github.com/gurunawab/DSA-Practice/tree/master/0746-min-cost-climbing-stairs) |
 | [0877-stone-game](https://github.com/gurunawab/DSA-Practice/tree/master/0877-stone-game) |
 | [1137-n-th-tribonacci-number](https://github.com/gurunawab/DSA-Practice/tree/master/1137-n-th-tribonacci-number) |
 | [1140-stone-game-ii](https://github.com/gurunawab/DSA-Practice/tree/master/1140-stone-game-ii) |
