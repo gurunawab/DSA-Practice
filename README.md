@@ -55,6 +55,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1700-number-of-students-unable-to-eat-lunch](https://github.com/gurunawab/DSA-Practice/tree/master/1700-number-of-students-unable-to-eat-lunch) |
 | [1732-find-the-highest-altitude](https://github.com/gurunawab/DSA-Practice/tree/master/1732-find-the-highest-altitude) |
 | [1887-reduction-operations-to-make-the-array-elements-equal](https://github.com/gurunawab/DSA-Practice/tree/master/1887-reduction-operations-to-make-the-array-elements-equal) |
+| [1926-nearest-exit-from-entrance-in-maze](https://github.com/gurunawab/DSA-Practice/tree/master/1926-nearest-exit-from-entrance-in-maze) |
 | [1929-concatenation-of-array](https://github.com/gurunawab/DSA-Practice/tree/master/1929-concatenation-of-array) |
 | [1979-find-greatest-common-divisor-of-array](https://github.com/gurunawab/DSA-Practice/tree/master/1979-find-greatest-common-divisor-of-array) |
 | [2073-time-needed-to-buy-tickets](https://github.com/gurunawab/DSA-Practice/tree/master/2073-time-needed-to-buy-tickets) |
@@ -164,6 +165,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1161-maximum-level-sum-of-a-binary-tree](https://github.com/gurunawab/DSA-Practice/tree/master/1161-maximum-level-sum-of-a-binary-tree) |
 | [1448-count-good-nodes-in-binary-tree](https://github.com/gurunawab/DSA-Practice/tree/master/1448-count-good-nodes-in-binary-tree) |
 | [1466-reorder-routes-to-make-all-paths-lead-to-the-city-zero](https://github.com/gurunawab/DSA-Practice/tree/master/1466-reorder-routes-to-make-all-paths-lead-to-the-city-zero) |
+| [1926-nearest-exit-from-entrance-in-maze](https://github.com/gurunawab/DSA-Practice/tree/master/1926-nearest-exit-from-entrance-in-maze) |
 | [2492-minimum-score-of-a-path-between-two-cities](https://github.com/gurunawab/DSA-Practice/tree/master/2492-minimum-score-of-a-path-between-two-cities) |
 | [2685-count-the-number-of-complete-components](https://github.com/gurunawab/DSA-Practice/tree/master/2685-count-the-number-of-complete-components) |
 | [3310-remove-methods-from-project](https://github.com/gurunawab/DSA-Practice/tree/master/3310-remove-methods-from-project) |
@@ -180,6 +182,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [1260-shift-2d-grid](https://github.com/gurunawab/DSA-Practice/tree/master/1260-shift-2d-grid) |
 | [1301-number-of-paths-with-max-score](https://github.com/gurunawab/DSA-Practice/tree/master/1301-number-of-paths-with-max-score) |
+| [1926-nearest-exit-from-entrance-in-maze](https://github.com/gurunawab/DSA-Practice/tree/master/1926-nearest-exit-from-entrance-in-maze) |
 | [2352-equal-row-and-column-pairs](https://github.com/gurunawab/DSA-Practice/tree/master/2352-equal-row-and-column-pairs) |
 ## Sorting
 |  |
