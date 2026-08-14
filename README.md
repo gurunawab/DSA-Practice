@@ -63,6 +63,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2213-longest-substring-of-one-repeating-character](https://github.com/gurunawab/DSA-Practice/tree/master/2213-longest-substring-of-one-repeating-character) |
 | [2215-find-the-difference-of-two-arrays](https://github.com/gurunawab/DSA-Practice/tree/master/2215-find-the-difference-of-two-arrays) |
 | [2352-equal-row-and-column-pairs](https://github.com/gurunawab/DSA-Practice/tree/master/2352-equal-row-and-column-pairs) |
+| [2542-maximum-subsequence-score](https://github.com/gurunawab/DSA-Practice/tree/master/2542-maximum-subsequence-score) |
 | [2958-length-of-longest-subarray-with-at-most-k-frequency](https://github.com/gurunawab/DSA-Practice/tree/master/2958-length-of-longest-subarray-with-at-most-k-frequency) |
 | [2996-smallest-missing-integer-greater-than-sequential-prefix-sum](https://github.com/gurunawab/DSA-Practice/tree/master/2996-smallest-missing-integer-greater-than-sequential-prefix-sum) |
 | [3312-sorted-gcd-pair-queries](https://github.com/gurunawab/DSA-Practice/tree/master/3312-sorted-gcd-pair-queries) |
@@ -132,6 +133,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1354-construct-target-array-with-multiple-sums](https://github.com/gurunawab/DSA-Practice/tree/master/1354-construct-target-array-with-multiple-sums) |
 | [1464-maximum-product-of-two-elements-in-an-array](https://github.com/gurunawab/DSA-Practice/tree/master/1464-maximum-product-of-two-elements-in-an-array) |
 | [2336-smallest-number-in-infinite-set](https://github.com/gurunawab/DSA-Practice/tree/master/2336-smallest-number-in-infinite-set) |
+| [2542-maximum-subsequence-score](https://github.com/gurunawab/DSA-Practice/tree/master/2542-maximum-subsequence-score) |
 | [3620-network-recovery-pathways](https://github.com/gurunawab/DSA-Practice/tree/master/3620-network-recovery-pathways) |
 ## Shortest Path
 |  |
@@ -204,6 +206,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1464-maximum-product-of-two-elements-in-an-array](https://github.com/gurunawab/DSA-Practice/tree/master/1464-maximum-product-of-two-elements-in-an-array) |
 | [1657-determine-if-two-strings-are-close](https://github.com/gurunawab/DSA-Practice/tree/master/1657-determine-if-two-strings-are-close) |
 | [1887-reduction-operations-to-make-the-array-elements-equal](https://github.com/gurunawab/DSA-Practice/tree/master/1887-reduction-operations-to-make-the-array-elements-equal) |
+| [2542-maximum-subsequence-score](https://github.com/gurunawab/DSA-Practice/tree/master/2542-maximum-subsequence-score) |
 | [2996-smallest-missing-integer-greater-than-sequential-prefix-sum](https://github.com/gurunawab/DSA-Practice/tree/master/2996-smallest-missing-integer-greater-than-sequential-prefix-sum) |
 | [3016-minimum-number-of-pushes-to-type-word-ii](https://github.com/gurunawab/DSA-Practice/tree/master/3016-minimum-number-of-pushes-to-type-word-ii) |
 | [3517-smallest-palindromic-rearrangement-i](https://github.com/gurunawab/DSA-Practice/tree/master/3517-smallest-palindromic-rearrangement-i) |
@@ -328,6 +331,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0605-can-place-flowers](https://github.com/gurunawab/DSA-Practice/tree/master/0605-can-place-flowers) |
 | [0649-dota2-senate](https://github.com/gurunawab/DSA-Practice/tree/master/0649-dota2-senate) |
 | [1081-smallest-subsequence-of-distinct-characters](https://github.com/gurunawab/DSA-Practice/tree/master/1081-smallest-subsequence-of-distinct-characters) |
+| [2542-maximum-subsequence-score](https://github.com/gurunawab/DSA-Practice/tree/master/2542-maximum-subsequence-score) |
 | [3014-minimum-number-of-pushes-to-type-word-i](https://github.com/gurunawab/DSA-Practice/tree/master/3014-minimum-number-of-pushes-to-type-word-i) |
 | [3016-minimum-number-of-pushes-to-type-word-ii](https://github.com/gurunawab/DSA-Practice/tree/master/3016-minimum-number-of-pushes-to-type-word-ii) |
 | [3302-find-the-lexicographically-smallest-valid-sequence](https://github.com/gurunawab/DSA-Practice/tree/master/3302-find-the-lexicographically-smallest-valid-sequence) |
