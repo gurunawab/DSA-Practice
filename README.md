@@ -63,6 +63,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2213-longest-substring-of-one-repeating-character](https://github.com/gurunawab/DSA-Practice/tree/master/2213-longest-substring-of-one-repeating-character) |
 | [2215-find-the-difference-of-two-arrays](https://github.com/gurunawab/DSA-Practice/tree/master/2215-find-the-difference-of-two-arrays) |
 | [2352-equal-row-and-column-pairs](https://github.com/gurunawab/DSA-Practice/tree/master/2352-equal-row-and-column-pairs) |
+| [2462-total-cost-to-hire-k-workers](https://github.com/gurunawab/DSA-Practice/tree/master/2462-total-cost-to-hire-k-workers) |
 | [2542-maximum-subsequence-score](https://github.com/gurunawab/DSA-Practice/tree/master/2542-maximum-subsequence-score) |
 | [2958-length-of-longest-subarray-with-at-most-k-frequency](https://github.com/gurunawab/DSA-Practice/tree/master/2958-length-of-longest-subarray-with-at-most-k-frequency) |
 | [2996-smallest-missing-integer-greater-than-sequential-prefix-sum](https://github.com/gurunawab/DSA-Practice/tree/master/2996-smallest-missing-integer-greater-than-sequential-prefix-sum) |
@@ -133,6 +134,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1354-construct-target-array-with-multiple-sums](https://github.com/gurunawab/DSA-Practice/tree/master/1354-construct-target-array-with-multiple-sums) |
 | [1464-maximum-product-of-two-elements-in-an-array](https://github.com/gurunawab/DSA-Practice/tree/master/1464-maximum-product-of-two-elements-in-an-array) |
 | [2336-smallest-number-in-infinite-set](https://github.com/gurunawab/DSA-Practice/tree/master/2336-smallest-number-in-infinite-set) |
+| [2462-total-cost-to-hire-k-workers](https://github.com/gurunawab/DSA-Practice/tree/master/2462-total-cost-to-hire-k-workers) |
 | [2542-maximum-subsequence-score](https://github.com/gurunawab/DSA-Practice/tree/master/2542-maximum-subsequence-score) |
 | [3620-network-recovery-pathways](https://github.com/gurunawab/DSA-Practice/tree/master/3620-network-recovery-pathways) |
 ## Shortest Path
@@ -321,6 +323,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1768-merge-strings-alternately](https://github.com/gurunawab/DSA-Practice/tree/master/1768-merge-strings-alternately) |
 | [2095-delete-the-middle-node-of-a-linked-list](https://github.com/gurunawab/DSA-Practice/tree/master/2095-delete-the-middle-node-of-a-linked-list) |
 | [2130-maximum-twin-sum-of-a-linked-list](https://github.com/gurunawab/DSA-Practice/tree/master/2130-maximum-twin-sum-of-a-linked-list) |
+| [2462-total-cost-to-hire-k-workers](https://github.com/gurunawab/DSA-Practice/tree/master/2462-total-cost-to-hire-k-workers) |
 | [3302-find-the-lexicographically-smallest-valid-sequence](https://github.com/gurunawab/DSA-Practice/tree/master/3302-find-the-lexicographically-smallest-valid-sequence) |
 | [3534-path-existence-queries-in-a-graph-ii](https://github.com/gurunawab/DSA-Practice/tree/master/3534-path-existence-queries-in-a-graph-ii) |
 | [3867-sum-of-gcd-of-formed-pairs](https://github.com/gurunawab/DSA-Practice/tree/master/3867-sum-of-gcd-of-formed-pairs) |
@@ -371,6 +374,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2073-time-needed-to-buy-tickets](https://github.com/gurunawab/DSA-Practice/tree/master/2073-time-needed-to-buy-tickets) |
 | [2352-equal-row-and-column-pairs](https://github.com/gurunawab/DSA-Practice/tree/master/2352-equal-row-and-column-pairs) |
 | [2390-removing-stars-from-a-string](https://github.com/gurunawab/DSA-Practice/tree/master/2390-removing-stars-from-a-string) |
+| [2462-total-cost-to-hire-k-workers](https://github.com/gurunawab/DSA-Practice/tree/master/2462-total-cost-to-hire-k-workers) |
 | [3867-sum-of-gcd-of-formed-pairs](https://github.com/gurunawab/DSA-Practice/tree/master/3867-sum-of-gcd-of-formed-pairs) |
 ## Combinatorics
 |  |
