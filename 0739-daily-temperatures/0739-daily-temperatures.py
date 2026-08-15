@@ -1,20 +1,9 @@
-class Solution(object):
-    def dailyTemperatures(self, temperatures):
-        """
-        :type temperatures: List[int]
-        :rtype: List[int]
-        """
-        n = len(temperatures)
-        answer = [0] * n
-        stack = []  
-
-        for current_day, current_temp in enumerate(temperatures):
-            
-            while stack and temperatures[stack[-1]] < current_temp:
-                prev_day = stack.pop()
-                answer[prev_day] = current_day - prev_day
-            
-            
-            stack.append(current_day)
-
-        return answer
+class Solution:
+    def dailyTemperatures(self, temperatures: List[int]) -> List[int]:
+        res, stack = [0] * len(temperatures), []
+        for i, t in enumerate(temperatures):
+            while stack and t > temperatures[stack[-1]]:
+                prev = stack.pop()
+                res[prev] = i - prev
+            stack.append(i)
+        return res
