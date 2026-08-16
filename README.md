@@ -70,6 +70,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1926-nearest-exit-from-entrance-in-maze](https://github.com/gurunawab/DSA-Practice/tree/master/1926-nearest-exit-from-entrance-in-maze) |
 | [1929-concatenation-of-array](https://github.com/gurunawab/DSA-Practice/tree/master/1929-concatenation-of-array) |
 | [1979-find-greatest-common-divisor-of-array](https://github.com/gurunawab/DSA-Practice/tree/master/1979-find-greatest-common-divisor-of-array) |
+| [2029-stone-game-ix](https://github.com/gurunawab/DSA-Practice/tree/master/2029-stone-game-ix) |
 | [2073-time-needed-to-buy-tickets](https://github.com/gurunawab/DSA-Practice/tree/master/2073-time-needed-to-buy-tickets) |
 | [2213-longest-substring-of-one-repeating-character](https://github.com/gurunawab/DSA-Practice/tree/master/2213-longest-substring-of-one-repeating-character) |
 | [2215-find-the-difference-of-two-arrays](https://github.com/gurunawab/DSA-Practice/tree/master/2215-find-the-difference-of-two-arrays) |
@@ -266,6 +267,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1406-stone-game-iii](https://github.com/gurunawab/DSA-Practice/tree/master/1406-stone-game-iii) |
 | [1510-stone-game-iv](https://github.com/gurunawab/DSA-Practice/tree/master/1510-stone-game-iv) |
 | [1979-find-greatest-common-divisor-of-array](https://github.com/gurunawab/DSA-Practice/tree/master/1979-find-greatest-common-divisor-of-array) |
+| [2029-stone-game-ix](https://github.com/gurunawab/DSA-Practice/tree/master/2029-stone-game-ix) |
 | [3014-minimum-number-of-pushes-to-type-word-i](https://github.com/gurunawab/DSA-Practice/tree/master/3014-minimum-number-of-pushes-to-type-word-i) |
 | [3312-sorted-gcd-pair-queries](https://github.com/gurunawab/DSA-Practice/tree/master/3312-sorted-gcd-pair-queries) |
 | [3336-find-the-number-of-subsequences-with-equal-gcd](https://github.com/gurunawab/DSA-Practice/tree/master/3336-find-the-number-of-subsequences-with-equal-gcd) |
@@ -382,6 +384,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0649-dota2-senate](https://github.com/gurunawab/DSA-Practice/tree/master/0649-dota2-senate) |
 | [0714-best-time-to-buy-and-sell-stock-with-transaction-fee](https://github.com/gurunawab/DSA-Practice/tree/master/0714-best-time-to-buy-and-sell-stock-with-transaction-fee) |
 | [1081-smallest-subsequence-of-distinct-characters](https://github.com/gurunawab/DSA-Practice/tree/master/1081-smallest-subsequence-of-distinct-characters) |
+| [2029-stone-game-ix](https://github.com/gurunawab/DSA-Practice/tree/master/2029-stone-game-ix) |
 | [2542-maximum-subsequence-score](https://github.com/gurunawab/DSA-Practice/tree/master/2542-maximum-subsequence-score) |
 | [3014-minimum-number-of-pushes-to-type-word-i](https://github.com/gurunawab/DSA-Practice/tree/master/3014-minimum-number-of-pushes-to-type-word-i) |
 | [3016-minimum-number-of-pushes-to-type-word-ii](https://github.com/gurunawab/DSA-Practice/tree/master/3016-minimum-number-of-pushes-to-type-word-ii) |
@@ -438,6 +441,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [1657-determine-if-two-strings-are-close](https://github.com/gurunawab/DSA-Practice/tree/master/1657-determine-if-two-strings-are-close) |
+| [2029-stone-game-ix](https://github.com/gurunawab/DSA-Practice/tree/master/2029-stone-game-ix) |
 | [3016-minimum-number-of-pushes-to-type-word-ii](https://github.com/gurunawab/DSA-Practice/tree/master/3016-minimum-number-of-pushes-to-type-word-ii) |
 | [3312-sorted-gcd-pair-queries](https://github.com/gurunawab/DSA-Practice/tree/master/3312-sorted-gcd-pair-queries) |
 | [3518-smallest-palindromic-rearrangement-ii](https://github.com/gurunawab/DSA-Practice/tree/master/3518-smallest-palindromic-rearrangement-ii) |
@@ -514,6 +518,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1140-stone-game-ii](https://github.com/gurunawab/DSA-Practice/tree/master/1140-stone-game-ii) |
 | [1406-stone-game-iii](https://github.com/gurunawab/DSA-Practice/tree/master/1406-stone-game-iii) |
 | [1510-stone-game-iv](https://github.com/gurunawab/DSA-Practice/tree/master/1510-stone-game-iv) |
+| [2029-stone-game-ix](https://github.com/gurunawab/DSA-Practice/tree/master/2029-stone-game-ix) |
 ## Backtracking
 |  |
 | ------- |
@@ -610,15 +615,18 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [1140-stone-game-ii](https://github.com/gurunawab/DSA-Practice/tree/master/1140-stone-game-ii) |
 | [1510-stone-game-iv](https://github.com/gurunawab/DSA-Practice/tree/master/1510-stone-game-iv) |
+| [2029-stone-game-ix](https://github.com/gurunawab/DSA-Practice/tree/master/2029-stone-game-ix) |
 ## Zero-Sum Game
 |  |
 | ------- |
 | [1140-stone-game-ii](https://github.com/gurunawab/DSA-Practice/tree/master/1140-stone-game-ii) |
 | [1510-stone-game-iv](https://github.com/gurunawab/DSA-Practice/tree/master/1510-stone-game-iv) |
+| [2029-stone-game-ix](https://github.com/gurunawab/DSA-Practice/tree/master/2029-stone-game-ix) |
 ## Nim Game
 |  |
 | ------- |
 | [1510-stone-game-iv](https://github.com/gurunawab/DSA-Practice/tree/master/1510-stone-game-iv) |
+| [2029-stone-game-ix](https://github.com/gurunawab/DSA-Practice/tree/master/2029-stone-game-ix) |
 ## Sprague–Grundy Theorem
 |  |
 | ------- |
