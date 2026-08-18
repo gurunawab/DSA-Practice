@@ -29,6 +29,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0274-h-index](https://github.com/gurunawab/DSA-Practice/tree/master/0274-h-index) |
 | [0334-increasing-triplet-subsequence](https://github.com/gurunawab/DSA-Practice/tree/master/0334-increasing-triplet-subsequence) |
 | [0373-find-k-pairs-with-smallest-sums](https://github.com/gurunawab/DSA-Practice/tree/master/0373-find-k-pairs-with-smallest-sums) |
+| [0380-insert-delete-getrandom-o1](https://github.com/gurunawab/DSA-Practice/tree/master/0380-insert-delete-getrandom-o1) |
 | [0399-evaluate-division](https://github.com/gurunawab/DSA-Practice/tree/master/0399-evaluate-division) |
 | [0435-non-overlapping-intervals](https://github.com/gurunawab/DSA-Practice/tree/master/0435-non-overlapping-intervals) |
 | [0448-find-all-numbers-disappeared-in-an-array](https://github.com/gurunawab/DSA-Practice/tree/master/0448-find-all-numbers-disappeared-in-an-array) |
@@ -275,6 +276,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0062-unique-paths](https://github.com/gurunawab/DSA-Practice/tree/master/0062-unique-paths) |
 | [0150-evaluate-reverse-polish-notation](https://github.com/gurunawab/DSA-Practice/tree/master/0150-evaluate-reverse-polish-notation) |
 | [0189-rotate-array](https://github.com/gurunawab/DSA-Practice/tree/master/0189-rotate-array) |
+| [0380-insert-delete-getrandom-o1](https://github.com/gurunawab/DSA-Practice/tree/master/0380-insert-delete-getrandom-o1) |
 | [0486-predict-the-winner](https://github.com/gurunawab/DSA-Practice/tree/master/0486-predict-the-winner) |
 | [0628-maximum-product-of-three-numbers](https://github.com/gurunawab/DSA-Practice/tree/master/0628-maximum-product-of-three-numbers) |
 | [0633-sum-of-square-numbers](https://github.com/gurunawab/DSA-Practice/tree/master/0633-sum-of-square-numbers) |
@@ -360,6 +362,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0138-copy-list-with-random-pointer](https://github.com/gurunawab/DSA-Practice/tree/master/0138-copy-list-with-random-pointer) |
 | [0169-majority-element](https://github.com/gurunawab/DSA-Practice/tree/master/0169-majority-element) |
 | [0208-implement-trie-prefix-tree](https://github.com/gurunawab/DSA-Practice/tree/master/0208-implement-trie-prefix-tree) |
+| [0380-insert-delete-getrandom-o1](https://github.com/gurunawab/DSA-Practice/tree/master/0380-insert-delete-getrandom-o1) |
 | [0448-find-all-numbers-disappeared-in-an-array](https://github.com/gurunawab/DSA-Practice/tree/master/0448-find-all-numbers-disappeared-in-an-array) |
 | [0645-set-mismatch](https://github.com/gurunawab/DSA-Practice/tree/master/0645-set-mismatch) |
 | [1207-unique-number-of-occurrences](https://github.com/gurunawab/DSA-Practice/tree/master/1207-unique-number-of-occurrences) |
@@ -525,6 +528,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0208-implement-trie-prefix-tree](https://github.com/gurunawab/DSA-Practice/tree/master/0208-implement-trie-prefix-tree) |
 | [0232-implement-queue-using-stacks](https://github.com/gurunawab/DSA-Practice/tree/master/0232-implement-queue-using-stacks) |
+| [0380-insert-delete-getrandom-o1](https://github.com/gurunawab/DSA-Practice/tree/master/0380-insert-delete-getrandom-o1) |
 | [0901-online-stock-span](https://github.com/gurunawab/DSA-Practice/tree/master/0901-online-stock-span) |
 | [0933-number-of-recent-calls](https://github.com/gurunawab/DSA-Practice/tree/master/0933-number-of-recent-calls) |
 | [2336-smallest-number-in-infinite-set](https://github.com/gurunawab/DSA-Practice/tree/master/2336-smallest-number-in-infinite-set) |
@@ -733,4 +737,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0169-majority-element](https://github.com/gurunawab/DSA-Practice/tree/master/0169-majority-element) |
+## Randomized
+|  |
+| ------- |
+| [0380-insert-delete-getrandom-o1](https://github.com/gurunawab/DSA-Practice/tree/master/0380-insert-delete-getrandom-o1) |
 <!---LeetCode Topics End-->
