@@ -277,6 +277,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Math
 |  |
 | ------- |
+| [0013-roman-to-integer](https://github.com/gurunawab/DSA-Practice/tree/master/0013-roman-to-integer) |
 | [0062-unique-paths](https://github.com/gurunawab/DSA-Practice/tree/master/0062-unique-paths) |
 | [0150-evaluate-reverse-polish-notation](https://github.com/gurunawab/DSA-Practice/tree/master/0150-evaluate-reverse-polish-notation) |
 | [0189-rotate-array](https://github.com/gurunawab/DSA-Practice/tree/master/0189-rotate-array) |
@@ -310,6 +311,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## String
 |  |
 | ------- |
+| [0013-roman-to-integer](https://github.com/gurunawab/DSA-Practice/tree/master/0013-roman-to-integer) |
 | [0017-letter-combinations-of-a-phone-number](https://github.com/gurunawab/DSA-Practice/tree/master/0017-letter-combinations-of-a-phone-number) |
 | [0072-edit-distance](https://github.com/gurunawab/DSA-Practice/tree/master/0072-edit-distance) |
 | [0151-reverse-words-in-a-string](https://github.com/gurunawab/DSA-Practice/tree/master/0151-reverse-words-in-a-string) |
@@ -360,6 +362,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0001-two-sum](https://github.com/gurunawab/DSA-Practice/tree/master/0001-two-sum) |
+| [0013-roman-to-integer](https://github.com/gurunawab/DSA-Practice/tree/master/0013-roman-to-integer) |
 | [0017-letter-combinations-of-a-phone-number](https://github.com/gurunawab/DSA-Practice/tree/master/0017-letter-combinations-of-a-phone-number) |
 | [0041-first-missing-positive](https://github.com/gurunawab/DSA-Practice/tree/master/0041-first-missing-positive) |
 | [0106-construct-binary-tree-from-inorder-and-postorder-traversal](https://github.com/gurunawab/DSA-Practice/tree/master/0106-construct-binary-tree-from-inorder-and-postorder-traversal) |
