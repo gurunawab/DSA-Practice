@@ -8,6 +8,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0026-remove-duplicates-from-sorted-array](https://github.com/gurunawab/DSA-Practice/tree/master/0026-remove-duplicates-from-sorted-array) |
 | [0033-search-in-rotated-sorted-array](https://github.com/gurunawab/DSA-Practice/tree/master/0033-search-in-rotated-sorted-array) |
 | [0041-first-missing-positive](https://github.com/gurunawab/DSA-Practice/tree/master/0041-first-missing-positive) |
+| [0045-jump-game-ii](https://github.com/gurunawab/DSA-Practice/tree/master/0045-jump-game-ii) |
 | [0055-jump-game](https://github.com/gurunawab/DSA-Practice/tree/master/0055-jump-game) |
 | [0056-merge-intervals](https://github.com/gurunawab/DSA-Practice/tree/master/0056-merge-intervals) |
 | [0080-remove-duplicates-from-sorted-array-ii](https://github.com/gurunawab/DSA-Practice/tree/master/0080-remove-duplicates-from-sorted-array-ii) |
@@ -122,6 +123,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Dynamic Programming
 |  |
 | ------- |
+| [0045-jump-game-ii](https://github.com/gurunawab/DSA-Practice/tree/master/0045-jump-game-ii) |
 | [0055-jump-game](https://github.com/gurunawab/DSA-Practice/tree/master/0055-jump-game) |
 | [0062-unique-paths](https://github.com/gurunawab/DSA-Practice/tree/master/0062-unique-paths) |
 | [0072-edit-distance](https://github.com/gurunawab/DSA-Practice/tree/master/0072-edit-distance) |
@@ -398,6 +400,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Greedy
 |  |
 | ------- |
+| [0045-jump-game-ii](https://github.com/gurunawab/DSA-Practice/tree/master/0045-jump-game-ii) |
 | [0055-jump-game](https://github.com/gurunawab/DSA-Practice/tree/master/0055-jump-game) |
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/gurunawab/DSA-Practice/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
 | [0334-increasing-triplet-subsequence](https://github.com/gurunawab/DSA-Practice/tree/master/0334-increasing-triplet-subsequence) |
