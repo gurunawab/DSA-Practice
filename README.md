@@ -5,6 +5,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0001-two-sum](https://github.com/gurunawab/DSA-Practice/tree/master/0001-two-sum) |
+| [0014-longest-common-prefix](https://github.com/gurunawab/DSA-Practice/tree/master/0014-longest-common-prefix) |
 | [0026-remove-duplicates-from-sorted-array](https://github.com/gurunawab/DSA-Practice/tree/master/0026-remove-duplicates-from-sorted-array) |
 | [0033-search-in-rotated-sorted-array](https://github.com/gurunawab/DSA-Practice/tree/master/0033-search-in-rotated-sorted-array) |
 | [0041-first-missing-positive](https://github.com/gurunawab/DSA-Practice/tree/master/0041-first-missing-positive) |
@@ -319,6 +320,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0012-integer-to-roman](https://github.com/gurunawab/DSA-Practice/tree/master/0012-integer-to-roman) |
 | [0013-roman-to-integer](https://github.com/gurunawab/DSA-Practice/tree/master/0013-roman-to-integer) |
+| [0014-longest-common-prefix](https://github.com/gurunawab/DSA-Practice/tree/master/0014-longest-common-prefix) |
 | [0017-letter-combinations-of-a-phone-number](https://github.com/gurunawab/DSA-Practice/tree/master/0017-letter-combinations-of-a-phone-number) |
 | [0072-edit-distance](https://github.com/gurunawab/DSA-Practice/tree/master/0072-edit-distance) |
 | [0151-reverse-words-in-a-string](https://github.com/gurunawab/DSA-Practice/tree/master/0151-reverse-words-in-a-string) |
@@ -758,6 +760,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Trie
 |  |
 | ------- |
+| [0014-longest-common-prefix](https://github.com/gurunawab/DSA-Practice/tree/master/0014-longest-common-prefix) |
 | [0208-implement-trie-prefix-tree](https://github.com/gurunawab/DSA-Practice/tree/master/0208-implement-trie-prefix-tree) |
 | [1268-search-suggestions-system](https://github.com/gurunawab/DSA-Practice/tree/master/1268-search-suggestions-system) |
 ## Boyer–Moore Majority Vote Algorithm
