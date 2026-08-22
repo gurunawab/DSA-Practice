@@ -616,6 +616,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0017-letter-combinations-of-a-phone-number](https://github.com/gurunawab/DSA-Practice/tree/master/0017-letter-combinations-of-a-phone-number) |
+| [0077-combinations](https://github.com/gurunawab/DSA-Practice/tree/master/0077-combinations) |
 | [0216-combination-sum-iii](https://github.com/gurunawab/DSA-Practice/tree/master/0216-combination-sum-iii) |
 | [3348-smallest-divisible-digit-product-ii](https://github.com/gurunawab/DSA-Practice/tree/master/3348-smallest-divisible-digit-product-ii) |
 ## Linked List
