@@ -401,6 +401,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0380-insert-delete-getrandom-o1](https://github.com/gurunawab/DSA-Practice/tree/master/0380-insert-delete-getrandom-o1) |
 | [0424-longest-repeating-character-replacement](https://github.com/gurunawab/DSA-Practice/tree/master/0424-longest-repeating-character-replacement) |
 | [0448-find-all-numbers-disappeared-in-an-array](https://github.com/gurunawab/DSA-Practice/tree/master/0448-find-all-numbers-disappeared-in-an-array) |
+| [0460-lfu-cache](https://github.com/gurunawab/DSA-Practice/tree/master/0460-lfu-cache) |
 | [0645-set-mismatch](https://github.com/gurunawab/DSA-Practice/tree/master/0645-set-mismatch) |
 | [1207-unique-number-of-occurrences](https://github.com/gurunawab/DSA-Practice/tree/master/1207-unique-number-of-occurrences) |
 | [1331-rank-transform-of-an-array](https://github.com/gurunawab/DSA-Practice/tree/master/1331-rank-transform-of-an-array) |
@@ -585,6 +586,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0208-implement-trie-prefix-tree](https://github.com/gurunawab/DSA-Practice/tree/master/0208-implement-trie-prefix-tree) |
 | [0232-implement-queue-using-stacks](https://github.com/gurunawab/DSA-Practice/tree/master/0232-implement-queue-using-stacks) |
 | [0380-insert-delete-getrandom-o1](https://github.com/gurunawab/DSA-Practice/tree/master/0380-insert-delete-getrandom-o1) |
+| [0460-lfu-cache](https://github.com/gurunawab/DSA-Practice/tree/master/0460-lfu-cache) |
 | [0901-online-stock-span](https://github.com/gurunawab/DSA-Practice/tree/master/0901-online-stock-span) |
 | [0933-number-of-recent-calls](https://github.com/gurunawab/DSA-Practice/tree/master/0933-number-of-recent-calls) |
 | [2336-smallest-number-in-infinite-set](https://github.com/gurunawab/DSA-Practice/tree/master/2336-smallest-number-in-infinite-set) |
@@ -636,6 +638,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0147-insertion-sort-list](https://github.com/gurunawab/DSA-Practice/tree/master/0147-insertion-sort-list) |
 | [0206-reverse-linked-list](https://github.com/gurunawab/DSA-Practice/tree/master/0206-reverse-linked-list) |
 | [0328-odd-even-linked-list](https://github.com/gurunawab/DSA-Practice/tree/master/0328-odd-even-linked-list) |
+| [0460-lfu-cache](https://github.com/gurunawab/DSA-Practice/tree/master/0460-lfu-cache) |
 | [2095-delete-the-middle-node-of-a-linked-list](https://github.com/gurunawab/DSA-Practice/tree/master/2095-delete-the-middle-node-of-a-linked-list) |
 | [2130-maximum-twin-sum-of-a-linked-list](https://github.com/gurunawab/DSA-Practice/tree/master/2130-maximum-twin-sum-of-a-linked-list) |
 ## Quicksort
@@ -859,4 +862,5 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0146-lru-cache](https://github.com/gurunawab/DSA-Practice/tree/master/0146-lru-cache) |
+| [0460-lfu-cache](https://github.com/gurunawab/DSA-Practice/tree/master/0460-lfu-cache) |
 <!---LeetCode Topics End-->
