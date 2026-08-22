@@ -336,6 +336,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0399-evaluate-division](https://github.com/gurunawab/DSA-Practice/tree/master/0399-evaluate-division) |
 | [0443-string-compression](https://github.com/gurunawab/DSA-Practice/tree/master/0443-string-compression) |
 | [0459-repeated-substring-pattern](https://github.com/gurunawab/DSA-Practice/tree/master/0459-repeated-substring-pattern) |
+| [0481-magical-string](https://github.com/gurunawab/DSA-Practice/tree/master/0481-magical-string) |
 | [0482-license-key-formatting](https://github.com/gurunawab/DSA-Practice/tree/master/0482-license-key-formatting) |
 | [0520-detect-capital](https://github.com/gurunawab/DSA-Practice/tree/master/0520-detect-capital) |
 | [0649-dota2-senate](https://github.com/gurunawab/DSA-Practice/tree/master/0649-dota2-senate) |
@@ -421,6 +422,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0345-reverse-vowels-of-a-string](https://github.com/gurunawab/DSA-Practice/tree/master/0345-reverse-vowels-of-a-string) |
 | [0392-is-subsequence](https://github.com/gurunawab/DSA-Practice/tree/master/0392-is-subsequence) |
 | [0443-string-compression](https://github.com/gurunawab/DSA-Practice/tree/master/0443-string-compression) |
+| [0481-magical-string](https://github.com/gurunawab/DSA-Practice/tree/master/0481-magical-string) |
 | [0633-sum-of-square-numbers](https://github.com/gurunawab/DSA-Practice/tree/master/0633-sum-of-square-numbers) |
 | [1768-merge-strings-alternately](https://github.com/gurunawab/DSA-Practice/tree/master/1768-merge-strings-alternately) |
 | [2095-delete-the-middle-node-of-a-linked-list](https://github.com/gurunawab/DSA-Practice/tree/master/2095-delete-the-middle-node-of-a-linked-list) |
