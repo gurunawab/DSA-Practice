@@ -380,6 +380,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0041-first-missing-positive](https://github.com/gurunawab/DSA-Practice/tree/master/0041-first-missing-positive) |
 | [0106-construct-binary-tree-from-inorder-and-postorder-traversal](https://github.com/gurunawab/DSA-Practice/tree/master/0106-construct-binary-tree-from-inorder-and-postorder-traversal) |
 | [0138-copy-list-with-random-pointer](https://github.com/gurunawab/DSA-Practice/tree/master/0138-copy-list-with-random-pointer) |
+| [0141-linked-list-cycle](https://github.com/gurunawab/DSA-Practice/tree/master/0141-linked-list-cycle) |
 | [0169-majority-element](https://github.com/gurunawab/DSA-Practice/tree/master/0169-majority-element) |
 | [0208-implement-trie-prefix-tree](https://github.com/gurunawab/DSA-Practice/tree/master/0208-implement-trie-prefix-tree) |
 | [0380-insert-delete-getrandom-o1](https://github.com/gurunawab/DSA-Practice/tree/master/0380-insert-delete-getrandom-o1) |
@@ -411,6 +412,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0042-trapping-rain-water](https://github.com/gurunawab/DSA-Practice/tree/master/0042-trapping-rain-water) |
 | [0080-remove-duplicates-from-sorted-array-ii](https://github.com/gurunawab/DSA-Practice/tree/master/0080-remove-duplicates-from-sorted-array-ii) |
 | [0088-merge-sorted-array](https://github.com/gurunawab/DSA-Practice/tree/master/0088-merge-sorted-array) |
+| [0141-linked-list-cycle](https://github.com/gurunawab/DSA-Practice/tree/master/0141-linked-list-cycle) |
 | [0151-reverse-words-in-a-string](https://github.com/gurunawab/DSA-Practice/tree/master/0151-reverse-words-in-a-string) |
 | [0189-rotate-array](https://github.com/gurunawab/DSA-Practice/tree/master/0189-rotate-array) |
 | [0345-reverse-vowels-of-a-string](https://github.com/gurunawab/DSA-Practice/tree/master/0345-reverse-vowels-of-a-string) |
@@ -599,6 +601,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0083-remove-duplicates-from-sorted-list](https://github.com/gurunawab/DSA-Practice/tree/master/0083-remove-duplicates-from-sorted-list) |
 | [0138-copy-list-with-random-pointer](https://github.com/gurunawab/DSA-Practice/tree/master/0138-copy-list-with-random-pointer) |
+| [0141-linked-list-cycle](https://github.com/gurunawab/DSA-Practice/tree/master/0141-linked-list-cycle) |
 | [0147-insertion-sort-list](https://github.com/gurunawab/DSA-Practice/tree/master/0147-insertion-sort-list) |
 | [0206-reverse-linked-list](https://github.com/gurunawab/DSA-Practice/tree/master/0206-reverse-linked-list) |
 | [0328-odd-even-linked-list](https://github.com/gurunawab/DSA-Practice/tree/master/0328-odd-even-linked-list) |
@@ -788,4 +791,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0028-find-the-index-of-the-first-occurrence-in-a-string](https://github.com/gurunawab/DSA-Practice/tree/master/0028-find-the-index-of-the-first-occurrence-in-a-string) |
+## Floyd's Cycle Finding Algorithm
+|  |
+| ------- |
+| [0141-linked-list-cycle](https://github.com/gurunawab/DSA-Practice/tree/master/0141-linked-list-cycle) |
 <!---LeetCode Topics End-->
