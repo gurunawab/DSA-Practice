@@ -867,4 +867,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0146-lru-cache](https://github.com/gurunawab/DSA-Practice/tree/master/0146-lru-cache) |
 | [0460-lfu-cache](https://github.com/gurunawab/DSA-Practice/tree/master/0460-lfu-cache) |
+## Database
+|  |
+| ------- |
+| [0175-combine-two-tables](https://github.com/gurunawab/DSA-Practice/tree/master/0175-combine-two-tables) |
 <!---LeetCode Topics End-->
