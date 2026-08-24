@@ -84,6 +84,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1664-ways-to-make-a-fair-array](https://github.com/gurunawab/DSA-Practice/tree/master/1664-ways-to-make-a-fair-array) |
 | [1700-number-of-students-unable-to-eat-lunch](https://github.com/gurunawab/DSA-Practice/tree/master/1700-number-of-students-unable-to-eat-lunch) |
 | [1732-find-the-highest-altitude](https://github.com/gurunawab/DSA-Practice/tree/master/1732-find-the-highest-altitude) |
+| [1872-stone-game-viii](https://github.com/gurunawab/DSA-Practice/tree/master/1872-stone-game-viii) |
 | [1887-reduction-operations-to-make-the-array-elements-equal](https://github.com/gurunawab/DSA-Practice/tree/master/1887-reduction-operations-to-make-the-array-elements-equal) |
 | [1926-nearest-exit-from-entrance-in-maze](https://github.com/gurunawab/DSA-Practice/tree/master/1926-nearest-exit-from-entrance-in-maze) |
 | [1929-concatenation-of-array](https://github.com/gurunawab/DSA-Practice/tree/master/1929-concatenation-of-array) |
@@ -161,6 +162,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1493-longest-subarray-of-1s-after-deleting-one-element](https://github.com/gurunawab/DSA-Practice/tree/master/1493-longest-subarray-of-1s-after-deleting-one-element) |
 | [1510-stone-game-iv](https://github.com/gurunawab/DSA-Practice/tree/master/1510-stone-game-iv) |
 | [1563-stone-game-v](https://github.com/gurunawab/DSA-Practice/tree/master/1563-stone-game-v) |
+| [1872-stone-game-viii](https://github.com/gurunawab/DSA-Practice/tree/master/1872-stone-game-viii) |
 | [3302-find-the-lexicographically-smallest-valid-sequence](https://github.com/gurunawab/DSA-Practice/tree/master/3302-find-the-lexicographically-smallest-valid-sequence) |
 | [3336-find-the-number-of-subsequences-with-equal-gcd](https://github.com/gurunawab/DSA-Practice/tree/master/3336-find-the-number-of-subsequences-with-equal-gcd) |
 | [3534-path-existence-queries-in-a-graph-ii](https://github.com/gurunawab/DSA-Practice/tree/master/3534-path-existence-queries-in-a-graph-ii) |
@@ -303,6 +305,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1406-stone-game-iii](https://github.com/gurunawab/DSA-Practice/tree/master/1406-stone-game-iii) |
 | [1510-stone-game-iv](https://github.com/gurunawab/DSA-Practice/tree/master/1510-stone-game-iv) |
 | [1563-stone-game-v](https://github.com/gurunawab/DSA-Practice/tree/master/1563-stone-game-v) |
+| [1872-stone-game-viii](https://github.com/gurunawab/DSA-Practice/tree/master/1872-stone-game-viii) |
 | [1927-sum-game](https://github.com/gurunawab/DSA-Practice/tree/master/1927-sum-game) |
 | [1979-find-greatest-common-divisor-of-array](https://github.com/gurunawab/DSA-Practice/tree/master/1979-find-greatest-common-divisor-of-array) |
 | [2029-stone-game-ix](https://github.com/gurunawab/DSA-Practice/tree/master/2029-stone-game-ix) |
@@ -383,6 +386,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1590-make-sum-divisible-by-p](https://github.com/gurunawab/DSA-Practice/tree/master/1590-make-sum-divisible-by-p) |
 | [1664-ways-to-make-a-fair-array](https://github.com/gurunawab/DSA-Practice/tree/master/1664-ways-to-make-a-fair-array) |
 | [1732-find-the-highest-altitude](https://github.com/gurunawab/DSA-Practice/tree/master/1732-find-the-highest-altitude) |
+| [1872-stone-game-viii](https://github.com/gurunawab/DSA-Practice/tree/master/1872-stone-game-viii) |
 | [3312-sorted-gcd-pair-queries](https://github.com/gurunawab/DSA-Practice/tree/master/3312-sorted-gcd-pair-queries) |
 | [3756-concatenate-non-zero-digits-and-multiply-by-sum-ii](https://github.com/gurunawab/DSA-Practice/tree/master/3756-concatenate-non-zero-digits-and-multiply-by-sum-ii) |
 ## Hash Table
@@ -620,6 +624,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1406-stone-game-iii](https://github.com/gurunawab/DSA-Practice/tree/master/1406-stone-game-iii) |
 | [1510-stone-game-iv](https://github.com/gurunawab/DSA-Practice/tree/master/1510-stone-game-iv) |
 | [1563-stone-game-v](https://github.com/gurunawab/DSA-Practice/tree/master/1563-stone-game-v) |
+| [1872-stone-game-viii](https://github.com/gurunawab/DSA-Practice/tree/master/1872-stone-game-viii) |
 | [1927-sum-game](https://github.com/gurunawab/DSA-Practice/tree/master/1927-sum-game) |
 | [2029-stone-game-ix](https://github.com/gurunawab/DSA-Practice/tree/master/2029-stone-game-ix) |
 ## Backtracking
@@ -726,12 +731,14 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [1140-stone-game-ii](https://github.com/gurunawab/DSA-Practice/tree/master/1140-stone-game-ii) |
 | [1510-stone-game-iv](https://github.com/gurunawab/DSA-Practice/tree/master/1510-stone-game-iv) |
+| [1872-stone-game-viii](https://github.com/gurunawab/DSA-Practice/tree/master/1872-stone-game-viii) |
 | [2029-stone-game-ix](https://github.com/gurunawab/DSA-Practice/tree/master/2029-stone-game-ix) |
 ## Zero-Sum Game
 |  |
 | ------- |
 | [1140-stone-game-ii](https://github.com/gurunawab/DSA-Practice/tree/master/1140-stone-game-ii) |
 | [1510-stone-game-iv](https://github.com/gurunawab/DSA-Practice/tree/master/1510-stone-game-iv) |
+| [1872-stone-game-viii](https://github.com/gurunawab/DSA-Practice/tree/master/1872-stone-game-viii) |
 | [2029-stone-game-ix](https://github.com/gurunawab/DSA-Practice/tree/master/2029-stone-game-ix) |
 ## Nim Game
 |  |
