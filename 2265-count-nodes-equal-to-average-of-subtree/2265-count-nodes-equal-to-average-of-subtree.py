@@ -6,11 +6,23 @@
 #         self.right = right
 class Solution:
     def averageOfSubtree(self, root: TreeNode) -> int:
-        def dfs(node):
-            if not node: return 0, 0, 0  # (sum, count, matching_nodes)
-            l_sum, l_cnt, l_ans = dfs(node.left)
-            r_sum, r_cnt, r_ans = dfs(node.right)
-            s, c = l_sum + r_sum + node.val, l_cnt + r_cnt + 1
-            return s, c, l_ans + r_ans + (s // c == node.val)
-        
-        return dfs(root)[2]
+        self.matching_nodes = 0
+
+        def traverse(node):
+            if not node:
+                return (0, 0)  # (sum, count)
+
+            left_sum, left_count = traverse(node.left)
+            right_sum, right_count = traverse(node.right)
+
+            current_sum = left_sum + right_sum + node.val
+            current_count = left_count + right_count + 1
+
+            # Check integer division (rounded down)
+            if current_sum // current_count == node.val:
+                self.matching_nodes += 1
+
+            return (current_sum, current_count)
+
+        traverse(root)
+        return self.matching_nodes
