@@ -319,6 +319,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0486-predict-the-winner](https://github.com/gurunawab/DSA-Practice/tree/master/0486-predict-the-winner) |
 | [0628-maximum-product-of-three-numbers](https://github.com/gurunawab/DSA-Practice/tree/master/0628-maximum-product-of-three-numbers) |
 | [0633-sum-of-square-numbers](https://github.com/gurunawab/DSA-Practice/tree/master/0633-sum-of-square-numbers) |
+| [0836-rectangle-overlap](https://github.com/gurunawab/DSA-Practice/tree/master/0836-rectangle-overlap) |
 | [0877-stone-game](https://github.com/gurunawab/DSA-Practice/tree/master/0877-stone-game) |
 | [0932-beautiful-array](https://github.com/gurunawab/DSA-Practice/tree/master/0932-beautiful-array) |
 | [1071-greatest-common-divisor-of-strings](https://github.com/gurunawab/DSA-Practice/tree/master/1071-greatest-common-divisor-of-strings) |
@@ -942,4 +943,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0181-employees-earning-more-than-their-managers](https://github.com/gurunawab/DSA-Practice/tree/master/0181-employees-earning-more-than-their-managers) |
 | [0584-find-customer-referee](https://github.com/gurunawab/DSA-Practice/tree/master/0584-find-customer-referee) |
 | [0620-not-boring-movies](https://github.com/gurunawab/DSA-Practice/tree/master/0620-not-boring-movies) |
+## Geometry
+|  |
+| ------- |
+| [0836-rectangle-overlap](https://github.com/gurunawab/DSA-Practice/tree/master/0836-rectangle-overlap) |
 <!---LeetCode Topics End-->
