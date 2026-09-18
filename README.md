@@ -299,6 +299,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1331-rank-transform-of-an-array](https://github.com/gurunawab/DSA-Practice/tree/master/1331-rank-transform-of-an-array) |
 | [1365-how-many-numbers-are-smaller-than-the-current-number](https://github.com/gurunawab/DSA-Practice/tree/master/1365-how-many-numbers-are-smaller-than-the-current-number) |
 | [1464-maximum-product-of-two-elements-in-an-array](https://github.com/gurunawab/DSA-Practice/tree/master/1464-maximum-product-of-two-elements-in-an-array) |
+| [1520-maximum-number-of-non-overlapping-substrings](https://github.com/gurunawab/DSA-Practice/tree/master/1520-maximum-number-of-non-overlapping-substrings) |
 | [1657-determine-if-two-strings-are-close](https://github.com/gurunawab/DSA-Practice/tree/master/1657-determine-if-two-strings-are-close) |
 | [1887-reduction-operations-to-make-the-array-elements-equal](https://github.com/gurunawab/DSA-Practice/tree/master/1887-reduction-operations-to-make-the-array-elements-equal) |
 | [2300-successful-pairs-of-spells-and-potions](https://github.com/gurunawab/DSA-Practice/tree/master/2300-successful-pairs-of-spells-and-potions) |
@@ -394,6 +395,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1358-number-of-substrings-containing-all-three-characters](https://github.com/gurunawab/DSA-Practice/tree/master/1358-number-of-substrings-containing-all-three-characters) |
 | [1392-longest-happy-prefix](https://github.com/gurunawab/DSA-Practice/tree/master/1392-longest-happy-prefix) |
 | [1415-the-k-th-lexicographical-string-of-all-happy-strings-of-length-n](https://github.com/gurunawab/DSA-Practice/tree/master/1415-the-k-th-lexicographical-string-of-all-happy-strings-of-length-n) |
+| [1520-maximum-number-of-non-overlapping-substrings](https://github.com/gurunawab/DSA-Practice/tree/master/1520-maximum-number-of-non-overlapping-substrings) |
 | [1545-find-kth-bit-in-nth-binary-string](https://github.com/gurunawab/DSA-Practice/tree/master/1545-find-kth-bit-in-nth-binary-string) |
 | [1657-determine-if-two-strings-are-close](https://github.com/gurunawab/DSA-Practice/tree/master/1657-determine-if-two-strings-are-close) |
 | [1768-merge-strings-alternately](https://github.com/gurunawab/DSA-Practice/tree/master/1768-merge-strings-alternately) |
@@ -457,6 +459,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1365-how-many-numbers-are-smaller-than-the-current-number](https://github.com/gurunawab/DSA-Practice/tree/master/1365-how-many-numbers-are-smaller-than-the-current-number) |
 | [1386-cinema-seat-allocation](https://github.com/gurunawab/DSA-Practice/tree/master/1386-cinema-seat-allocation) |
 | [1477-find-two-non-overlapping-sub-arrays-each-with-target-sum](https://github.com/gurunawab/DSA-Practice/tree/master/1477-find-two-non-overlapping-sub-arrays-each-with-target-sum) |
+| [1520-maximum-number-of-non-overlapping-substrings](https://github.com/gurunawab/DSA-Practice/tree/master/1520-maximum-number-of-non-overlapping-substrings) |
 | [1590-make-sum-divisible-by-p](https://github.com/gurunawab/DSA-Practice/tree/master/1590-make-sum-divisible-by-p) |
 | [1657-determine-if-two-strings-are-close](https://github.com/gurunawab/DSA-Practice/tree/master/1657-determine-if-two-strings-are-close) |
 | [2196-create-binary-tree-from-descriptions](https://github.com/gurunawab/DSA-Practice/tree/master/2196-create-binary-tree-from-descriptions) |
@@ -519,6 +522,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0714-best-time-to-buy-and-sell-stock-with-transaction-fee](https://github.com/gurunawab/DSA-Practice/tree/master/0714-best-time-to-buy-and-sell-stock-with-transaction-fee) |
 | [1081-smallest-subsequence-of-distinct-characters](https://github.com/gurunawab/DSA-Practice/tree/master/1081-smallest-subsequence-of-distinct-characters) |
 | [1386-cinema-seat-allocation](https://github.com/gurunawab/DSA-Practice/tree/master/1386-cinema-seat-allocation) |
+| [1520-maximum-number-of-non-overlapping-substrings](https://github.com/gurunawab/DSA-Practice/tree/master/1520-maximum-number-of-non-overlapping-substrings) |
 | [1927-sum-game](https://github.com/gurunawab/DSA-Practice/tree/master/1927-sum-game) |
 | [2029-stone-game-ix](https://github.com/gurunawab/DSA-Practice/tree/master/2029-stone-game-ix) |
 | [2091-removing-minimum-and-maximum-from-array](https://github.com/gurunawab/DSA-Practice/tree/master/2091-removing-minimum-and-maximum-from-array) |
