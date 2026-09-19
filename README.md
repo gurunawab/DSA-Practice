@@ -50,6 +50,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0645-set-mismatch](https://github.com/gurunawab/DSA-Practice/tree/master/0645-set-mismatch) |
 | [0704-binary-search](https://github.com/gurunawab/DSA-Practice/tree/master/0704-binary-search) |
 | [0714-best-time-to-buy-and-sell-stock-with-transaction-fee](https://github.com/gurunawab/DSA-Practice/tree/master/0714-best-time-to-buy-and-sell-stock-with-transaction-fee) |
+| [0720-longest-word-in-dictionary](https://github.com/gurunawab/DSA-Practice/tree/master/0720-longest-word-in-dictionary) |
 | [0724-find-pivot-index](https://github.com/gurunawab/DSA-Practice/tree/master/0724-find-pivot-index) |
 | [0731-my-calendar-ii](https://github.com/gurunawab/DSA-Practice/tree/master/0731-my-calendar-ii) |
 | [0735-asteroid-collision](https://github.com/gurunawab/DSA-Practice/tree/master/0735-asteroid-collision) |
@@ -298,6 +299,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0452-minimum-number-of-arrows-to-burst-balloons](https://github.com/gurunawab/DSA-Practice/tree/master/0452-minimum-number-of-arrows-to-burst-balloons) |
 | [0628-maximum-product-of-three-numbers](https://github.com/gurunawab/DSA-Practice/tree/master/0628-maximum-product-of-three-numbers) |
 | [0645-set-mismatch](https://github.com/gurunawab/DSA-Practice/tree/master/0645-set-mismatch) |
+| [0720-longest-word-in-dictionary](https://github.com/gurunawab/DSA-Practice/tree/master/0720-longest-word-in-dictionary) |
 | [0912-sort-an-array](https://github.com/gurunawab/DSA-Practice/tree/master/0912-sort-an-array) |
 | [1200-minimum-absolute-difference](https://github.com/gurunawab/DSA-Practice/tree/master/1200-minimum-absolute-difference) |
 | [1268-search-suggestions-system](https://github.com/gurunawab/DSA-Practice/tree/master/1268-search-suggestions-system) |
@@ -392,6 +394,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0520-detect-capital](https://github.com/gurunawab/DSA-Practice/tree/master/0520-detect-capital) |
 | [0649-dota2-senate](https://github.com/gurunawab/DSA-Practice/tree/master/0649-dota2-senate) |
 | [0686-repeated-string-match](https://github.com/gurunawab/DSA-Practice/tree/master/0686-repeated-string-match) |
+| [0720-longest-word-in-dictionary](https://github.com/gurunawab/DSA-Practice/tree/master/0720-longest-word-in-dictionary) |
 | [0796-rotate-string](https://github.com/gurunawab/DSA-Practice/tree/master/0796-rotate-string) |
 | [0831-masking-personal-information](https://github.com/gurunawab/DSA-Practice/tree/master/0831-masking-personal-information) |
 | [0940-distinct-subsequences-ii](https://github.com/gurunawab/DSA-Practice/tree/master/0940-distinct-subsequences-ii) |
@@ -461,6 +464,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0448-find-all-numbers-disappeared-in-an-array](https://github.com/gurunawab/DSA-Practice/tree/master/0448-find-all-numbers-disappeared-in-an-array) |
 | [0460-lfu-cache](https://github.com/gurunawab/DSA-Practice/tree/master/0460-lfu-cache) |
 | [0645-set-mismatch](https://github.com/gurunawab/DSA-Practice/tree/master/0645-set-mismatch) |
+| [0720-longest-word-in-dictionary](https://github.com/gurunawab/DSA-Practice/tree/master/0720-longest-word-in-dictionary) |
 | [1207-unique-number-of-occurrences](https://github.com/gurunawab/DSA-Practice/tree/master/1207-unique-number-of-occurrences) |
 | [1331-rank-transform-of-an-array](https://github.com/gurunawab/DSA-Practice/tree/master/1331-rank-transform-of-an-array) |
 | [1358-number-of-substrings-containing-all-three-characters](https://github.com/gurunawab/DSA-Practice/tree/master/1358-number-of-substrings-containing-all-three-characters) |
@@ -916,6 +920,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0014-longest-common-prefix](https://github.com/gurunawab/DSA-Practice/tree/master/0014-longest-common-prefix) |
 | [0208-implement-trie-prefix-tree](https://github.com/gurunawab/DSA-Practice/tree/master/0208-implement-trie-prefix-tree) |
+| [0720-longest-word-in-dictionary](https://github.com/gurunawab/DSA-Practice/tree/master/0720-longest-word-in-dictionary) |
 | [1268-search-suggestions-system](https://github.com/gurunawab/DSA-Practice/tree/master/1268-search-suggestions-system) |
 ## Boyer–Moore Majority Vote Algorithm
 |  |
