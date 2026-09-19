@@ -101,6 +101,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2352-equal-row-and-column-pairs](https://github.com/gurunawab/DSA-Practice/tree/master/2352-equal-row-and-column-pairs) |
 | [2462-total-cost-to-hire-k-workers](https://github.com/gurunawab/DSA-Practice/tree/master/2462-total-cost-to-hire-k-workers) |
 | [2542-maximum-subsequence-score](https://github.com/gurunawab/DSA-Practice/tree/master/2542-maximum-subsequence-score) |
+| [2940-find-building-where-alice-and-bob-can-meet](https://github.com/gurunawab/DSA-Practice/tree/master/2940-find-building-where-alice-and-bob-can-meet) |
 | [2948-make-lexicographically-smallest-array-by-swapping-elements](https://github.com/gurunawab/DSA-Practice/tree/master/2948-make-lexicographically-smallest-array-by-swapping-elements) |
 | [2958-length-of-longest-subarray-with-at-most-k-frequency](https://github.com/gurunawab/DSA-Practice/tree/master/2958-length-of-longest-subarray-with-at-most-k-frequency) |
 | [2996-smallest-missing-integer-greater-than-sequential-prefix-sum](https://github.com/gurunawab/DSA-Practice/tree/master/2996-smallest-missing-integer-greater-than-sequential-prefix-sum) |
@@ -142,6 +143,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1477-find-two-non-overlapping-sub-arrays-each-with-target-sum](https://github.com/gurunawab/DSA-Practice/tree/master/1477-find-two-non-overlapping-sub-arrays-each-with-target-sum) |
 | [2223-sum-of-scores-of-built-strings](https://github.com/gurunawab/DSA-Practice/tree/master/2223-sum-of-scores-of-built-strings) |
 | [2300-successful-pairs-of-spells-and-potions](https://github.com/gurunawab/DSA-Practice/tree/master/2300-successful-pairs-of-spells-and-potions) |
+| [2940-find-building-where-alice-and-bob-can-meet](https://github.com/gurunawab/DSA-Practice/tree/master/2940-find-building-where-alice-and-bob-can-meet) |
 | [3116-kth-smallest-amount-with-single-denomination-combination](https://github.com/gurunawab/DSA-Practice/tree/master/3116-kth-smallest-amount-with-single-denomination-combination) |
 | [3312-sorted-gcd-pair-queries](https://github.com/gurunawab/DSA-Practice/tree/master/3312-sorted-gcd-pair-queries) |
 | [3414-maximum-score-of-non-overlapping-intervals](https://github.com/gurunawab/DSA-Practice/tree/master/3414-maximum-score-of-non-overlapping-intervals) |
@@ -218,6 +220,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2336-smallest-number-in-infinite-set](https://github.com/gurunawab/DSA-Practice/tree/master/2336-smallest-number-in-infinite-set) |
 | [2462-total-cost-to-hire-k-workers](https://github.com/gurunawab/DSA-Practice/tree/master/2462-total-cost-to-hire-k-workers) |
 | [2542-maximum-subsequence-score](https://github.com/gurunawab/DSA-Practice/tree/master/2542-maximum-subsequence-score) |
+| [2940-find-building-where-alice-and-bob-can-meet](https://github.com/gurunawab/DSA-Practice/tree/master/2940-find-building-where-alice-and-bob-can-meet) |
 | [3620-network-recovery-pathways](https://github.com/gurunawab/DSA-Practice/tree/master/3620-network-recovery-pathways) |
 ## Shortest Path
 |  |
@@ -621,6 +624,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1700-number-of-students-unable-to-eat-lunch](https://github.com/gurunawab/DSA-Practice/tree/master/1700-number-of-students-unable-to-eat-lunch) |
 | [2130-maximum-twin-sum-of-a-linked-list](https://github.com/gurunawab/DSA-Practice/tree/master/2130-maximum-twin-sum-of-a-linked-list) |
 | [2390-removing-stars-from-a-string](https://github.com/gurunawab/DSA-Practice/tree/master/2390-removing-stars-from-a-string) |
+| [2940-find-building-where-alice-and-bob-can-meet](https://github.com/gurunawab/DSA-Practice/tree/master/2940-find-building-where-alice-and-bob-can-meet) |
 ## Monotonic Stack
 |  |
 | ------- |
@@ -630,12 +634,14 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0901-online-stock-span](https://github.com/gurunawab/DSA-Practice/tree/master/0901-online-stock-span) |
 | [1081-smallest-subsequence-of-distinct-characters](https://github.com/gurunawab/DSA-Practice/tree/master/1081-smallest-subsequence-of-distinct-characters) |
 | [1475-final-prices-with-a-special-discount-in-a-shop](https://github.com/gurunawab/DSA-Practice/tree/master/1475-final-prices-with-a-special-discount-in-a-shop) |
+| [2940-find-building-where-alice-and-bob-can-meet](https://github.com/gurunawab/DSA-Practice/tree/master/2940-find-building-where-alice-and-bob-can-meet) |
 ## Segment Tree
 |  |
 | ------- |
 | [0307-range-sum-query-mutable](https://github.com/gurunawab/DSA-Practice/tree/master/0307-range-sum-query-mutable) |
 | [0493-reverse-pairs](https://github.com/gurunawab/DSA-Practice/tree/master/0493-reverse-pairs) |
 | [2213-longest-substring-of-one-repeating-character](https://github.com/gurunawab/DSA-Practice/tree/master/2213-longest-substring-of-one-repeating-character) |
+| [2940-find-building-where-alice-and-bob-can-meet](https://github.com/gurunawab/DSA-Practice/tree/master/2940-find-building-where-alice-and-bob-can-meet) |
 | [3501-maximize-active-section-with-trade-ii](https://github.com/gurunawab/DSA-Practice/tree/master/3501-maximize-active-section-with-trade-ii) |
 ## Counting Sort
 |  |
@@ -797,6 +803,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0307-range-sum-query-mutable](https://github.com/gurunawab/DSA-Practice/tree/master/0307-range-sum-query-mutable) |
 | [0493-reverse-pairs](https://github.com/gurunawab/DSA-Practice/tree/master/0493-reverse-pairs) |
+| [2940-find-building-where-alice-and-bob-can-meet](https://github.com/gurunawab/DSA-Practice/tree/master/2940-find-building-where-alice-and-bob-can-meet) |
 ## Ordered Set
 |  |
 | ------- |
