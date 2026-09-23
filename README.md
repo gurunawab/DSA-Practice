@@ -86,6 +86,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1563-stone-game-v](https://github.com/gurunawab/DSA-Practice/tree/master/1563-stone-game-v) |
 | [1584-min-cost-to-connect-all-points](https://github.com/gurunawab/DSA-Practice/tree/master/1584-min-cost-to-connect-all-points) |
 | [1590-make-sum-divisible-by-p](https://github.com/gurunawab/DSA-Practice/tree/master/1590-make-sum-divisible-by-p) |
+| [1658-minimum-operations-to-reduce-x-to-zero](https://github.com/gurunawab/DSA-Practice/tree/master/1658-minimum-operations-to-reduce-x-to-zero) |
 | [1664-ways-to-make-a-fair-array](https://github.com/gurunawab/DSA-Practice/tree/master/1664-ways-to-make-a-fair-array) |
 | [1700-number-of-students-unable-to-eat-lunch](https://github.com/gurunawab/DSA-Practice/tree/master/1700-number-of-students-unable-to-eat-lunch) |
 | [1732-find-the-highest-altitude](https://github.com/gurunawab/DSA-Practice/tree/master/1732-find-the-highest-altitude) |
@@ -147,6 +148,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1004-max-consecutive-ones-iii](https://github.com/gurunawab/DSA-Practice/tree/master/1004-max-consecutive-ones-iii) |
 | [1268-search-suggestions-system](https://github.com/gurunawab/DSA-Practice/tree/master/1268-search-suggestions-system) |
 | [1477-find-two-non-overlapping-sub-arrays-each-with-target-sum](https://github.com/gurunawab/DSA-Practice/tree/master/1477-find-two-non-overlapping-sub-arrays-each-with-target-sum) |
+| [1658-minimum-operations-to-reduce-x-to-zero](https://github.com/gurunawab/DSA-Practice/tree/master/1658-minimum-operations-to-reduce-x-to-zero) |
 | [2223-sum-of-scores-of-built-strings](https://github.com/gurunawab/DSA-Practice/tree/master/2223-sum-of-scores-of-built-strings) |
 | [2300-successful-pairs-of-spells-and-potions](https://github.com/gurunawab/DSA-Practice/tree/master/2300-successful-pairs-of-spells-and-potions) |
 | [2940-find-building-where-alice-and-bob-can-meet](https://github.com/gurunawab/DSA-Practice/tree/master/2940-find-building-where-alice-and-bob-can-meet) |
@@ -448,6 +450,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1140-stone-game-ii](https://github.com/gurunawab/DSA-Practice/tree/master/1140-stone-game-ii) |
 | [1590-make-sum-divisible-by-p](https://github.com/gurunawab/DSA-Practice/tree/master/1590-make-sum-divisible-by-p) |
 | [1621-number-of-sets-of-k-non-overlapping-line-segments](https://github.com/gurunawab/DSA-Practice/tree/master/1621-number-of-sets-of-k-non-overlapping-line-segments) |
+| [1658-minimum-operations-to-reduce-x-to-zero](https://github.com/gurunawab/DSA-Practice/tree/master/1658-minimum-operations-to-reduce-x-to-zero) |
 | [1664-ways-to-make-a-fair-array](https://github.com/gurunawab/DSA-Practice/tree/master/1664-ways-to-make-a-fair-array) |
 | [1732-find-the-highest-altitude](https://github.com/gurunawab/DSA-Practice/tree/master/1732-find-the-highest-altitude) |
 | [1872-stone-game-viii](https://github.com/gurunawab/DSA-Practice/tree/master/1872-stone-game-viii) |
@@ -485,6 +488,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1520-maximum-number-of-non-overlapping-substrings](https://github.com/gurunawab/DSA-Practice/tree/master/1520-maximum-number-of-non-overlapping-substrings) |
 | [1590-make-sum-divisible-by-p](https://github.com/gurunawab/DSA-Practice/tree/master/1590-make-sum-divisible-by-p) |
 | [1657-determine-if-two-strings-are-close](https://github.com/gurunawab/DSA-Practice/tree/master/1657-determine-if-two-strings-are-close) |
+| [1658-minimum-operations-to-reduce-x-to-zero](https://github.com/gurunawab/DSA-Practice/tree/master/1658-minimum-operations-to-reduce-x-to-zero) |
 | [2196-create-binary-tree-from-descriptions](https://github.com/gurunawab/DSA-Practice/tree/master/2196-create-binary-tree-from-descriptions) |
 | [2215-find-the-difference-of-two-arrays](https://github.com/gurunawab/DSA-Practice/tree/master/2215-find-the-difference-of-two-arrays) |
 | [2336-smallest-number-in-infinite-set](https://github.com/gurunawab/DSA-Practice/tree/master/2336-smallest-number-in-infinite-set) |
@@ -880,6 +884,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1358-number-of-substrings-containing-all-three-characters](https://github.com/gurunawab/DSA-Practice/tree/master/1358-number-of-substrings-containing-all-three-characters) |
 | [1477-find-two-non-overlapping-sub-arrays-each-with-target-sum](https://github.com/gurunawab/DSA-Practice/tree/master/1477-find-two-non-overlapping-sub-arrays-each-with-target-sum) |
 | [1493-longest-subarray-of-1s-after-deleting-one-element](https://github.com/gurunawab/DSA-Practice/tree/master/1493-longest-subarray-of-1s-after-deleting-one-element) |
+| [1658-minimum-operations-to-reduce-x-to-zero](https://github.com/gurunawab/DSA-Practice/tree/master/1658-minimum-operations-to-reduce-x-to-zero) |
 | [2904-shortest-and-lexicographically-smallest-beautiful-string](https://github.com/gurunawab/DSA-Practice/tree/master/2904-shortest-and-lexicographically-smallest-beautiful-string) |
 | [2958-length-of-longest-subarray-with-at-most-k-frequency](https://github.com/gurunawab/DSA-Practice/tree/master/2958-length-of-longest-subarray-with-at-most-k-frequency) |
 | [3090-maximum-length-substring-with-two-occurrences](https://github.com/gurunawab/DSA-Practice/tree/master/3090-maximum-length-substring-with-two-occurrences) |
