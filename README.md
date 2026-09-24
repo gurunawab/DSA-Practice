@@ -113,6 +113,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2958-length-of-longest-subarray-with-at-most-k-frequency](https://github.com/gurunawab/DSA-Practice/tree/master/2958-length-of-longest-subarray-with-at-most-k-frequency) |
 | [2996-smallest-missing-integer-greater-than-sequential-prefix-sum](https://github.com/gurunawab/DSA-Practice/tree/master/2996-smallest-missing-integer-greater-than-sequential-prefix-sum) |
 | [3069-distribute-elements-into-two-arrays-i](https://github.com/gurunawab/DSA-Practice/tree/master/3069-distribute-elements-into-two-arrays-i) |
+| [3115-maximum-prime-difference](https://github.com/gurunawab/DSA-Practice/tree/master/3115-maximum-prime-difference) |
 | [3116-kth-smallest-amount-with-single-denomination-combination](https://github.com/gurunawab/DSA-Practice/tree/master/3116-kth-smallest-amount-with-single-denomination-combination) |
 | [3312-sorted-gcd-pair-queries](https://github.com/gurunawab/DSA-Practice/tree/master/3312-sorted-gcd-pair-queries) |
 | [3336-find-the-number-of-subsequences-with-equal-gcd](https://github.com/gurunawab/DSA-Practice/tree/master/3336-find-the-number-of-subsequences-with-equal-gcd) |
@@ -371,6 +372,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1979-find-greatest-common-divisor-of-array](https://github.com/gurunawab/DSA-Practice/tree/master/1979-find-greatest-common-divisor-of-array) |
 | [2029-stone-game-ix](https://github.com/gurunawab/DSA-Practice/tree/master/2029-stone-game-ix) |
 | [3014-minimum-number-of-pushes-to-type-word-i](https://github.com/gurunawab/DSA-Practice/tree/master/3014-minimum-number-of-pushes-to-type-word-i) |
+| [3115-maximum-prime-difference](https://github.com/gurunawab/DSA-Practice/tree/master/3115-maximum-prime-difference) |
 | [3116-kth-smallest-amount-with-single-denomination-combination](https://github.com/gurunawab/DSA-Practice/tree/master/3116-kth-smallest-amount-with-single-denomination-combination) |
 | [3312-sorted-gcd-pair-queries](https://github.com/gurunawab/DSA-Practice/tree/master/3312-sorted-gcd-pair-queries) |
 | [3336-find-the-number-of-subsequences-with-equal-gcd](https://github.com/gurunawab/DSA-Practice/tree/master/3336-find-the-number-of-subsequences-with-equal-gcd) |
@@ -605,6 +607,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [1492-the-kth-factor-of-n](https://github.com/gurunawab/DSA-Practice/tree/master/1492-the-kth-factor-of-n) |
 | [1979-find-greatest-common-divisor-of-array](https://github.com/gurunawab/DSA-Practice/tree/master/1979-find-greatest-common-divisor-of-array) |
+| [3115-maximum-prime-difference](https://github.com/gurunawab/DSA-Practice/tree/master/3115-maximum-prime-difference) |
 | [3116-kth-smallest-amount-with-single-denomination-combination](https://github.com/gurunawab/DSA-Practice/tree/master/3116-kth-smallest-amount-with-single-denomination-combination) |
 | [3312-sorted-gcd-pair-queries](https://github.com/gurunawab/DSA-Practice/tree/master/3312-sorted-gcd-pair-queries) |
 | [3336-find-the-number-of-subsequences-with-equal-gcd](https://github.com/gurunawab/DSA-Practice/tree/master/3336-find-the-number-of-subsequences-with-equal-gcd) |
@@ -1073,4 +1076,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [1492-the-kth-factor-of-n](https://github.com/gurunawab/DSA-Practice/tree/master/1492-the-kth-factor-of-n) |
+## Primality Test
+|  |
+| ------- |
+| [3115-maximum-prime-difference](https://github.com/gurunawab/DSA-Practice/tree/master/3115-maximum-prime-difference) |
 <!---LeetCode Topics End-->
