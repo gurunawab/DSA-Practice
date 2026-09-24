@@ -167,6 +167,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0045-jump-game-ii](https://github.com/gurunawab/DSA-Practice/tree/master/0045-jump-game-ii) |
 | [0055-jump-game](https://github.com/gurunawab/DSA-Practice/tree/master/0055-jump-game) |
 | [0062-unique-paths](https://github.com/gurunawab/DSA-Practice/tree/master/0062-unique-paths) |
+| [0070-climbing-stairs](https://github.com/gurunawab/DSA-Practice/tree/master/0070-climbing-stairs) |
 | [0072-edit-distance](https://github.com/gurunawab/DSA-Practice/tree/master/0072-edit-distance) |
 | [0115-distinct-subsequences](https://github.com/gurunawab/DSA-Practice/tree/master/0115-distinct-subsequences) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/gurunawab/DSA-Practice/tree/master/0121-best-time-to-buy-and-sell-stock) |
@@ -339,6 +340,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0012-integer-to-roman](https://github.com/gurunawab/DSA-Practice/tree/master/0012-integer-to-roman) |
 | [0013-roman-to-integer](https://github.com/gurunawab/DSA-Practice/tree/master/0013-roman-to-integer) |
 | [0062-unique-paths](https://github.com/gurunawab/DSA-Practice/tree/master/0062-unique-paths) |
+| [0070-climbing-stairs](https://github.com/gurunawab/DSA-Practice/tree/master/0070-climbing-stairs) |
 | [0150-evaluate-reverse-polish-notation](https://github.com/gurunawab/DSA-Practice/tree/master/0150-evaluate-reverse-polish-notation) |
 | [0189-rotate-array](https://github.com/gurunawab/DSA-Practice/tree/master/0189-rotate-array) |
 | [0380-insert-delete-getrandom-o1](https://github.com/gurunawab/DSA-Practice/tree/master/0380-insert-delete-getrandom-o1) |
@@ -929,6 +931,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Memoization
 |  |
 | ------- |
+| [0070-climbing-stairs](https://github.com/gurunawab/DSA-Practice/tree/master/0070-climbing-stairs) |
 | [1137-n-th-tribonacci-number](https://github.com/gurunawab/DSA-Practice/tree/master/1137-n-th-tribonacci-number) |
 ## Longest Common Subsequence
 |  |
