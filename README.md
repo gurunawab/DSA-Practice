@@ -34,6 +34,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0219-contains-duplicate-ii](https://github.com/gurunawab/DSA-Practice/tree/master/0219-contains-duplicate-ii) |
 | [0238-product-of-array-except-self](https://github.com/gurunawab/DSA-Practice/tree/master/0238-product-of-array-except-self) |
 | [0239-sliding-window-maximum](https://github.com/gurunawab/DSA-Practice/tree/master/0239-sliding-window-maximum) |
+| [0240-search-a-2d-matrix-ii](https://github.com/gurunawab/DSA-Practice/tree/master/0240-search-a-2d-matrix-ii) |
 | [0274-h-index](https://github.com/gurunawab/DSA-Practice/tree/master/0274-h-index) |
 | [0287-find-the-duplicate-number](https://github.com/gurunawab/DSA-Practice/tree/master/0287-find-the-duplicate-number) |
 | [0307-range-sum-query-mutable](https://github.com/gurunawab/DSA-Practice/tree/master/0307-range-sum-query-mutable) |
@@ -145,6 +146,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0033-search-in-rotated-sorted-array](https://github.com/gurunawab/DSA-Practice/tree/master/0033-search-in-rotated-sorted-array) |
 | [0162-find-peak-element](https://github.com/gurunawab/DSA-Practice/tree/master/0162-find-peak-element) |
+| [0240-search-a-2d-matrix-ii](https://github.com/gurunawab/DSA-Practice/tree/master/0240-search-a-2d-matrix-ii) |
 | [0287-find-the-duplicate-number](https://github.com/gurunawab/DSA-Practice/tree/master/0287-find-the-duplicate-number) |
 | [0374-guess-number-higher-or-lower](https://github.com/gurunawab/DSA-Practice/tree/master/0374-guess-number-higher-or-lower) |
 | [0493-reverse-pairs](https://github.com/gurunawab/DSA-Practice/tree/master/0493-reverse-pairs) |
@@ -306,6 +308,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Matrix
 |  |
 | ------- |
+| [0240-search-a-2d-matrix-ii](https://github.com/gurunawab/DSA-Practice/tree/master/0240-search-a-2d-matrix-ii) |
 | [0994-rotting-oranges](https://github.com/gurunawab/DSA-Practice/tree/master/0994-rotting-oranges) |
 | [1260-shift-2d-grid](https://github.com/gurunawab/DSA-Practice/tree/master/1260-shift-2d-grid) |
 | [1301-number-of-paths-with-max-score](https://github.com/gurunawab/DSA-Practice/tree/master/1301-number-of-paths-with-max-score) |
@@ -798,6 +801,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0106-construct-binary-tree-from-inorder-and-postorder-traversal](https://github.com/gurunawab/DSA-Practice/tree/master/0106-construct-binary-tree-from-inorder-and-postorder-traversal) |
 | [0169-majority-element](https://github.com/gurunawab/DSA-Practice/tree/master/0169-majority-element) |
 | [0215-kth-largest-element-in-an-array](https://github.com/gurunawab/DSA-Practice/tree/master/0215-kth-largest-element-in-an-array) |
+| [0240-search-a-2d-matrix-ii](https://github.com/gurunawab/DSA-Practice/tree/master/0240-search-a-2d-matrix-ii) |
 | [0307-range-sum-query-mutable](https://github.com/gurunawab/DSA-Practice/tree/master/0307-range-sum-query-mutable) |
 | [0493-reverse-pairs](https://github.com/gurunawab/DSA-Practice/tree/master/0493-reverse-pairs) |
 | [0912-sort-an-array](https://github.com/gurunawab/DSA-Practice/tree/master/0912-sort-an-array) |
