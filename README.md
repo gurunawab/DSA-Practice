@@ -33,6 +33,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0216-combination-sum-iii](https://github.com/gurunawab/DSA-Practice/tree/master/0216-combination-sum-iii) |
 | [0219-contains-duplicate-ii](https://github.com/gurunawab/DSA-Practice/tree/master/0219-contains-duplicate-ii) |
 | [0238-product-of-array-except-self](https://github.com/gurunawab/DSA-Practice/tree/master/0238-product-of-array-except-self) |
+| [0239-sliding-window-maximum](https://github.com/gurunawab/DSA-Practice/tree/master/0239-sliding-window-maximum) |
 | [0274-h-index](https://github.com/gurunawab/DSA-Practice/tree/master/0274-h-index) |
 | [0287-find-the-duplicate-number](https://github.com/gurunawab/DSA-Practice/tree/master/0287-find-the-duplicate-number) |
 | [0307-range-sum-query-mutable](https://github.com/gurunawab/DSA-Practice/tree/master/0307-range-sum-query-mutable) |
@@ -237,6 +238,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0215-kth-largest-element-in-an-array](https://github.com/gurunawab/DSA-Practice/tree/master/0215-kth-largest-element-in-an-array) |
+| [0239-sliding-window-maximum](https://github.com/gurunawab/DSA-Practice/tree/master/0239-sliding-window-maximum) |
 | [0373-find-k-pairs-with-smallest-sums](https://github.com/gurunawab/DSA-Practice/tree/master/0373-find-k-pairs-with-smallest-sums) |
 | [0912-sort-an-array](https://github.com/gurunawab/DSA-Practice/tree/master/0912-sort-an-array) |
 | [1046-last-stone-weight](https://github.com/gurunawab/DSA-Practice/tree/master/1046-last-stone-weight) |
@@ -709,6 +711,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0232-implement-queue-using-stacks](https://github.com/gurunawab/DSA-Practice/tree/master/0232-implement-queue-using-stacks) |
+| [0239-sliding-window-maximum](https://github.com/gurunawab/DSA-Practice/tree/master/0239-sliding-window-maximum) |
 | [0649-dota2-senate](https://github.com/gurunawab/DSA-Practice/tree/master/0649-dota2-senate) |
 | [0933-number-of-recent-calls](https://github.com/gurunawab/DSA-Practice/tree/master/0933-number-of-recent-calls) |
 | [1700-number-of-students-unable-to-eat-lunch](https://github.com/gurunawab/DSA-Practice/tree/master/1700-number-of-students-unable-to-eat-lunch) |
@@ -923,6 +926,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0076-minimum-window-substring](https://github.com/gurunawab/DSA-Practice/tree/master/0076-minimum-window-substring) |
 | [0219-contains-duplicate-ii](https://github.com/gurunawab/DSA-Practice/tree/master/0219-contains-duplicate-ii) |
+| [0239-sliding-window-maximum](https://github.com/gurunawab/DSA-Practice/tree/master/0239-sliding-window-maximum) |
 | [0424-longest-repeating-character-replacement](https://github.com/gurunawab/DSA-Practice/tree/master/0424-longest-repeating-character-replacement) |
 | [1004-max-consecutive-ones-iii](https://github.com/gurunawab/DSA-Practice/tree/master/1004-max-consecutive-ones-iii) |
 | [1358-number-of-substrings-containing-all-three-characters](https://github.com/gurunawab/DSA-Practice/tree/master/1358-number-of-substrings-containing-all-three-characters) |
@@ -1116,4 +1120,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0287-find-the-duplicate-number](https://github.com/gurunawab/DSA-Practice/tree/master/0287-find-the-duplicate-number) |
+## Monotonic Queue
+|  |
+| ------- |
+| [0239-sliding-window-maximum](https://github.com/gurunawab/DSA-Practice/tree/master/0239-sliding-window-maximum) |
+## Range Minimum/Maximum Query
+|  |
+| ------- |
+| [0239-sliding-window-maximum](https://github.com/gurunawab/DSA-Practice/tree/master/0239-sliding-window-maximum) |
 <!---LeetCode Topics End-->
