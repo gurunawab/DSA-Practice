@@ -1,10 +1,7 @@
-import math
+from math import gcd
+
 
 class Solution:
-    def findGCD(self, nums: List[int]) -> int:
-        
-        smallest = min(nums)
-        largest = max(nums)
-        
-        
-        return math.gcd(smallest, largest)
+
+  def findGCD(self, nums: list[int]) -> int:
+    return gcd(min(nums), max(nums))
