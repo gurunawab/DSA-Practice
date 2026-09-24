@@ -866,6 +866,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0292-nim-game](https://github.com/gurunawab/DSA-Practice/tree/master/0292-nim-game) |
+| [0877-stone-game](https://github.com/gurunawab/DSA-Practice/tree/master/0877-stone-game) |
 | [1140-stone-game-ii](https://github.com/gurunawab/DSA-Practice/tree/master/1140-stone-game-ii) |
 | [1510-stone-game-iv](https://github.com/gurunawab/DSA-Practice/tree/master/1510-stone-game-iv) |
 | [1872-stone-game-viii](https://github.com/gurunawab/DSA-Practice/tree/master/1872-stone-game-viii) |
@@ -873,6 +874,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Zero-Sum Game
 |  |
 | ------- |
+| [0877-stone-game](https://github.com/gurunawab/DSA-Practice/tree/master/0877-stone-game) |
 | [1140-stone-game-ii](https://github.com/gurunawab/DSA-Practice/tree/master/1140-stone-game-ii) |
 | [1510-stone-game-iv](https://github.com/gurunawab/DSA-Practice/tree/master/1510-stone-game-iv) |
 | [1872-stone-game-viii](https://github.com/gurunawab/DSA-Practice/tree/master/1872-stone-game-viii) |
