@@ -662,6 +662,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0042-trapping-rain-water](https://github.com/gurunawab/DSA-Practice/tree/master/0042-trapping-rain-water) |
 | [0084-largest-rectangle-in-histogram](https://github.com/gurunawab/DSA-Practice/tree/master/0084-largest-rectangle-in-histogram) |
 | [0150-evaluate-reverse-polish-notation](https://github.com/gurunawab/DSA-Practice/tree/master/0150-evaluate-reverse-polish-notation) |
+| [0155-min-stack](https://github.com/gurunawab/DSA-Practice/tree/master/0155-min-stack) |
 | [0232-implement-queue-using-stacks](https://github.com/gurunawab/DSA-Practice/tree/master/0232-implement-queue-using-stacks) |
 | [0394-decode-string](https://github.com/gurunawab/DSA-Practice/tree/master/0394-decode-string) |
 | [0636-exclusive-time-of-functions](https://github.com/gurunawab/DSA-Practice/tree/master/0636-exclusive-time-of-functions) |
@@ -714,6 +715,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0146-lru-cache](https://github.com/gurunawab/DSA-Practice/tree/master/0146-lru-cache) |
+| [0155-min-stack](https://github.com/gurunawab/DSA-Practice/tree/master/0155-min-stack) |
 | [0208-implement-trie-prefix-tree](https://github.com/gurunawab/DSA-Practice/tree/master/0208-implement-trie-prefix-tree) |
 | [0232-implement-queue-using-stacks](https://github.com/gurunawab/DSA-Practice/tree/master/0232-implement-queue-using-stacks) |
 | [0307-range-sum-query-mutable](https://github.com/gurunawab/DSA-Practice/tree/master/0307-range-sum-query-mutable) |
