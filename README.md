@@ -34,6 +34,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0219-contains-duplicate-ii](https://github.com/gurunawab/DSA-Practice/tree/master/0219-contains-duplicate-ii) |
 | [0238-product-of-array-except-self](https://github.com/gurunawab/DSA-Practice/tree/master/0238-product-of-array-except-self) |
 | [0274-h-index](https://github.com/gurunawab/DSA-Practice/tree/master/0274-h-index) |
+| [0287-find-the-duplicate-number](https://github.com/gurunawab/DSA-Practice/tree/master/0287-find-the-duplicate-number) |
 | [0307-range-sum-query-mutable](https://github.com/gurunawab/DSA-Practice/tree/master/0307-range-sum-query-mutable) |
 | [0334-increasing-triplet-subsequence](https://github.com/gurunawab/DSA-Practice/tree/master/0334-increasing-triplet-subsequence) |
 | [0373-find-k-pairs-with-smallest-sums](https://github.com/gurunawab/DSA-Practice/tree/master/0373-find-k-pairs-with-smallest-sums) |
@@ -143,6 +144,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0033-search-in-rotated-sorted-array](https://github.com/gurunawab/DSA-Practice/tree/master/0033-search-in-rotated-sorted-array) |
 | [0162-find-peak-element](https://github.com/gurunawab/DSA-Practice/tree/master/0162-find-peak-element) |
+| [0287-find-the-duplicate-number](https://github.com/gurunawab/DSA-Practice/tree/master/0287-find-the-duplicate-number) |
 | [0374-guess-number-higher-or-lower](https://github.com/gurunawab/DSA-Practice/tree/master/0374-guess-number-higher-or-lower) |
 | [0493-reverse-pairs](https://github.com/gurunawab/DSA-Practice/tree/master/0493-reverse-pairs) |
 | [0633-sum-of-square-numbers](https://github.com/gurunawab/DSA-Practice/tree/master/0633-sum-of-square-numbers) |
@@ -540,6 +542,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0141-linked-list-cycle](https://github.com/gurunawab/DSA-Practice/tree/master/0141-linked-list-cycle) |
 | [0151-reverse-words-in-a-string](https://github.com/gurunawab/DSA-Practice/tree/master/0151-reverse-words-in-a-string) |
 | [0189-rotate-array](https://github.com/gurunawab/DSA-Practice/tree/master/0189-rotate-array) |
+| [0287-find-the-duplicate-number](https://github.com/gurunawab/DSA-Practice/tree/master/0287-find-the-duplicate-number) |
 | [0345-reverse-vowels-of-a-string](https://github.com/gurunawab/DSA-Practice/tree/master/0345-reverse-vowels-of-a-string) |
 | [0392-is-subsequence](https://github.com/gurunawab/DSA-Practice/tree/master/0392-is-subsequence) |
 | [0443-string-compression](https://github.com/gurunawab/DSA-Practice/tree/master/0443-string-compression) |
@@ -587,6 +590,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0136-single-number](https://github.com/gurunawab/DSA-Practice/tree/master/0136-single-number) |
+| [0287-find-the-duplicate-number](https://github.com/gurunawab/DSA-Practice/tree/master/0287-find-the-duplicate-number) |
 | [0338-counting-bits](https://github.com/gurunawab/DSA-Practice/tree/master/0338-counting-bits) |
 | [0645-set-mismatch](https://github.com/gurunawab/DSA-Practice/tree/master/0645-set-mismatch) |
 | [1318-minimum-flips-to-make-a-or-b-equal-to-c](https://github.com/gurunawab/DSA-Practice/tree/master/1318-minimum-flips-to-make-a-or-b-equal-to-c) |
@@ -1009,6 +1013,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0141-linked-list-cycle](https://github.com/gurunawab/DSA-Practice/tree/master/0141-linked-list-cycle) |
+| [0287-find-the-duplicate-number](https://github.com/gurunawab/DSA-Practice/tree/master/0287-find-the-duplicate-number) |
 ## Rolling Hash
 |  |
 | ------- |
@@ -1102,4 +1107,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0292-nim-game](https://github.com/gurunawab/DSA-Practice/tree/master/0292-nim-game) |
+## Pigeonhole Principle
+|  |
+| ------- |
+| [0287-find-the-duplicate-number](https://github.com/gurunawab/DSA-Practice/tree/master/0287-find-the-duplicate-number) |
 <!---LeetCode Topics End-->
