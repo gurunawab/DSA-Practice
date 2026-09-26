@@ -27,6 +27,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0135-candy](https://github.com/gurunawab/DSA-Practice/tree/master/0135-candy) |
 | [0136-single-number](https://github.com/gurunawab/DSA-Practice/tree/master/0136-single-number) |
 | [0139-word-break](https://github.com/gurunawab/DSA-Practice/tree/master/0139-word-break) |
+| [0140-word-break-ii](https://github.com/gurunawab/DSA-Practice/tree/master/0140-word-break-ii) |
 | [0150-evaluate-reverse-polish-notation](https://github.com/gurunawab/DSA-Practice/tree/master/0150-evaluate-reverse-polish-notation) |
 | [0162-find-peak-element](https://github.com/gurunawab/DSA-Practice/tree/master/0162-find-peak-element) |
 | [0169-majority-element](https://github.com/gurunawab/DSA-Practice/tree/master/0169-majority-element) |
@@ -191,6 +192,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0124-binary-tree-maximum-path-sum](https://github.com/gurunawab/DSA-Practice/tree/master/0124-binary-tree-maximum-path-sum) |
 | [0132-palindrome-partitioning-ii](https://github.com/gurunawab/DSA-Practice/tree/master/0132-palindrome-partitioning-ii) |
 | [0139-word-break](https://github.com/gurunawab/DSA-Practice/tree/master/0139-word-break) |
+| [0140-word-break-ii](https://github.com/gurunawab/DSA-Practice/tree/master/0140-word-break-ii) |
 | [0198-house-robber](https://github.com/gurunawab/DSA-Practice/tree/master/0198-house-robber) |
 | [0338-counting-bits](https://github.com/gurunawab/DSA-Practice/tree/master/0338-counting-bits) |
 | [0392-is-subsequence](https://github.com/gurunawab/DSA-Practice/tree/master/0392-is-subsequence) |
@@ -441,6 +443,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0127-word-ladder](https://github.com/gurunawab/DSA-Practice/tree/master/0127-word-ladder) |
 | [0132-palindrome-partitioning-ii](https://github.com/gurunawab/DSA-Practice/tree/master/0132-palindrome-partitioning-ii) |
 | [0139-word-break](https://github.com/gurunawab/DSA-Practice/tree/master/0139-word-break) |
+| [0140-word-break-ii](https://github.com/gurunawab/DSA-Practice/tree/master/0140-word-break-ii) |
 | [0151-reverse-words-in-a-string](https://github.com/gurunawab/DSA-Practice/tree/master/0151-reverse-words-in-a-string) |
 | [0208-implement-trie-prefix-tree](https://github.com/gurunawab/DSA-Practice/tree/master/0208-implement-trie-prefix-tree) |
 | [0214-shortest-palindrome](https://github.com/gurunawab/DSA-Practice/tree/master/0214-shortest-palindrome) |
@@ -525,6 +528,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0127-word-ladder](https://github.com/gurunawab/DSA-Practice/tree/master/0127-word-ladder) |
 | [0138-copy-list-with-random-pointer](https://github.com/gurunawab/DSA-Practice/tree/master/0138-copy-list-with-random-pointer) |
 | [0139-word-break](https://github.com/gurunawab/DSA-Practice/tree/master/0139-word-break) |
+| [0140-word-break-ii](https://github.com/gurunawab/DSA-Practice/tree/master/0140-word-break-ii) |
 | [0141-linked-list-cycle](https://github.com/gurunawab/DSA-Practice/tree/master/0141-linked-list-cycle) |
 | [0146-lru-cache](https://github.com/gurunawab/DSA-Practice/tree/master/0146-lru-cache) |
 | [0169-majority-element](https://github.com/gurunawab/DSA-Practice/tree/master/0169-majority-element) |
@@ -806,6 +810,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0077-combinations](https://github.com/gurunawab/DSA-Practice/tree/master/0077-combinations) |
 | [0093-restore-ip-addresses](https://github.com/gurunawab/DSA-Practice/tree/master/0093-restore-ip-addresses) |
 | [0126-word-ladder-ii](https://github.com/gurunawab/DSA-Practice/tree/master/0126-word-ladder-ii) |
+| [0140-word-break-ii](https://github.com/gurunawab/DSA-Practice/tree/master/0140-word-break-ii) |
 | [0216-combination-sum-iii](https://github.com/gurunawab/DSA-Practice/tree/master/0216-combination-sum-iii) |
 | [0494-target-sum](https://github.com/gurunawab/DSA-Practice/tree/master/0494-target-sum) |
 | [1096-brace-expansion-ii](https://github.com/gurunawab/DSA-Practice/tree/master/1096-brace-expansion-ii) |
@@ -1021,6 +1026,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0070-climbing-stairs](https://github.com/gurunawab/DSA-Practice/tree/master/0070-climbing-stairs) |
 | [0139-word-break](https://github.com/gurunawab/DSA-Practice/tree/master/0139-word-break) |
+| [0140-word-break-ii](https://github.com/gurunawab/DSA-Practice/tree/master/0140-word-break-ii) |
 | [0913-cat-and-mouse](https://github.com/gurunawab/DSA-Practice/tree/master/0913-cat-and-mouse) |
 | [1137-n-th-tribonacci-number](https://github.com/gurunawab/DSA-Practice/tree/master/1137-n-th-tribonacci-number) |
 ## Longest Common Subsequence
@@ -1032,6 +1038,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0014-longest-common-prefix](https://github.com/gurunawab/DSA-Practice/tree/master/0014-longest-common-prefix) |
 | [0139-word-break](https://github.com/gurunawab/DSA-Practice/tree/master/0139-word-break) |
+| [0140-word-break-ii](https://github.com/gurunawab/DSA-Practice/tree/master/0140-word-break-ii) |
 | [0208-implement-trie-prefix-tree](https://github.com/gurunawab/DSA-Practice/tree/master/0208-implement-trie-prefix-tree) |
 | [0440-k-th-smallest-in-lexicographical-order](https://github.com/gurunawab/DSA-Practice/tree/master/0440-k-th-smallest-in-lexicographical-order) |
 | [0720-longest-word-in-dictionary](https://github.com/gurunawab/DSA-Practice/tree/master/0720-longest-word-in-dictionary) |
