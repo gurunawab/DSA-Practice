@@ -181,6 +181,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0062-unique-paths](https://github.com/gurunawab/DSA-Practice/tree/master/0062-unique-paths) |
 | [0070-climbing-stairs](https://github.com/gurunawab/DSA-Practice/tree/master/0070-climbing-stairs) |
 | [0072-edit-distance](https://github.com/gurunawab/DSA-Practice/tree/master/0072-edit-distance) |
+| [0087-scramble-string](https://github.com/gurunawab/DSA-Practice/tree/master/0087-scramble-string) |
 | [0097-interleaving-string](https://github.com/gurunawab/DSA-Practice/tree/master/0097-interleaving-string) |
 | [0115-distinct-subsequences](https://github.com/gurunawab/DSA-Practice/tree/master/0115-distinct-subsequences) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/gurunawab/DSA-Practice/tree/master/0121-best-time-to-buy-and-sell-stock) |
@@ -425,6 +426,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0065-valid-number](https://github.com/gurunawab/DSA-Practice/tree/master/0065-valid-number) |
 | [0072-edit-distance](https://github.com/gurunawab/DSA-Practice/tree/master/0072-edit-distance) |
 | [0076-minimum-window-substring](https://github.com/gurunawab/DSA-Practice/tree/master/0076-minimum-window-substring) |
+| [0087-scramble-string](https://github.com/gurunawab/DSA-Practice/tree/master/0087-scramble-string) |
 | [0093-restore-ip-addresses](https://github.com/gurunawab/DSA-Practice/tree/master/0093-restore-ip-addresses) |
 | [0097-interleaving-string](https://github.com/gurunawab/DSA-Practice/tree/master/0097-interleaving-string) |
 | [0115-distinct-subsequences](https://github.com/gurunawab/DSA-Practice/tree/master/0115-distinct-subsequences) |
