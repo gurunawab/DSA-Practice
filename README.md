@@ -28,6 +28,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0136-single-number](https://github.com/gurunawab/DSA-Practice/tree/master/0136-single-number) |
 | [0139-word-break](https://github.com/gurunawab/DSA-Practice/tree/master/0139-word-break) |
 | [0140-word-break-ii](https://github.com/gurunawab/DSA-Practice/tree/master/0140-word-break-ii) |
+| [0149-max-points-on-a-line](https://github.com/gurunawab/DSA-Practice/tree/master/0149-max-points-on-a-line) |
 | [0150-evaluate-reverse-polish-notation](https://github.com/gurunawab/DSA-Practice/tree/master/0150-evaluate-reverse-polish-notation) |
 | [0162-find-peak-element](https://github.com/gurunawab/DSA-Practice/tree/master/0162-find-peak-element) |
 | [0169-majority-element](https://github.com/gurunawab/DSA-Practice/tree/master/0169-majority-element) |
@@ -375,6 +376,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0013-roman-to-integer](https://github.com/gurunawab/DSA-Practice/tree/master/0013-roman-to-integer) |
 | [0062-unique-paths](https://github.com/gurunawab/DSA-Practice/tree/master/0062-unique-paths) |
 | [0070-climbing-stairs](https://github.com/gurunawab/DSA-Practice/tree/master/0070-climbing-stairs) |
+| [0149-max-points-on-a-line](https://github.com/gurunawab/DSA-Practice/tree/master/0149-max-points-on-a-line) |
 | [0150-evaluate-reverse-polish-notation](https://github.com/gurunawab/DSA-Practice/tree/master/0150-evaluate-reverse-polish-notation) |
 | [0189-rotate-array](https://github.com/gurunawab/DSA-Practice/tree/master/0189-rotate-array) |
 | [0292-nim-game](https://github.com/gurunawab/DSA-Practice/tree/master/0292-nim-game) |
@@ -531,6 +533,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0140-word-break-ii](https://github.com/gurunawab/DSA-Practice/tree/master/0140-word-break-ii) |
 | [0141-linked-list-cycle](https://github.com/gurunawab/DSA-Practice/tree/master/0141-linked-list-cycle) |
 | [0146-lru-cache](https://github.com/gurunawab/DSA-Practice/tree/master/0146-lru-cache) |
+| [0149-max-points-on-a-line](https://github.com/gurunawab/DSA-Practice/tree/master/0149-max-points-on-a-line) |
 | [0169-majority-element](https://github.com/gurunawab/DSA-Practice/tree/master/0169-majority-element) |
 | [0208-implement-trie-prefix-tree](https://github.com/gurunawab/DSA-Practice/tree/master/0208-implement-trie-prefix-tree) |
 | [0219-contains-duplicate-ii](https://github.com/gurunawab/DSA-Practice/tree/master/0219-contains-duplicate-ii) |
@@ -957,11 +960,13 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Euclidean Algorithm
 |  |
 | ------- |
+| [0149-max-points-on-a-line](https://github.com/gurunawab/DSA-Practice/tree/master/0149-max-points-on-a-line) |
 | [1071-greatest-common-divisor-of-strings](https://github.com/gurunawab/DSA-Practice/tree/master/1071-greatest-common-divisor-of-strings) |
 | [1979-find-greatest-common-divisor-of-array](https://github.com/gurunawab/DSA-Practice/tree/master/1979-find-greatest-common-divisor-of-array) |
 ## Greatest Common Divisor
 |  |
 | ------- |
+| [0149-max-points-on-a-line](https://github.com/gurunawab/DSA-Practice/tree/master/0149-max-points-on-a-line) |
 | [1071-greatest-common-divisor-of-strings](https://github.com/gurunawab/DSA-Practice/tree/master/1071-greatest-common-divisor-of-strings) |
 | [1979-find-greatest-common-divisor-of-array](https://github.com/gurunawab/DSA-Practice/tree/master/1979-find-greatest-common-divisor-of-array) |
 ## Longest Increasing Subsequence
@@ -1113,6 +1118,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Geometry
 |  |
 | ------- |
+| [0149-max-points-on-a-line](https://github.com/gurunawab/DSA-Practice/tree/master/0149-max-points-on-a-line) |
 | [0836-rectangle-overlap](https://github.com/gurunawab/DSA-Practice/tree/master/0836-rectangle-overlap) |
 | [1401-circle-and-rectangle-overlapping](https://github.com/gurunawab/DSA-Practice/tree/master/1401-circle-and-rectangle-overlapping) |
 ## Sqrt Decomposition
