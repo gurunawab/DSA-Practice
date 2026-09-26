@@ -32,6 +32,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0150-evaluate-reverse-polish-notation](https://github.com/gurunawab/DSA-Practice/tree/master/0150-evaluate-reverse-polish-notation) |
 | [0162-find-peak-element](https://github.com/gurunawab/DSA-Practice/tree/master/0162-find-peak-element) |
 | [0169-majority-element](https://github.com/gurunawab/DSA-Practice/tree/master/0169-majority-element) |
+| [0174-dungeon-game](https://github.com/gurunawab/DSA-Practice/tree/master/0174-dungeon-game) |
 | [0189-rotate-array](https://github.com/gurunawab/DSA-Practice/tree/master/0189-rotate-array) |
 | [0198-house-robber](https://github.com/gurunawab/DSA-Practice/tree/master/0198-house-robber) |
 | [0215-kth-largest-element-in-an-array](https://github.com/gurunawab/DSA-Practice/tree/master/0215-kth-largest-element-in-an-array) |
@@ -194,6 +195,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0132-palindrome-partitioning-ii](https://github.com/gurunawab/DSA-Practice/tree/master/0132-palindrome-partitioning-ii) |
 | [0139-word-break](https://github.com/gurunawab/DSA-Practice/tree/master/0139-word-break) |
 | [0140-word-break-ii](https://github.com/gurunawab/DSA-Practice/tree/master/0140-word-break-ii) |
+| [0174-dungeon-game](https://github.com/gurunawab/DSA-Practice/tree/master/0174-dungeon-game) |
 | [0198-house-robber](https://github.com/gurunawab/DSA-Practice/tree/master/0198-house-robber) |
 | [0338-counting-bits](https://github.com/gurunawab/DSA-Practice/tree/master/0338-counting-bits) |
 | [0392-is-subsequence](https://github.com/gurunawab/DSA-Practice/tree/master/0392-is-subsequence) |
@@ -324,6 +326,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0037-sudoku-solver](https://github.com/gurunawab/DSA-Practice/tree/master/0037-sudoku-solver) |
+| [0174-dungeon-game](https://github.com/gurunawab/DSA-Practice/tree/master/0174-dungeon-game) |
 | [0240-search-a-2d-matrix-ii](https://github.com/gurunawab/DSA-Practice/tree/master/0240-search-a-2d-matrix-ii) |
 | [0994-rotting-oranges](https://github.com/gurunawab/DSA-Practice/tree/master/0994-rotting-oranges) |
 | [1260-shift-2d-grid](https://github.com/gurunawab/DSA-Practice/tree/master/1260-shift-2d-grid) |
