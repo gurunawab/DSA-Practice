@@ -787,6 +787,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0017-letter-combinations-of-a-phone-number](https://github.com/gurunawab/DSA-Practice/tree/master/0017-letter-combinations-of-a-phone-number) |
 | [0037-sudoku-solver](https://github.com/gurunawab/DSA-Practice/tree/master/0037-sudoku-solver) |
 | [0051-n-queens](https://github.com/gurunawab/DSA-Practice/tree/master/0051-n-queens) |
+| [0052-n-queens-ii](https://github.com/gurunawab/DSA-Practice/tree/master/0052-n-queens-ii) |
 | [0077-combinations](https://github.com/gurunawab/DSA-Practice/tree/master/0077-combinations) |
 | [0093-restore-ip-addresses](https://github.com/gurunawab/DSA-Practice/tree/master/0093-restore-ip-addresses) |
 | [0216-combination-sum-iii](https://github.com/gurunawab/DSA-Practice/tree/master/0216-combination-sum-iii) |
@@ -1161,6 +1162,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0037-sudoku-solver](https://github.com/gurunawab/DSA-Practice/tree/master/0037-sudoku-solver) |
 | [0051-n-queens](https://github.com/gurunawab/DSA-Practice/tree/master/0051-n-queens) |
+| [0052-n-queens-ii](https://github.com/gurunawab/DSA-Practice/tree/master/0052-n-queens-ii) |
 ## Dancing Links
 |  |
 | ------- |
