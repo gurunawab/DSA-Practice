@@ -474,6 +474,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1081-smallest-subsequence-of-distinct-characters](https://github.com/gurunawab/DSA-Practice/tree/master/1081-smallest-subsequence-of-distinct-characters) |
 | [1096-brace-expansion-ii](https://github.com/gurunawab/DSA-Practice/tree/master/1096-brace-expansion-ii) |
 | [1143-longest-common-subsequence](https://github.com/gurunawab/DSA-Practice/tree/master/1143-longest-common-subsequence) |
+| [1190-reverse-substrings-between-each-pair-of-parentheses](https://github.com/gurunawab/DSA-Practice/tree/master/1190-reverse-substrings-between-each-pair-of-parentheses) |
 | [1268-search-suggestions-system](https://github.com/gurunawab/DSA-Practice/tree/master/1268-search-suggestions-system) |
 | [1358-number-of-substrings-containing-all-three-characters](https://github.com/gurunawab/DSA-Practice/tree/master/1358-number-of-substrings-containing-all-three-characters) |
 | [1392-longest-happy-prefix](https://github.com/gurunawab/DSA-Practice/tree/master/1392-longest-happy-prefix) |
@@ -718,6 +719,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0901-online-stock-span](https://github.com/gurunawab/DSA-Practice/tree/master/0901-online-stock-span) |
 | [1081-smallest-subsequence-of-distinct-characters](https://github.com/gurunawab/DSA-Practice/tree/master/1081-smallest-subsequence-of-distinct-characters) |
 | [1096-brace-expansion-ii](https://github.com/gurunawab/DSA-Practice/tree/master/1096-brace-expansion-ii) |
+| [1190-reverse-substrings-between-each-pair-of-parentheses](https://github.com/gurunawab/DSA-Practice/tree/master/1190-reverse-substrings-between-each-pair-of-parentheses) |
 | [1441-build-an-array-with-stack-operations](https://github.com/gurunawab/DSA-Practice/tree/master/1441-build-an-array-with-stack-operations) |
 | [1475-final-prices-with-a-special-discount-in-a-shop](https://github.com/gurunawab/DSA-Practice/tree/master/1475-final-prices-with-a-special-discount-in-a-shop) |
 | [1700-number-of-students-unable-to-eat-lunch](https://github.com/gurunawab/DSA-Practice/tree/master/1700-number-of-students-unable-to-eat-lunch) |
@@ -1210,4 +1212,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0126-word-ladder-ii](https://github.com/gurunawab/DSA-Practice/tree/master/0126-word-ladder-ii) |
 | [0127-word-ladder](https://github.com/gurunawab/DSA-Practice/tree/master/0127-word-ladder) |
+## Bracket Sequences
+|  |
+| ------- |
+| [1190-reverse-substrings-between-each-pair-of-parentheses](https://github.com/gurunawab/DSA-Practice/tree/master/1190-reverse-substrings-between-each-pair-of-parentheses) |
 <!---LeetCode Topics End-->
