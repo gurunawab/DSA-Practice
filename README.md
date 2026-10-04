@@ -205,6 +205,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0435-non-overlapping-intervals](https://github.com/gurunawab/DSA-Practice/tree/master/0435-non-overlapping-intervals) |
 | [0486-predict-the-winner](https://github.com/gurunawab/DSA-Practice/tree/master/0486-predict-the-winner) |
 | [0494-target-sum](https://github.com/gurunawab/DSA-Practice/tree/master/0494-target-sum) |
+| [0678-valid-parenthesis-string](https://github.com/gurunawab/DSA-Practice/tree/master/0678-valid-parenthesis-string) |
 | [0714-best-time-to-buy-and-sell-stock-with-transaction-fee](https://github.com/gurunawab/DSA-Practice/tree/master/0714-best-time-to-buy-and-sell-stock-with-transaction-fee) |
 | [0746-min-cost-climbing-stairs](https://github.com/gurunawab/DSA-Practice/tree/master/0746-min-cost-climbing-stairs) |
 | [0790-domino-and-tromino-tiling](https://github.com/gurunawab/DSA-Practice/tree/master/0790-domino-and-tromino-tiling) |
@@ -468,6 +469,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0482-license-key-formatting](https://github.com/gurunawab/DSA-Practice/tree/master/0482-license-key-formatting) |
 | [0520-detect-capital](https://github.com/gurunawab/DSA-Practice/tree/master/0520-detect-capital) |
 | [0649-dota2-senate](https://github.com/gurunawab/DSA-Practice/tree/master/0649-dota2-senate) |
+| [0678-valid-parenthesis-string](https://github.com/gurunawab/DSA-Practice/tree/master/0678-valid-parenthesis-string) |
 | [0686-repeated-string-match](https://github.com/gurunawab/DSA-Practice/tree/master/0686-repeated-string-match) |
 | [0720-longest-word-in-dictionary](https://github.com/gurunawab/DSA-Practice/tree/master/0720-longest-word-in-dictionary) |
 | [0796-rotate-string](https://github.com/gurunawab/DSA-Practice/tree/master/0796-rotate-string) |
@@ -623,6 +625,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0452-minimum-number-of-arrows-to-burst-balloons](https://github.com/gurunawab/DSA-Practice/tree/master/0452-minimum-number-of-arrows-to-burst-balloons) |
 | [0605-can-place-flowers](https://github.com/gurunawab/DSA-Practice/tree/master/0605-can-place-flowers) |
 | [0649-dota2-senate](https://github.com/gurunawab/DSA-Practice/tree/master/0649-dota2-senate) |
+| [0678-valid-parenthesis-string](https://github.com/gurunawab/DSA-Practice/tree/master/0678-valid-parenthesis-string) |
 | [0714-best-time-to-buy-and-sell-stock-with-transaction-fee](https://github.com/gurunawab/DSA-Practice/tree/master/0714-best-time-to-buy-and-sell-stock-with-transaction-fee) |
 | [1081-smallest-subsequence-of-distinct-characters](https://github.com/gurunawab/DSA-Practice/tree/master/1081-smallest-subsequence-of-distinct-characters) |
 | [1386-cinema-seat-allocation](https://github.com/gurunawab/DSA-Practice/tree/master/1386-cinema-seat-allocation) |
@@ -720,6 +723,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0232-implement-queue-using-stacks](https://github.com/gurunawab/DSA-Practice/tree/master/0232-implement-queue-using-stacks) |
 | [0394-decode-string](https://github.com/gurunawab/DSA-Practice/tree/master/0394-decode-string) |
 | [0636-exclusive-time-of-functions](https://github.com/gurunawab/DSA-Practice/tree/master/0636-exclusive-time-of-functions) |
+| [0678-valid-parenthesis-string](https://github.com/gurunawab/DSA-Practice/tree/master/0678-valid-parenthesis-string) |
 | [0735-asteroid-collision](https://github.com/gurunawab/DSA-Practice/tree/master/0735-asteroid-collision) |
 | [0739-daily-temperatures](https://github.com/gurunawab/DSA-Practice/tree/master/0739-daily-temperatures) |
 | [0901-online-stock-span](https://github.com/gurunawab/DSA-Practice/tree/master/0901-online-stock-span) |
@@ -1224,6 +1228,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0020-valid-parentheses](https://github.com/gurunawab/DSA-Practice/tree/master/0020-valid-parentheses) |
 | [0032-longest-valid-parentheses](https://github.com/gurunawab/DSA-Practice/tree/master/0032-longest-valid-parentheses) |
+| [0678-valid-parenthesis-string](https://github.com/gurunawab/DSA-Practice/tree/master/0678-valid-parenthesis-string) |
 | [1190-reverse-substrings-between-each-pair-of-parentheses](https://github.com/gurunawab/DSA-Practice/tree/master/1190-reverse-substrings-between-each-pair-of-parentheses) |
 | [1614-maximum-nesting-depth-of-the-parentheses](https://github.com/gurunawab/DSA-Practice/tree/master/1614-maximum-nesting-depth-of-the-parentheses) |
 <!---LeetCode Topics End-->
