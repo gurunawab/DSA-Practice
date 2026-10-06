@@ -73,6 +73,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0852-peak-index-in-a-mountain-array](https://github.com/gurunawab/DSA-Practice/tree/master/0852-peak-index-in-a-mountain-array) |
 | [0875-koko-eating-bananas](https://github.com/gurunawab/DSA-Practice/tree/master/0875-koko-eating-bananas) |
 | [0877-stone-game](https://github.com/gurunawab/DSA-Practice/tree/master/0877-stone-game) |
+| [0883-projection-area-of-3d-shapes](https://github.com/gurunawab/DSA-Practice/tree/master/0883-projection-area-of-3d-shapes) |
 | [0912-sort-an-array](https://github.com/gurunawab/DSA-Practice/tree/master/0912-sort-an-array) |
 | [0932-beautiful-array](https://github.com/gurunawab/DSA-Practice/tree/master/0932-beautiful-array) |
 | [0994-rotting-oranges](https://github.com/gurunawab/DSA-Practice/tree/master/0994-rotting-oranges) |
@@ -336,6 +337,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0037-sudoku-solver](https://github.com/gurunawab/DSA-Practice/tree/master/0037-sudoku-solver) |
 | [0174-dungeon-game](https://github.com/gurunawab/DSA-Practice/tree/master/0174-dungeon-game) |
 | [0240-search-a-2d-matrix-ii](https://github.com/gurunawab/DSA-Practice/tree/master/0240-search-a-2d-matrix-ii) |
+| [0883-projection-area-of-3d-shapes](https://github.com/gurunawab/DSA-Practice/tree/master/0883-projection-area-of-3d-shapes) |
 | [0994-rotting-oranges](https://github.com/gurunawab/DSA-Practice/tree/master/0994-rotting-oranges) |
 | [1260-shift-2d-grid](https://github.com/gurunawab/DSA-Practice/tree/master/1260-shift-2d-grid) |
 | [1301-number-of-paths-with-max-score](https://github.com/gurunawab/DSA-Practice/tree/master/1301-number-of-paths-with-max-score) |
@@ -400,6 +402,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0633-sum-of-square-numbers](https://github.com/gurunawab/DSA-Practice/tree/master/0633-sum-of-square-numbers) |
 | [0836-rectangle-overlap](https://github.com/gurunawab/DSA-Practice/tree/master/0836-rectangle-overlap) |
 | [0877-stone-game](https://github.com/gurunawab/DSA-Practice/tree/master/0877-stone-game) |
+| [0883-projection-area-of-3d-shapes](https://github.com/gurunawab/DSA-Practice/tree/master/0883-projection-area-of-3d-shapes) |
 | [0913-cat-and-mouse](https://github.com/gurunawab/DSA-Practice/tree/master/0913-cat-and-mouse) |
 | [0932-beautiful-array](https://github.com/gurunawab/DSA-Practice/tree/master/0932-beautiful-array) |
 | [1071-greatest-common-divisor-of-strings](https://github.com/gurunawab/DSA-Practice/tree/master/1071-greatest-common-divisor-of-strings) |
@@ -1158,6 +1161,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0149-max-points-on-a-line](https://github.com/gurunawab/DSA-Practice/tree/master/0149-max-points-on-a-line) |
 | [0836-rectangle-overlap](https://github.com/gurunawab/DSA-Practice/tree/master/0836-rectangle-overlap) |
+| [0883-projection-area-of-3d-shapes](https://github.com/gurunawab/DSA-Practice/tree/master/0883-projection-area-of-3d-shapes) |
 | [1401-circle-and-rectangle-overlapping](https://github.com/gurunawab/DSA-Practice/tree/master/1401-circle-and-rectangle-overlapping) |
 ## Sqrt Decomposition
 |  |
