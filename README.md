@@ -416,6 +416,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1927-sum-game](https://github.com/gurunawab/DSA-Practice/tree/master/1927-sum-game) |
 | [1979-find-greatest-common-divisor-of-array](https://github.com/gurunawab/DSA-Practice/tree/master/1979-find-greatest-common-divisor-of-array) |
 | [2029-stone-game-ix](https://github.com/gurunawab/DSA-Practice/tree/master/2029-stone-game-ix) |
+| [2523-closest-prime-numbers-in-range](https://github.com/gurunawab/DSA-Practice/tree/master/2523-closest-prime-numbers-in-range) |
 | [3014-minimum-number-of-pushes-to-type-word-i](https://github.com/gurunawab/DSA-Practice/tree/master/3014-minimum-number-of-pushes-to-type-word-i) |
 | [3115-maximum-prime-difference](https://github.com/gurunawab/DSA-Practice/tree/master/3115-maximum-prime-difference) |
 | [3116-kth-smallest-amount-with-single-denomination-combination](https://github.com/gurunawab/DSA-Practice/tree/master/3116-kth-smallest-amount-with-single-denomination-combination) |
@@ -684,6 +685,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0204-count-primes](https://github.com/gurunawab/DSA-Practice/tree/master/0204-count-primes) |
 | [1492-the-kth-factor-of-n](https://github.com/gurunawab/DSA-Practice/tree/master/1492-the-kth-factor-of-n) |
 | [1979-find-greatest-common-divisor-of-array](https://github.com/gurunawab/DSA-Practice/tree/master/1979-find-greatest-common-divisor-of-array) |
+| [2523-closest-prime-numbers-in-range](https://github.com/gurunawab/DSA-Practice/tree/master/2523-closest-prime-numbers-in-range) |
 | [3115-maximum-prime-difference](https://github.com/gurunawab/DSA-Practice/tree/master/3115-maximum-prime-difference) |
 | [3116-kth-smallest-amount-with-single-denomination-combination](https://github.com/gurunawab/DSA-Practice/tree/master/3116-kth-smallest-amount-with-single-denomination-combination) |
 | [3312-sorted-gcd-pair-queries](https://github.com/gurunawab/DSA-Practice/tree/master/3312-sorted-gcd-pair-queries) |
@@ -1205,6 +1207,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0204-count-primes](https://github.com/gurunawab/DSA-Practice/tree/master/0204-count-primes) |
+| [2523-closest-prime-numbers-in-range](https://github.com/gurunawab/DSA-Practice/tree/master/2523-closest-prime-numbers-in-range) |
 | [3115-maximum-prime-difference](https://github.com/gurunawab/DSA-Practice/tree/master/3115-maximum-prime-difference) |
 ## Brainteaser
 |  |
@@ -1255,8 +1258,10 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0204-count-primes](https://github.com/gurunawab/DSA-Practice/tree/master/0204-count-primes) |
+| [2523-closest-prime-numbers-in-range](https://github.com/gurunawab/DSA-Practice/tree/master/2523-closest-prime-numbers-in-range) |
 ## Prime Number Sieve
 |  |
 | ------- |
 | [0204-count-primes](https://github.com/gurunawab/DSA-Practice/tree/master/0204-count-primes) |
+| [2523-closest-prime-numbers-in-range](https://github.com/gurunawab/DSA-Practice/tree/master/2523-closest-prime-numbers-in-range) |
 <!---LeetCode Topics End-->
