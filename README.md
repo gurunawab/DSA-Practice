@@ -37,6 +37,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0188-best-time-to-buy-and-sell-stock-iv](https://github.com/gurunawab/DSA-Practice/tree/master/0188-best-time-to-buy-and-sell-stock-iv) |
 | [0189-rotate-array](https://github.com/gurunawab/DSA-Practice/tree/master/0189-rotate-array) |
 | [0198-house-robber](https://github.com/gurunawab/DSA-Practice/tree/master/0198-house-robber) |
+| [0204-count-primes](https://github.com/gurunawab/DSA-Practice/tree/master/0204-count-primes) |
 | [0215-kth-largest-element-in-an-array](https://github.com/gurunawab/DSA-Practice/tree/master/0215-kth-largest-element-in-an-array) |
 | [0216-combination-sum-iii](https://github.com/gurunawab/DSA-Practice/tree/master/0216-combination-sum-iii) |
 | [0219-contains-duplicate-ii](https://github.com/gurunawab/DSA-Practice/tree/master/0219-contains-duplicate-ii) |
@@ -390,6 +391,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0149-max-points-on-a-line](https://github.com/gurunawab/DSA-Practice/tree/master/0149-max-points-on-a-line) |
 | [0150-evaluate-reverse-polish-notation](https://github.com/gurunawab/DSA-Practice/tree/master/0150-evaluate-reverse-polish-notation) |
 | [0189-rotate-array](https://github.com/gurunawab/DSA-Practice/tree/master/0189-rotate-array) |
+| [0204-count-primes](https://github.com/gurunawab/DSA-Practice/tree/master/0204-count-primes) |
 | [0292-nim-game](https://github.com/gurunawab/DSA-Practice/tree/master/0292-nim-game) |
 | [0380-insert-delete-getrandom-o1](https://github.com/gurunawab/DSA-Practice/tree/master/0380-insert-delete-getrandom-o1) |
 | [0486-predict-the-winner](https://github.com/gurunawab/DSA-Practice/tree/master/0486-predict-the-winner) |
@@ -667,6 +669,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Enumeration
 |  |
 | ------- |
+| [0204-count-primes](https://github.com/gurunawab/DSA-Practice/tree/master/0204-count-primes) |
 | [1291-sequential-digits](https://github.com/gurunawab/DSA-Practice/tree/master/1291-sequential-digits) |
 | [3345-smallest-divisible-digit-product-i](https://github.com/gurunawab/DSA-Practice/tree/master/3345-smallest-divisible-digit-product-i) |
 | [3483-unique-3-digit-even-numbers](https://github.com/gurunawab/DSA-Practice/tree/master/3483-unique-3-digit-even-numbers) |
@@ -677,6 +680,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Number Theory
 |  |
 | ------- |
+| [0204-count-primes](https://github.com/gurunawab/DSA-Practice/tree/master/0204-count-primes) |
 | [1492-the-kth-factor-of-n](https://github.com/gurunawab/DSA-Practice/tree/master/1492-the-kth-factor-of-n) |
 | [1979-find-greatest-common-divisor-of-array](https://github.com/gurunawab/DSA-Practice/tree/master/1979-find-greatest-common-divisor-of-array) |
 | [3115-maximum-prime-difference](https://github.com/gurunawab/DSA-Practice/tree/master/3115-maximum-prime-difference) |
@@ -1199,6 +1203,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Primality Test
 |  |
 | ------- |
+| [0204-count-primes](https://github.com/gurunawab/DSA-Practice/tree/master/0204-count-primes) |
 | [3115-maximum-prime-difference](https://github.com/gurunawab/DSA-Practice/tree/master/3115-maximum-prime-difference) |
 ## Brainteaser
 |  |
@@ -1245,4 +1250,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0921-minimum-add-to-make-parentheses-valid](https://github.com/gurunawab/DSA-Practice/tree/master/0921-minimum-add-to-make-parentheses-valid) |
 | [1190-reverse-substrings-between-each-pair-of-parentheses](https://github.com/gurunawab/DSA-Practice/tree/master/1190-reverse-substrings-between-each-pair-of-parentheses) |
 | [1614-maximum-nesting-depth-of-the-parentheses](https://github.com/gurunawab/DSA-Practice/tree/master/1614-maximum-nesting-depth-of-the-parentheses) |
+## Sieve Theory
+|  |
+| ------- |
+| [0204-count-primes](https://github.com/gurunawab/DSA-Practice/tree/master/0204-count-primes) |
+## Prime Number Sieve
+|  |
+| ------- |
+| [0204-count-primes](https://github.com/gurunawab/DSA-Practice/tree/master/0204-count-primes) |
 <!---LeetCode Topics End-->
