@@ -70,6 +70,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0735-asteroid-collision](https://github.com/gurunawab/DSA-Practice/tree/master/0735-asteroid-collision) |
 | [0739-daily-temperatures](https://github.com/gurunawab/DSA-Practice/tree/master/0739-daily-temperatures) |
 | [0746-min-cost-climbing-stairs](https://github.com/gurunawab/DSA-Practice/tree/master/0746-min-cost-climbing-stairs) |
+| [0812-largest-triangle-area](https://github.com/gurunawab/DSA-Practice/tree/master/0812-largest-triangle-area) |
 | [0852-peak-index-in-a-mountain-array](https://github.com/gurunawab/DSA-Practice/tree/master/0852-peak-index-in-a-mountain-array) |
 | [0875-koko-eating-bananas](https://github.com/gurunawab/DSA-Practice/tree/master/0875-koko-eating-bananas) |
 | [0877-stone-game](https://github.com/gurunawab/DSA-Practice/tree/master/0877-stone-game) |
@@ -400,6 +401,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0486-predict-the-winner](https://github.com/gurunawab/DSA-Practice/tree/master/0486-predict-the-winner) |
 | [0628-maximum-product-of-three-numbers](https://github.com/gurunawab/DSA-Practice/tree/master/0628-maximum-product-of-three-numbers) |
 | [0633-sum-of-square-numbers](https://github.com/gurunawab/DSA-Practice/tree/master/0633-sum-of-square-numbers) |
+| [0812-largest-triangle-area](https://github.com/gurunawab/DSA-Practice/tree/master/0812-largest-triangle-area) |
 | [0836-rectangle-overlap](https://github.com/gurunawab/DSA-Practice/tree/master/0836-rectangle-overlap) |
 | [0877-stone-game](https://github.com/gurunawab/DSA-Practice/tree/master/0877-stone-game) |
 | [0883-projection-area-of-3d-shapes](https://github.com/gurunawab/DSA-Practice/tree/master/0883-projection-area-of-3d-shapes) |
@@ -1160,6 +1162,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0149-max-points-on-a-line](https://github.com/gurunawab/DSA-Practice/tree/master/0149-max-points-on-a-line) |
+| [0812-largest-triangle-area](https://github.com/gurunawab/DSA-Practice/tree/master/0812-largest-triangle-area) |
 | [0836-rectangle-overlap](https://github.com/gurunawab/DSA-Practice/tree/master/0836-rectangle-overlap) |
 | [0883-projection-area-of-3d-shapes](https://github.com/gurunawab/DSA-Practice/tree/master/0883-projection-area-of-3d-shapes) |
 | [1401-circle-and-rectangle-overlapping](https://github.com/gurunawab/DSA-Practice/tree/master/1401-circle-and-rectangle-overlapping) |
@@ -1268,4 +1271,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0204-count-primes](https://github.com/gurunawab/DSA-Practice/tree/master/0204-count-primes) |
 | [2523-closest-prime-numbers-in-range](https://github.com/gurunawab/DSA-Practice/tree/master/2523-closest-prime-numbers-in-range) |
+## Polygons
+|  |
+| ------- |
+| [0812-largest-triangle-area](https://github.com/gurunawab/DSA-Practice/tree/master/0812-largest-triangle-area) |
 <!---LeetCode Topics End-->
