@@ -391,6 +391,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0060-permutation-sequence](https://github.com/gurunawab/DSA-Practice/tree/master/0060-permutation-sequence) |
 | [0062-unique-paths](https://github.com/gurunawab/DSA-Practice/tree/master/0062-unique-paths) |
 | [0070-climbing-stairs](https://github.com/gurunawab/DSA-Practice/tree/master/0070-climbing-stairs) |
+| [0089-gray-code](https://github.com/gurunawab/DSA-Practice/tree/master/0089-gray-code) |
 | [0149-max-points-on-a-line](https://github.com/gurunawab/DSA-Practice/tree/master/0149-max-points-on-a-line) |
 | [0150-evaluate-reverse-polish-notation](https://github.com/gurunawab/DSA-Practice/tree/master/0150-evaluate-reverse-polish-notation) |
 | [0172-factorial-trailing-zeroes](https://github.com/gurunawab/DSA-Practice/tree/master/0172-factorial-trailing-zeroes) |
@@ -663,6 +664,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Bit Manipulation
 |  |
 | ------- |
+| [0089-gray-code](https://github.com/gurunawab/DSA-Practice/tree/master/0089-gray-code) |
 | [0136-single-number](https://github.com/gurunawab/DSA-Practice/tree/master/0136-single-number) |
 | [0191-number-of-1-bits](https://github.com/gurunawab/DSA-Practice/tree/master/0191-number-of-1-bits) |
 | [0287-find-the-duplicate-number](https://github.com/gurunawab/DSA-Practice/tree/master/0287-find-the-duplicate-number) |
@@ -857,6 +859,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0051-n-queens](https://github.com/gurunawab/DSA-Practice/tree/master/0051-n-queens) |
 | [0052-n-queens-ii](https://github.com/gurunawab/DSA-Practice/tree/master/0052-n-queens-ii) |
 | [0077-combinations](https://github.com/gurunawab/DSA-Practice/tree/master/0077-combinations) |
+| [0089-gray-code](https://github.com/gurunawab/DSA-Practice/tree/master/0089-gray-code) |
 | [0093-restore-ip-addresses](https://github.com/gurunawab/DSA-Practice/tree/master/0093-restore-ip-addresses) |
 | [0126-word-ladder-ii](https://github.com/gurunawab/DSA-Practice/tree/master/0126-word-ladder-ii) |
 | [0140-word-break-ii](https://github.com/gurunawab/DSA-Practice/tree/master/0140-word-break-ii) |
