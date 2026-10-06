@@ -205,6 +205,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0174-dungeon-game](https://github.com/gurunawab/DSA-Practice/tree/master/0174-dungeon-game) |
 | [0188-best-time-to-buy-and-sell-stock-iv](https://github.com/gurunawab/DSA-Practice/tree/master/0188-best-time-to-buy-and-sell-stock-iv) |
 | [0198-house-robber](https://github.com/gurunawab/DSA-Practice/tree/master/0198-house-robber) |
+| [0233-number-of-digit-one](https://github.com/gurunawab/DSA-Practice/tree/master/0233-number-of-digit-one) |
 | [0338-counting-bits](https://github.com/gurunawab/DSA-Practice/tree/master/0338-counting-bits) |
 | [0392-is-subsequence](https://github.com/gurunawab/DSA-Practice/tree/master/0392-is-subsequence) |
 | [0435-non-overlapping-intervals](https://github.com/gurunawab/DSA-Practice/tree/master/0435-non-overlapping-intervals) |
@@ -398,6 +399,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0189-rotate-array](https://github.com/gurunawab/DSA-Practice/tree/master/0189-rotate-array) |
 | [0204-count-primes](https://github.com/gurunawab/DSA-Practice/tree/master/0204-count-primes) |
 | [0223-rectangle-area](https://github.com/gurunawab/DSA-Practice/tree/master/0223-rectangle-area) |
+| [0233-number-of-digit-one](https://github.com/gurunawab/DSA-Practice/tree/master/0233-number-of-digit-one) |
 | [0292-nim-game](https://github.com/gurunawab/DSA-Practice/tree/master/0292-nim-game) |
 | [0371-sum-of-two-integers](https://github.com/gurunawab/DSA-Practice/tree/master/0371-sum-of-two-integers) |
 | [0380-insert-delete-getrandom-o1](https://github.com/gurunawab/DSA-Practice/tree/master/0380-insert-delete-getrandom-o1) |
@@ -833,6 +835,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0025-reverse-nodes-in-k-group](https://github.com/gurunawab/DSA-Practice/tree/master/0025-reverse-nodes-in-k-group) |
 | [0060-permutation-sequence](https://github.com/gurunawab/DSA-Practice/tree/master/0060-permutation-sequence) |
 | [0206-reverse-linked-list](https://github.com/gurunawab/DSA-Practice/tree/master/0206-reverse-linked-list) |
+| [0233-number-of-digit-one](https://github.com/gurunawab/DSA-Practice/tree/master/0233-number-of-digit-one) |
 | [0394-decode-string](https://github.com/gurunawab/DSA-Practice/tree/master/0394-decode-string) |
 | [0486-predict-the-winner](https://github.com/gurunawab/DSA-Practice/tree/master/0486-predict-the-winner) |
 | [1545-find-kth-bit-in-nth-binary-string](https://github.com/gurunawab/DSA-Practice/tree/master/1545-find-kth-bit-in-nth-binary-string) |
