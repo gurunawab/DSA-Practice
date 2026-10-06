@@ -396,6 +396,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0172-factorial-trailing-zeroes](https://github.com/gurunawab/DSA-Practice/tree/master/0172-factorial-trailing-zeroes) |
 | [0189-rotate-array](https://github.com/gurunawab/DSA-Practice/tree/master/0189-rotate-array) |
 | [0204-count-primes](https://github.com/gurunawab/DSA-Practice/tree/master/0204-count-primes) |
+| [0223-rectangle-area](https://github.com/gurunawab/DSA-Practice/tree/master/0223-rectangle-area) |
 | [0292-nim-game](https://github.com/gurunawab/DSA-Practice/tree/master/0292-nim-game) |
 | [0380-insert-delete-getrandom-o1](https://github.com/gurunawab/DSA-Practice/tree/master/0380-insert-delete-getrandom-o1) |
 | [0486-predict-the-winner](https://github.com/gurunawab/DSA-Practice/tree/master/0486-predict-the-winner) |
@@ -1162,6 +1163,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0149-max-points-on-a-line](https://github.com/gurunawab/DSA-Practice/tree/master/0149-max-points-on-a-line) |
+| [0223-rectangle-area](https://github.com/gurunawab/DSA-Practice/tree/master/0223-rectangle-area) |
 | [0812-largest-triangle-area](https://github.com/gurunawab/DSA-Practice/tree/master/0812-largest-triangle-area) |
 | [0836-rectangle-overlap](https://github.com/gurunawab/DSA-Practice/tree/master/0836-rectangle-overlap) |
 | [0883-projection-area-of-3d-shapes](https://github.com/gurunawab/DSA-Practice/tree/master/0883-projection-area-of-3d-shapes) |
