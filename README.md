@@ -310,6 +310,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0126-word-ladder-ii](https://github.com/gurunawab/DSA-Practice/tree/master/0126-word-ladder-ii) |
 | [0127-word-ladder](https://github.com/gurunawab/DSA-Practice/tree/master/0127-word-ladder) |
 | [0199-binary-tree-right-side-view](https://github.com/gurunawab/DSA-Practice/tree/master/0199-binary-tree-right-side-view) |
+| [0301-remove-invalid-parentheses](https://github.com/gurunawab/DSA-Practice/tree/master/0301-remove-invalid-parentheses) |
 | [0399-evaluate-division](https://github.com/gurunawab/DSA-Practice/tree/master/0399-evaluate-division) |
 | [0547-number-of-provinces](https://github.com/gurunawab/DSA-Practice/tree/master/0547-number-of-provinces) |
 | [0841-keys-and-rooms](https://github.com/gurunawab/DSA-Practice/tree/master/0841-keys-and-rooms) |
@@ -478,6 +479,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0151-reverse-words-in-a-string](https://github.com/gurunawab/DSA-Practice/tree/master/0151-reverse-words-in-a-string) |
 | [0208-implement-trie-prefix-tree](https://github.com/gurunawab/DSA-Practice/tree/master/0208-implement-trie-prefix-tree) |
 | [0214-shortest-palindrome](https://github.com/gurunawab/DSA-Practice/tree/master/0214-shortest-palindrome) |
+| [0301-remove-invalid-parentheses](https://github.com/gurunawab/DSA-Practice/tree/master/0301-remove-invalid-parentheses) |
 | [0345-reverse-vowels-of-a-string](https://github.com/gurunawab/DSA-Practice/tree/master/0345-reverse-vowels-of-a-string) |
 | [0392-is-subsequence](https://github.com/gurunawab/DSA-Practice/tree/master/0392-is-subsequence) |
 | [0394-decode-string](https://github.com/gurunawab/DSA-Practice/tree/master/0394-decode-string) |
@@ -869,6 +871,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0126-word-ladder-ii](https://github.com/gurunawab/DSA-Practice/tree/master/0126-word-ladder-ii) |
 | [0140-word-break-ii](https://github.com/gurunawab/DSA-Practice/tree/master/0140-word-break-ii) |
 | [0216-combination-sum-iii](https://github.com/gurunawab/DSA-Practice/tree/master/0216-combination-sum-iii) |
+| [0301-remove-invalid-parentheses](https://github.com/gurunawab/DSA-Practice/tree/master/0301-remove-invalid-parentheses) |
 | [0494-target-sum](https://github.com/gurunawab/DSA-Practice/tree/master/0494-target-sum) |
 | [1096-brace-expansion-ii](https://github.com/gurunawab/DSA-Practice/tree/master/1096-brace-expansion-ii) |
 | [1415-the-k-th-lexicographical-string-of-all-happy-strings-of-length-n](https://github.com/gurunawab/DSA-Practice/tree/master/1415-the-k-th-lexicographical-string-of-all-happy-strings-of-length-n) |
