@@ -38,6 +38,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0188-best-time-to-buy-and-sell-stock-iv](https://github.com/gurunawab/DSA-Practice/tree/master/0188-best-time-to-buy-and-sell-stock-iv) |
 | [0189-rotate-array](https://github.com/gurunawab/DSA-Practice/tree/master/0189-rotate-array) |
 | [0198-house-robber](https://github.com/gurunawab/DSA-Practice/tree/master/0198-house-robber) |
+| [0200-number-of-islands](https://github.com/gurunawab/DSA-Practice/tree/master/0200-number-of-islands) |
 | [0204-count-primes](https://github.com/gurunawab/DSA-Practice/tree/master/0204-count-primes) |
 | [0215-kth-largest-element-in-an-array](https://github.com/gurunawab/DSA-Practice/tree/master/0215-kth-largest-element-in-an-array) |
 | [0216-combination-sum-iii](https://github.com/gurunawab/DSA-Practice/tree/master/0216-combination-sum-iii) |
@@ -288,6 +289,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0104-maximum-depth-of-binary-tree](https://github.com/gurunawab/DSA-Practice/tree/master/0104-maximum-depth-of-binary-tree) |
 | [0124-binary-tree-maximum-path-sum](https://github.com/gurunawab/DSA-Practice/tree/master/0124-binary-tree-maximum-path-sum) |
 | [0199-binary-tree-right-side-view](https://github.com/gurunawab/DSA-Practice/tree/master/0199-binary-tree-right-side-view) |
+| [0200-number-of-islands](https://github.com/gurunawab/DSA-Practice/tree/master/0200-number-of-islands) |
 | [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/gurunawab/DSA-Practice/tree/master/0236-lowest-common-ancestor-of-a-binary-tree) |
 | [0399-evaluate-division](https://github.com/gurunawab/DSA-Practice/tree/master/0399-evaluate-division) |
 | [0437-path-sum-iii](https://github.com/gurunawab/DSA-Practice/tree/master/0437-path-sum-iii) |
@@ -310,6 +312,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0126-word-ladder-ii](https://github.com/gurunawab/DSA-Practice/tree/master/0126-word-ladder-ii) |
 | [0127-word-ladder](https://github.com/gurunawab/DSA-Practice/tree/master/0127-word-ladder) |
 | [0199-binary-tree-right-side-view](https://github.com/gurunawab/DSA-Practice/tree/master/0199-binary-tree-right-side-view) |
+| [0200-number-of-islands](https://github.com/gurunawab/DSA-Practice/tree/master/0200-number-of-islands) |
 | [0301-remove-invalid-parentheses](https://github.com/gurunawab/DSA-Practice/tree/master/0301-remove-invalid-parentheses) |
 | [0399-evaluate-division](https://github.com/gurunawab/DSA-Practice/tree/master/0399-evaluate-division) |
 | [0547-number-of-provinces](https://github.com/gurunawab/DSA-Practice/tree/master/0547-number-of-provinces) |
@@ -327,6 +330,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Union-Find
 |  |
 | ------- |
+| [0200-number-of-islands](https://github.com/gurunawab/DSA-Practice/tree/master/0200-number-of-islands) |
 | [0399-evaluate-division](https://github.com/gurunawab/DSA-Practice/tree/master/0399-evaluate-division) |
 | [0547-number-of-provinces](https://github.com/gurunawab/DSA-Practice/tree/master/0547-number-of-provinces) |
 | [1489-find-critical-and-pseudo-critical-edges-in-minimum-spanning-tree](https://github.com/gurunawab/DSA-Practice/tree/master/1489-find-critical-and-pseudo-critical-edges-in-minimum-spanning-tree) |
@@ -340,6 +344,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0037-sudoku-solver](https://github.com/gurunawab/DSA-Practice/tree/master/0037-sudoku-solver) |
 | [0174-dungeon-game](https://github.com/gurunawab/DSA-Practice/tree/master/0174-dungeon-game) |
+| [0200-number-of-islands](https://github.com/gurunawab/DSA-Practice/tree/master/0200-number-of-islands) |
 | [0240-search-a-2d-matrix-ii](https://github.com/gurunawab/DSA-Practice/tree/master/0240-search-a-2d-matrix-ii) |
 | [0883-projection-area-of-3d-shapes](https://github.com/gurunawab/DSA-Practice/tree/master/0883-projection-area-of-3d-shapes) |
 | [0994-rotting-oranges](https://github.com/gurunawab/DSA-Practice/tree/master/0994-rotting-oranges) |
