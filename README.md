@@ -247,6 +247,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Graph Theory
 |  |
 | ------- |
+| [0207-course-schedule](https://github.com/gurunawab/DSA-Practice/tree/master/0207-course-schedule) |
 | [0399-evaluate-division](https://github.com/gurunawab/DSA-Practice/tree/master/0399-evaluate-division) |
 | [0547-number-of-provinces](https://github.com/gurunawab/DSA-Practice/tree/master/0547-number-of-provinces) |
 | [0841-keys-and-rooms](https://github.com/gurunawab/DSA-Practice/tree/master/0841-keys-and-rooms) |
@@ -263,6 +264,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Topological Sort
 |  |
 | ------- |
+| [0207-course-schedule](https://github.com/gurunawab/DSA-Practice/tree/master/0207-course-schedule) |
 | [0913-cat-and-mouse](https://github.com/gurunawab/DSA-Practice/tree/master/0913-cat-and-mouse) |
 | [3620-network-recovery-pathways](https://github.com/gurunawab/DSA-Practice/tree/master/3620-network-recovery-pathways) |
 ## Heap (Priority Queue)
@@ -294,6 +296,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0124-binary-tree-maximum-path-sum](https://github.com/gurunawab/DSA-Practice/tree/master/0124-binary-tree-maximum-path-sum) |
 | [0199-binary-tree-right-side-view](https://github.com/gurunawab/DSA-Practice/tree/master/0199-binary-tree-right-side-view) |
 | [0200-number-of-islands](https://github.com/gurunawab/DSA-Practice/tree/master/0200-number-of-islands) |
+| [0207-course-schedule](https://github.com/gurunawab/DSA-Practice/tree/master/0207-course-schedule) |
 | [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/gurunawab/DSA-Practice/tree/master/0236-lowest-common-ancestor-of-a-binary-tree) |
 | [0399-evaluate-division](https://github.com/gurunawab/DSA-Practice/tree/master/0399-evaluate-division) |
 | [0437-path-sum-iii](https://github.com/gurunawab/DSA-Practice/tree/master/0437-path-sum-iii) |
@@ -317,6 +320,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0127-word-ladder](https://github.com/gurunawab/DSA-Practice/tree/master/0127-word-ladder) |
 | [0199-binary-tree-right-side-view](https://github.com/gurunawab/DSA-Practice/tree/master/0199-binary-tree-right-side-view) |
 | [0200-number-of-islands](https://github.com/gurunawab/DSA-Practice/tree/master/0200-number-of-islands) |
+| [0207-course-schedule](https://github.com/gurunawab/DSA-Practice/tree/master/0207-course-schedule) |
 | [0301-remove-invalid-parentheses](https://github.com/gurunawab/DSA-Practice/tree/master/0301-remove-invalid-parentheses) |
 | [0399-evaluate-division](https://github.com/gurunawab/DSA-Practice/tree/master/0399-evaluate-division) |
 | [0547-number-of-provinces](https://github.com/gurunawab/DSA-Practice/tree/master/0547-number-of-provinces) |
@@ -1309,4 +1313,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0812-largest-triangle-area](https://github.com/gurunawab/DSA-Practice/tree/master/0812-largest-triangle-area) |
+## Directed Acyclic Graph
+|  |
+| ------- |
+| [0207-course-schedule](https://github.com/gurunawab/DSA-Practice/tree/master/0207-course-schedule) |
 <!---LeetCode Topics End-->
