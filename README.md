@@ -91,6 +91,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1200-minimum-absolute-difference](https://github.com/gurunawab/DSA-Practice/tree/master/1200-minimum-absolute-difference) |
 | [1207-unique-number-of-occurrences](https://github.com/gurunawab/DSA-Practice/tree/master/1207-unique-number-of-occurrences) |
 | [1260-shift-2d-grid](https://github.com/gurunawab/DSA-Practice/tree/master/1260-shift-2d-grid) |
+| [1267-count-servers-that-communicate](https://github.com/gurunawab/DSA-Practice/tree/master/1267-count-servers-that-communicate) |
 | [1268-search-suggestions-system](https://github.com/gurunawab/DSA-Practice/tree/master/1268-search-suggestions-system) |
 | [1288-remove-covered-intervals](https://github.com/gurunawab/DSA-Practice/tree/master/1288-remove-covered-intervals) |
 | [1301-number-of-paths-with-max-score](https://github.com/gurunawab/DSA-Practice/tree/master/1301-number-of-paths-with-max-score) |
@@ -335,6 +336,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0841-keys-and-rooms](https://github.com/gurunawab/DSA-Practice/tree/master/0841-keys-and-rooms) |
 | [0872-leaf-similar-trees](https://github.com/gurunawab/DSA-Practice/tree/master/0872-leaf-similar-trees) |
 | [1161-maximum-level-sum-of-a-binary-tree](https://github.com/gurunawab/DSA-Practice/tree/master/1161-maximum-level-sum-of-a-binary-tree) |
+| [1267-count-servers-that-communicate](https://github.com/gurunawab/DSA-Practice/tree/master/1267-count-servers-that-communicate) |
 | [1339-maximum-product-of-splitted-binary-tree](https://github.com/gurunawab/DSA-Practice/tree/master/1339-maximum-product-of-splitted-binary-tree) |
 | [1372-longest-zigzag-path-in-a-binary-tree](https://github.com/gurunawab/DSA-Practice/tree/master/1372-longest-zigzag-path-in-a-binary-tree) |
 | [1448-count-good-nodes-in-binary-tree](https://github.com/gurunawab/DSA-Practice/tree/master/1448-count-good-nodes-in-binary-tree) |
@@ -361,6 +363,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0994-rotting-oranges](https://github.com/gurunawab/DSA-Practice/tree/master/0994-rotting-oranges) |
 | [1096-brace-expansion-ii](https://github.com/gurunawab/DSA-Practice/tree/master/1096-brace-expansion-ii) |
 | [1161-maximum-level-sum-of-a-binary-tree](https://github.com/gurunawab/DSA-Practice/tree/master/1161-maximum-level-sum-of-a-binary-tree) |
+| [1267-count-servers-that-communicate](https://github.com/gurunawab/DSA-Practice/tree/master/1267-count-servers-that-communicate) |
 | [1448-count-good-nodes-in-binary-tree](https://github.com/gurunawab/DSA-Practice/tree/master/1448-count-good-nodes-in-binary-tree) |
 | [1466-reorder-routes-to-make-all-paths-lead-to-the-city-zero](https://github.com/gurunawab/DSA-Practice/tree/master/1466-reorder-routes-to-make-all-paths-lead-to-the-city-zero) |
 | [1926-nearest-exit-from-entrance-in-maze](https://github.com/gurunawab/DSA-Practice/tree/master/1926-nearest-exit-from-entrance-in-maze) |
@@ -375,6 +378,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0200-number-of-islands](https://github.com/gurunawab/DSA-Practice/tree/master/0200-number-of-islands) |
 | [0399-evaluate-division](https://github.com/gurunawab/DSA-Practice/tree/master/0399-evaluate-division) |
 | [0547-number-of-provinces](https://github.com/gurunawab/DSA-Practice/tree/master/0547-number-of-provinces) |
+| [1267-count-servers-that-communicate](https://github.com/gurunawab/DSA-Practice/tree/master/1267-count-servers-that-communicate) |
 | [1489-find-critical-and-pseudo-critical-edges-in-minimum-spanning-tree](https://github.com/gurunawab/DSA-Practice/tree/master/1489-find-critical-and-pseudo-critical-edges-in-minimum-spanning-tree) |
 | [1584-min-cost-to-connect-all-points](https://github.com/gurunawab/DSA-Practice/tree/master/1584-min-cost-to-connect-all-points) |
 | [2492-minimum-score-of-a-path-between-two-cities](https://github.com/gurunawab/DSA-Practice/tree/master/2492-minimum-score-of-a-path-between-two-cities) |
@@ -392,6 +396,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0883-projection-area-of-3d-shapes](https://github.com/gurunawab/DSA-Practice/tree/master/0883-projection-area-of-3d-shapes) |
 | [0994-rotting-oranges](https://github.com/gurunawab/DSA-Practice/tree/master/0994-rotting-oranges) |
 | [1260-shift-2d-grid](https://github.com/gurunawab/DSA-Practice/tree/master/1260-shift-2d-grid) |
+| [1267-count-servers-that-communicate](https://github.com/gurunawab/DSA-Practice/tree/master/1267-count-servers-that-communicate) |
 | [1301-number-of-paths-with-max-score](https://github.com/gurunawab/DSA-Practice/tree/master/1301-number-of-paths-with-max-score) |
 | [1926-nearest-exit-from-entrance-in-maze](https://github.com/gurunawab/DSA-Practice/tree/master/1926-nearest-exit-from-entrance-in-maze) |
 | [2352-equal-row-and-column-pairs](https://github.com/gurunawab/DSA-Practice/tree/master/2352-equal-row-and-column-pairs) |
@@ -828,6 +833,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0169-majority-element](https://github.com/gurunawab/DSA-Practice/tree/master/0169-majority-element) |
+| [1267-count-servers-that-communicate](https://github.com/gurunawab/DSA-Practice/tree/master/1267-count-servers-that-communicate) |
 | [1657-determine-if-two-strings-are-close](https://github.com/gurunawab/DSA-Practice/tree/master/1657-determine-if-two-strings-are-close) |
 | [2029-stone-game-ix](https://github.com/gurunawab/DSA-Practice/tree/master/2029-stone-game-ix) |
 | [3016-minimum-number-of-pushes-to-type-word-ii](https://github.com/gurunawab/DSA-Practice/tree/master/3016-minimum-number-of-pushes-to-type-word-ii) |
